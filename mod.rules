@@ -447,9 +447,9 @@ Actions
 	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/3119349707/ships/terran/weapons/turbolasers/Turbolasers_Ball_Medium/turbolaser_ball_med_roof_base.rules>/Part/Components"; BaseToAdd = &<starwars/turbolaser_ball_med_roof_base.rules>}
 
 	// \799600\3119349707\ships\terran\weapons\turbolasers\Turbolasers_Ball_Medium\turbolaser_ball_med_side_base.rules
-	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/3119349707/ships/terran/weapons/turbolasers/Turbolasers_Ball_Medium/turbolaser_ball_med_side_base.rules>/Part/Components/PartCrew"}
-	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/3119349707/ships/terran/weapons/turbolasers/Turbolasers_Ball_Medium/turbolaser_ball_med_side_base.rules>/Part/Stats/CrewRequired"; With = 3}
-	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/3119349707/ships/terran/weapons/turbolasers/Turbolasers_Ball_Medium/turbolaser_ball_med_side_base.rules>/Part/Components"; BaseToAdd = &<starwars/turbolaser_ball_med_side_base.rules>}
+	//{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/3119349707/ships/terran/weapons/turbolasers/Turbolasers_Ball_Medium/turbolaser_ball_med_side_base.rules>/Part/Components/PartCrew"}
+	//{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/3119349707/ships/terran/weapons/turbolasers/Turbolasers_Ball_Medium/turbolaser_ball_med_side_base.rules>/Part/Stats/CrewRequired"; With = 3}
+	//{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/3119349707/ships/terran/weapons/turbolasers/Turbolasers_Ball_Medium/turbolaser_ball_med_side_base.rules>/Part/Components"; BaseToAdd = &<starwars/turbolaser_ball_med_side_base.rules>}
 
 	// SteamLibrary\steamapps\workshop\content\799600\3119349707\ships\terran\utilities\mining_laser_huge\mining_laser_huge.rules
 	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/3119349707/ships/terran/utilities/mining_laser_huge/mining_laser_huge.rules>/Part/Components/PartCrew"}
