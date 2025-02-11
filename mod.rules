@@ -196,380 +196,380 @@ Actions
 	// Tiered parts https://steamcommunity.com/sharedfiles/filedetails/?id=2888343841
 
 	//laser_blaster_small
-	{Action = Remove; Remove = "<../../../workshop/content/799600/2888343841/laser_blaster_small/laser_blaster_small_mk2.rules>/Part/Components/PartCrew"}
-	{Action = Replace; Replace = "<../../../workshop/content/799600/2888343841/laser_blaster_small/laser_blaster_small_mk2.rules>/Part/Stats/CrewRequired"; With = 1}
-	{Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2888343841/laser_blaster_small/laser_blaster_small_mk2.rules>/Part/Components"; BaseToAdd = &<automation_components_vanilla/laser_blaster_small.rules>}
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/2888343841/laser_blaster_small/laser_blaster_small_mk2.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/2888343841/laser_blaster_small/laser_blaster_small_mk2.rules>/Part/Stats/CrewRequired"; With = 1}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2888343841/laser_blaster_small/laser_blaster_small_mk2.rules>/Part/Components"; BaseToAdd = &<automation_components_vanilla/laser_blaster_small.rules>}
 
-	{Action = Remove; Remove = "<../../../workshop/content/799600/2888343841/laser_blaster_small/laser_blaster_small_mk3.rules>/Part/Components/PartCrew"}
-	{Action = Replace; Replace = "<../../../workshop/content/799600/2888343841/laser_blaster_small/laser_blaster_small_mk3.rules>/Part/Stats/CrewRequired"; With = 1}
-	{Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2888343841/laser_blaster_small/laser_blaster_small_mk3.rules>/Part/Components"; BaseToAdd = &<automation_components_vanilla/laser_blaster_small.rules>}
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/2888343841/laser_blaster_small/laser_blaster_small_mk3.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/2888343841/laser_blaster_small/laser_blaster_small_mk3.rules>/Part/Stats/CrewRequired"; With = 1}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2888343841/laser_blaster_small/laser_blaster_small_mk3.rules>/Part/Components"; BaseToAdd = &<automation_components_vanilla/laser_blaster_small.rules>}
 
-	{Action = Remove; Remove = "<../../../workshop/content/799600/2888343841/laser_blaster_small/laser_blaster_small_mk4.rules>/Part/Components/PartCrew"}
-	{Action = Replace; Replace = "<../../../workshop/content/799600/2888343841/laser_blaster_small/laser_blaster_small_mk4.rules>/Part/Stats/CrewRequired"; With = 1}
-	{Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2888343841/laser_blaster_small/laser_blaster_small_mk4.rules>/Part/Components"; BaseToAdd = &<automation_components_vanilla/laser_blaster_small.rules>}
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/2888343841/laser_blaster_small/laser_blaster_small_mk4.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/2888343841/laser_blaster_small/laser_blaster_small_mk4.rules>/Part/Stats/CrewRequired"; With = 1}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2888343841/laser_blaster_small/laser_blaster_small_mk4.rules>/Part/Components"; BaseToAdd = &<automation_components_vanilla/laser_blaster_small.rules>}
 
-	{Action = Remove; Remove = "<../../../workshop/content/799600/2888343841/laser_blaster_small/laser_blaster_small_mk5.rules>/Part/Components/PartCrew"}
-	{Action = Replace; Replace = "<../../../workshop/content/799600/2888343841/laser_blaster_small/laser_blaster_small_mk5.rules>/Part/Stats/CrewRequired"; With = 1}
-	{Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2888343841/laser_blaster_small/laser_blaster_small_mk5.rules>/Part/Components"; BaseToAdd = &<automation_components_vanilla/laser_blaster_small.rules>}
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/2888343841/laser_blaster_small/laser_blaster_small_mk5.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/2888343841/laser_blaster_small/laser_blaster_small_mk5.rules>/Part/Stats/CrewRequired"; With = 1}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2888343841/laser_blaster_small/laser_blaster_small_mk5.rules>/Part/Components"; BaseToAdd = &<automation_components_vanilla/laser_blaster_small.rules>}
 
-	{Action = Remove; Remove = "<../../../workshop/content/799600/2888343841/laser_blaster_small/laser_blaster_small_mk6.rules>/Part/Components/PartCrew"}
-	{Action = Replace; Replace = "<../../../workshop/content/799600/2888343841/laser_blaster_small/laser_blaster_small_mk6.rules>/Part/Stats/CrewRequired"; With = 1}
-	{Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2888343841/laser_blaster_small/laser_blaster_small_mk6.rules>/Part/Components"; BaseToAdd = &<automation_components_vanilla/laser_blaster_small.rules>}
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/2888343841/laser_blaster_small/laser_blaster_small_mk6.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/2888343841/laser_blaster_small/laser_blaster_small_mk6.rules>/Part/Stats/CrewRequired"; With = 1}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2888343841/laser_blaster_small/laser_blaster_small_mk6.rules>/Part/Components"; BaseToAdd = &<automation_components_vanilla/laser_blaster_small.rules>}
 
-	{Action = Remove; Remove = "<../../../workshop/content/799600/2888343841/laser_blaster_small/laser_blaster_small_mk7.rules>/Part/Components/PartCrew"}
-	{Action = Replace; Replace = "<../../../workshop/content/799600/2888343841/laser_blaster_small/laser_blaster_small_mk7.rules>/Part/Stats/CrewRequired"; With = 1}
-	{Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2888343841/laser_blaster_small/laser_blaster_small_mk7.rules>/Part/Components"; BaseToAdd = &<automation_components_vanilla/laser_blaster_small.rules>}
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/2888343841/laser_blaster_small/laser_blaster_small_mk7.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/2888343841/laser_blaster_small/laser_blaster_small_mk7.rules>/Part/Stats/CrewRequired"; With = 1}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2888343841/laser_blaster_small/laser_blaster_small_mk7.rules>/Part/Components"; BaseToAdd = &<automation_components_vanilla/laser_blaster_small.rules>}
 
-	{Action = Remove; Remove = "<../../../workshop/content/799600/2888343841/laser_blaster_small/laser_blaster_small_mk8.rules>/Part/Components/PartCrew"}
-	{Action = Replace; Replace = "<../../../workshop/content/799600/2888343841/laser_blaster_small/laser_blaster_small_mk8.rules>/Part/Stats/CrewRequired"; With = 1}
-	{Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2888343841/laser_blaster_small/laser_blaster_small_mk8.rules>/Part/Components"; BaseToAdd = &<automation_components_vanilla/laser_blaster_small.rules>}
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/2888343841/laser_blaster_small/laser_blaster_small_mk8.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/2888343841/laser_blaster_small/laser_blaster_small_mk8.rules>/Part/Stats/CrewRequired"; With = 1}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2888343841/laser_blaster_small/laser_blaster_small_mk8.rules>/Part/Components"; BaseToAdd = &<automation_components_vanilla/laser_blaster_small.rules>}
 
 	//laser_blaster_large
-	{Action = Remove; Remove = "<../../../workshop/content/799600/2888343841/laser_blaster_large/laser_blaster_large_mk2.rules>/Part/Components/PartCrew"}
-	{Action = Replace; Replace = "<../../../workshop/content/799600/2888343841/laser_blaster_large/laser_blaster_large_mk2.rules>/Part/Stats/CrewRequired"; With = 2}
-	{Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2888343841/laser_blaster_large/laser_blaster_large_mk2.rules>/Part/Components"; BaseToAdd = &<automation_components_vanilla/laser_blaster_large.rules>}
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/2888343841/laser_blaster_large/laser_blaster_large_mk2.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/2888343841/laser_blaster_large/laser_blaster_large_mk2.rules>/Part/Stats/CrewRequired"; With = 2}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2888343841/laser_blaster_large/laser_blaster_large_mk2.rules>/Part/Components"; BaseToAdd = &<automation_components_vanilla/laser_blaster_large.rules>}
 
-	{Action = Remove; Remove = "<../../../workshop/content/799600/2888343841/laser_blaster_large/laser_blaster_large_mk3.rules>/Part/Components/PartCrew"}
-	{Action = Replace; Replace = "<../../../workshop/content/799600/2888343841/laser_blaster_large/laser_blaster_large_mk3.rules>/Part/Stats/CrewRequired"; With = 2}
-	{Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2888343841/laser_blaster_large/laser_blaster_large_mk3.rules>/Part/Components"; BaseToAdd = &<automation_components_vanilla/laser_blaster_large.rules>}
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/2888343841/laser_blaster_large/laser_blaster_large_mk3.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/2888343841/laser_blaster_large/laser_blaster_large_mk3.rules>/Part/Stats/CrewRequired"; With = 2}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2888343841/laser_blaster_large/laser_blaster_large_mk3.rules>/Part/Components"; BaseToAdd = &<automation_components_vanilla/laser_blaster_large.rules>}
 
-	{Action = Remove; Remove = "<../../../workshop/content/799600/2888343841/laser_blaster_large/laser_blaster_large_mk4.rules>/Part/Components/PartCrew"}
-	{Action = Replace; Replace = "<../../../workshop/content/799600/2888343841/laser_blaster_large/laser_blaster_large_mk4.rules>/Part/Stats/CrewRequired"; With = 2}
-	{Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2888343841/laser_blaster_large/laser_blaster_large_mk4.rules>/Part/Components"; BaseToAdd = &<automation_components_vanilla/laser_blaster_large.rules>}
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/2888343841/laser_blaster_large/laser_blaster_large_mk4.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/2888343841/laser_blaster_large/laser_blaster_large_mk4.rules>/Part/Stats/CrewRequired"; With = 2}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2888343841/laser_blaster_large/laser_blaster_large_mk4.rules>/Part/Components"; BaseToAdd = &<automation_components_vanilla/laser_blaster_large.rules>}
 
-	{Action = Remove; Remove = "<../../../workshop/content/799600/2888343841/laser_blaster_large/laser_blaster_large_mk5.rules>/Part/Components/PartCrew"}
-	{Action = Replace; Replace = "<../../../workshop/content/799600/2888343841/laser_blaster_large/laser_blaster_large_mk5.rules>/Part/Stats/CrewRequired"; With = 2}
-	{Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2888343841/laser_blaster_large/laser_blaster_large_mk5.rules>/Part/Components"; BaseToAdd = &<automation_components_vanilla/laser_blaster_large.rules>}
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/2888343841/laser_blaster_large/laser_blaster_large_mk5.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/2888343841/laser_blaster_large/laser_blaster_large_mk5.rules>/Part/Stats/CrewRequired"; With = 2}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2888343841/laser_blaster_large/laser_blaster_large_mk5.rules>/Part/Components"; BaseToAdd = &<automation_components_vanilla/laser_blaster_large.rules>}
 
-	{Action = Remove; Remove = "<../../../workshop/content/799600/2888343841/laser_blaster_large/laser_blaster_large_mk6.rules>/Part/Components/PartCrew"}
-	{Action = Replace; Replace = "<../../../workshop/content/799600/2888343841/laser_blaster_large/laser_blaster_large_mk6.rules>/Part/Stats/CrewRequired"; With = 2}
-	{Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2888343841/laser_blaster_large/laser_blaster_large_mk6.rules>/Part/Components"; BaseToAdd = &<automation_components_vanilla/laser_blaster_large.rules>}
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/2888343841/laser_blaster_large/laser_blaster_large_mk6.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/2888343841/laser_blaster_large/laser_blaster_large_mk6.rules>/Part/Stats/CrewRequired"; With = 2}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2888343841/laser_blaster_large/laser_blaster_large_mk6.rules>/Part/Components"; BaseToAdd = &<automation_components_vanilla/laser_blaster_large.rules>}
 
-	{Action = Remove; Remove = "<../../../workshop/content/799600/2888343841/laser_blaster_large/laser_blaster_large_mk7.rules>/Part/Components/PartCrew"}
-	{Action = Replace; Replace = "<../../../workshop/content/799600/2888343841/laser_blaster_large/laser_blaster_large_mk7.rules>/Part/Stats/CrewRequired"; With = 2}
-	{Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2888343841/laser_blaster_large/laser_blaster_large_mk7.rules>/Part/Components"; BaseToAdd = &<automation_components_vanilla/laser_blaster_large.rules>}
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/2888343841/laser_blaster_large/laser_blaster_large_mk7.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/2888343841/laser_blaster_large/laser_blaster_large_mk7.rules>/Part/Stats/CrewRequired"; With = 2}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2888343841/laser_blaster_large/laser_blaster_large_mk7.rules>/Part/Components"; BaseToAdd = &<automation_components_vanilla/laser_blaster_large.rules>}
 
-	{Action = Remove; Remove = "<../../../workshop/content/799600/2888343841/laser_blaster_large/laser_blaster_large_mk8.rules>/Part/Components/PartCrew"}
-	{Action = Replace; Replace = "<../../../workshop/content/799600/2888343841/laser_blaster_large/laser_blaster_large_mk8.rules>/Part/Stats/CrewRequired"; With = 2}
-	{Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2888343841/laser_blaster_large/laser_blaster_large_mk8.rules>/Part/Components"; BaseToAdd = &<automation_components_vanilla/laser_blaster_large.rules>}
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/2888343841/laser_blaster_large/laser_blaster_large_mk8.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/2888343841/laser_blaster_large/laser_blaster_large_mk8.rules>/Part/Stats/CrewRequired"; With = 2}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2888343841/laser_blaster_large/laser_blaster_large_mk8.rules>/Part/Components"; BaseToAdd = &<automation_components_vanilla/laser_blaster_large.rules>}
 
 	//disruptor
-	{Action = Remove; Remove = "<../../../workshop/content/799600/2888343841/disruptor/disruptor_mk2.rules>/Part/Components/PartCrew"}
-	{Action = Replace; Replace = "<../../../workshop/content/799600/2888343841/disruptor/disruptor_mk2.rules>/Part/Stats/CrewRequired"; With = 1}
-	{Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2888343841/disruptor/disruptor_mk2.rules>/Part/Components"; BaseToAdd = &<automation_components_vanilla/disruptor.rules>}
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/2888343841/disruptor/disruptor_mk2.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/2888343841/disruptor/disruptor_mk2.rules>/Part/Stats/CrewRequired"; With = 1}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2888343841/disruptor/disruptor_mk2.rules>/Part/Components"; BaseToAdd = &<automation_components_vanilla/disruptor.rules>}
 
-	{Action = Remove; Remove = "<../../../workshop/content/799600/2888343841/disruptor/disruptor_mk3.rules>/Part/Components/PartCrew"}
-	{Action = Replace; Replace = "<../../../workshop/content/799600/2888343841/disruptor/disruptor_mk3.rules>/Part/Stats/CrewRequired"; With = 1}
-	{Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2888343841/disruptor/disruptor_mk3.rules>/Part/Components"; BaseToAdd = &<automation_components_vanilla/disruptor.rules>}
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/2888343841/disruptor/disruptor_mk3.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/2888343841/disruptor/disruptor_mk3.rules>/Part/Stats/CrewRequired"; With = 1}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2888343841/disruptor/disruptor_mk3.rules>/Part/Components"; BaseToAdd = &<automation_components_vanilla/disruptor.rules>}
 
-	{Action = Remove; Remove = "<../../../workshop/content/799600/2888343841/disruptor/disruptor_mk4.rules>/Part/Components/PartCrew"}
-	{Action = Replace; Replace = "<../../../workshop/content/799600/2888343841/disruptor/disruptor_mk4.rules>/Part/Stats/CrewRequired"; With = 1}
-	{Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2888343841/disruptor/disruptor_mk4.rules>/Part/Components"; BaseToAdd = &<automation_components_vanilla/disruptor.rules>}
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/2888343841/disruptor/disruptor_mk4.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/2888343841/disruptor/disruptor_mk4.rules>/Part/Stats/CrewRequired"; With = 1}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2888343841/disruptor/disruptor_mk4.rules>/Part/Components"; BaseToAdd = &<automation_components_vanilla/disruptor.rules>}
 
-	{Action = Remove; Remove = "<../../../workshop/content/799600/2888343841/disruptor/disruptor_mk5.rules>/Part/Components/PartCrew"}
-	{Action = Replace; Replace = "<../../../workshop/content/799600/2888343841/disruptor/disruptor_mk5.rules>/Part/Stats/CrewRequired"; With = 1}
-	{Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2888343841/disruptor/disruptor_mk5.rules>/Part/Components"; BaseToAdd = &<automation_components_vanilla/disruptor.rules>}
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/2888343841/disruptor/disruptor_mk5.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/2888343841/disruptor/disruptor_mk5.rules>/Part/Stats/CrewRequired"; With = 1}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2888343841/disruptor/disruptor_mk5.rules>/Part/Components"; BaseToAdd = &<automation_components_vanilla/disruptor.rules>}
 
-	{Action = Remove; Remove = "<../../../workshop/content/799600/2888343841/disruptor/disruptor_mk6.rules>/Part/Components/PartCrew"}
-	{Action = Replace; Replace = "<../../../workshop/content/799600/2888343841/disruptor/disruptor_mk6.rules>/Part/Stats/CrewRequired"; With = 1}
-	{Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2888343841/disruptor/disruptor_mk6.rules>/Part/Components"; BaseToAdd = &<automation_components_vanilla/disruptor.rules>}
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/2888343841/disruptor/disruptor_mk6.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/2888343841/disruptor/disruptor_mk6.rules>/Part/Stats/CrewRequired"; With = 1}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2888343841/disruptor/disruptor_mk6.rules>/Part/Components"; BaseToAdd = &<automation_components_vanilla/disruptor.rules>}
 
-	{Action = Remove; Remove = "<../../../workshop/content/799600/2888343841/disruptor/disruptor_mk7.rules>/Part/Components/PartCrew"}
-	{Action = Replace; Replace = "<../../../workshop/content/799600/2888343841/disruptor/disruptor_mk7.rules>/Part/Stats/CrewRequired"; With = 1}
-	{Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2888343841/disruptor/disruptor_mk7.rules>/Part/Components"; BaseToAdd = &<automation_components_vanilla/disruptor.rules>}
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/2888343841/disruptor/disruptor_mk7.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/2888343841/disruptor/disruptor_mk7.rules>/Part/Stats/CrewRequired"; With = 1}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2888343841/disruptor/disruptor_mk7.rules>/Part/Components"; BaseToAdd = &<automation_components_vanilla/disruptor.rules>}
 
-	{Action = Remove; Remove = "<../../../workshop/content/799600/2888343841/disruptor/disruptor_mk8.rules>/Part/Components/PartCrew"}
-	{Action = Replace; Replace = "<../../../workshop/content/799600/2888343841/disruptor/disruptor_mk8.rules>/Part/Stats/CrewRequired"; With = 1}
-	{Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2888343841/disruptor/disruptor_mk8.rules>/Part/Components"; BaseToAdd = &<automation_components_vanilla/disruptor.rules>}
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/2888343841/disruptor/disruptor_mk8.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/2888343841/disruptor/disruptor_mk8.rules>/Part/Stats/CrewRequired"; With = 1}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2888343841/disruptor/disruptor_mk8.rules>/Part/Components"; BaseToAdd = &<automation_components_vanilla/disruptor.rules>}
 
 	//ion_beam_emitter
-	{Action = Remove; Remove = "<../../../workshop/content/799600/2888343841/ion_beam_emitter/ion_beam_emitter_mk2.rules>/Part/Components/PartCrew"}
-	{Action = Replace; Replace = "<../../../workshop/content/799600/2888343841/ion_beam_emitter/ion_beam_emitter_mk2.rules>/Part/Stats/CrewRequired"; With = 2}
-	{Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2888343841/ion_beam_emitter/ion_beam_emitter_mk2.rules>/Part/Components"; BaseToAdd = &<automation_components_vanilla/ion_beam_emitter.rules>}
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/2888343841/ion_beam_emitter/ion_beam_emitter_mk2.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/2888343841/ion_beam_emitter/ion_beam_emitter_mk2.rules>/Part/Stats/CrewRequired"; With = 2}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2888343841/ion_beam_emitter/ion_beam_emitter_mk2.rules>/Part/Components"; BaseToAdd = &<automation_components_vanilla/ion_beam_emitter.rules>}
 
-	{Action = Remove; Remove = "<../../../workshop/content/799600/2888343841/ion_beam_emitter/ion_beam_emitter_mk3.rules>/Part/Components/PartCrew"}
-	{Action = Replace; Replace = "<../../../workshop/content/799600/2888343841/ion_beam_emitter/ion_beam_emitter_mk3.rules>/Part/Stats/CrewRequired"; With = 2}
-	{Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2888343841/ion_beam_emitter/ion_beam_emitter_mk3.rules>/Part/Components"; BaseToAdd = &<automation_components_vanilla/ion_beam_emitter.rules>}
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/2888343841/ion_beam_emitter/ion_beam_emitter_mk3.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/2888343841/ion_beam_emitter/ion_beam_emitter_mk3.rules>/Part/Stats/CrewRequired"; With = 2}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2888343841/ion_beam_emitter/ion_beam_emitter_mk3.rules>/Part/Components"; BaseToAdd = &<automation_components_vanilla/ion_beam_emitter.rules>}
 
-	{Action = Remove; Remove = "<../../../workshop/content/799600/2888343841/ion_beam_emitter/ion_beam_emitter_mk4.rules>/Part/Components/PartCrew"}
-	{Action = Replace; Replace = "<../../../workshop/content/799600/2888343841/ion_beam_emitter/ion_beam_emitter_mk4.rules>/Part/Stats/CrewRequired"; With = 2}
-	{Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2888343841/ion_beam_emitter/ion_beam_emitter_mk4.rules>/Part/Components"; BaseToAdd = &<automation_components_vanilla/ion_beam_emitter.rules>}
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/2888343841/ion_beam_emitter/ion_beam_emitter_mk4.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/2888343841/ion_beam_emitter/ion_beam_emitter_mk4.rules>/Part/Stats/CrewRequired"; With = 2}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2888343841/ion_beam_emitter/ion_beam_emitter_mk4.rules>/Part/Components"; BaseToAdd = &<automation_components_vanilla/ion_beam_emitter.rules>}
 
-	{Action = Remove; Remove = "<../../../workshop/content/799600/2888343841/ion_beam_emitter/ion_beam_emitter_mk5.rules>/Part/Components/PartCrew"}
-	{Action = Replace; Replace = "<../../../workshop/content/799600/2888343841/ion_beam_emitter/ion_beam_emitter_mk5.rules>/Part/Stats/CrewRequired"; With = 2}
-	{Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2888343841/ion_beam_emitter/ion_beam_emitter_mk5.rules>/Part/Components"; BaseToAdd = &<automation_components_vanilla/ion_beam_emitter.rules>}
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/2888343841/ion_beam_emitter/ion_beam_emitter_mk5.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/2888343841/ion_beam_emitter/ion_beam_emitter_mk5.rules>/Part/Stats/CrewRequired"; With = 2}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2888343841/ion_beam_emitter/ion_beam_emitter_mk5.rules>/Part/Components"; BaseToAdd = &<automation_components_vanilla/ion_beam_emitter.rules>}
 
-	{Action = Remove; Remove = "<../../../workshop/content/799600/2888343841/ion_beam_emitter/ion_beam_emitter_mk6.rules>/Part/Components/PartCrew"}
-	{Action = Replace; Replace = "<../../../workshop/content/799600/2888343841/ion_beam_emitter/ion_beam_emitter_mk6.rules>/Part/Stats/CrewRequired"; With = 2}
-	{Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2888343841/ion_beam_emitter/ion_beam_emitter_mk6.rules>/Part/Components"; BaseToAdd = &<automation_components_vanilla/ion_beam_emitter.rules>}
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/2888343841/ion_beam_emitter/ion_beam_emitter_mk6.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/2888343841/ion_beam_emitter/ion_beam_emitter_mk6.rules>/Part/Stats/CrewRequired"; With = 2}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2888343841/ion_beam_emitter/ion_beam_emitter_mk6.rules>/Part/Components"; BaseToAdd = &<automation_components_vanilla/ion_beam_emitter.rules>}
 
-	{Action = Remove; Remove = "<../../../workshop/content/799600/2888343841/ion_beam_emitter/ion_beam_emitter_mk7.rules>/Part/Components/PartCrew"}
-	{Action = Replace; Replace = "<../../../workshop/content/799600/2888343841/ion_beam_emitter/ion_beam_emitter_mk7.rules>/Part/Stats/CrewRequired"; With = 2}
-	{Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2888343841/ion_beam_emitter/ion_beam_emitter_mk7.rules>/Part/Components"; BaseToAdd = &<automation_components_vanilla/ion_beam_emitter.rules>}
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/2888343841/ion_beam_emitter/ion_beam_emitter_mk7.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/2888343841/ion_beam_emitter/ion_beam_emitter_mk7.rules>/Part/Stats/CrewRequired"; With = 2}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2888343841/ion_beam_emitter/ion_beam_emitter_mk7.rules>/Part/Components"; BaseToAdd = &<automation_components_vanilla/ion_beam_emitter.rules>}
 
-	{Action = Remove; Remove = "<../../../workshop/content/799600/2888343841/ion_beam_emitter/ion_beam_emitter_mk8.rules>/Part/Components/PartCrew"}
-	{Action = Replace; Replace = "<../../../workshop/content/799600/2888343841/ion_beam_emitter/ion_beam_emitter_mk8.rules>/Part/Stats/CrewRequired"; With = 2}
-	{Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2888343841/ion_beam_emitter/ion_beam_emitter_mk8.rules>/Part/Components"; BaseToAdd = &<automation_components_vanilla/ion_beam_emitter.rules>}
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/2888343841/ion_beam_emitter/ion_beam_emitter_mk8.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/2888343841/ion_beam_emitter/ion_beam_emitter_mk8.rules>/Part/Stats/CrewRequired"; With = 2}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2888343841/ion_beam_emitter/ion_beam_emitter_mk8.rules>/Part/Components"; BaseToAdd = &<automation_components_vanilla/ion_beam_emitter.rules>}
 
 	//cannon_med
-	{Action = Remove; Remove = "<../../../workshop/content/799600/2888343841/cannon_med/cannon_med_mk2.rules>/Part/Components/PartCrew"}
-	{Action = Replace; Replace = "<../../../workshop/content/799600/2888343841/cannon_med/cannon_med_mk2.rules>/Part/Stats/CrewRequired"; With = 1}
-	{Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2888343841/cannon_med/cannon_med_mk2.rules>/Part/Components"; BaseToAdd = &<automation_components_vanilla/cannon_med.rules>}
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/2888343841/cannon_med/cannon_med_mk2.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/2888343841/cannon_med/cannon_med_mk2.rules>/Part/Stats/CrewRequired"; With = 1}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2888343841/cannon_med/cannon_med_mk2.rules>/Part/Components"; BaseToAdd = &<automation_components_vanilla/cannon_med.rules>}
 
-	{Action = Remove; Remove = "<../../../workshop/content/799600/2888343841/cannon_med/cannon_med_mk3.rules>/Part/Components/PartCrew"}
-	{Action = Replace; Replace = "<../../../workshop/content/799600/2888343841/cannon_med/cannon_med_mk3.rules>/Part/Stats/CrewRequired"; With = 1}
-	{Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2888343841/cannon_med/cannon_med_mk3.rules>/Part/Components"; BaseToAdd = &<automation_components_vanilla/cannon_med.rules>}
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/2888343841/cannon_med/cannon_med_mk3.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/2888343841/cannon_med/cannon_med_mk3.rules>/Part/Stats/CrewRequired"; With = 1}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2888343841/cannon_med/cannon_med_mk3.rules>/Part/Components"; BaseToAdd = &<automation_components_vanilla/cannon_med.rules>}
 
-	{Action = Remove; Remove = "<../../../workshop/content/799600/2888343841/cannon_med/cannon_med_mk4.rules>/Part/Components/PartCrew"}
-	{Action = Replace; Replace = "<../../../workshop/content/799600/2888343841/cannon_med/cannon_med_mk4.rules>/Part/Stats/CrewRequired"; With = 1}
-	{Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2888343841/cannon_med/cannon_med_mk4.rules>/Part/Components"; BaseToAdd = &<automation_components_vanilla/cannon_med.rules>}
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/2888343841/cannon_med/cannon_med_mk4.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/2888343841/cannon_med/cannon_med_mk4.rules>/Part/Stats/CrewRequired"; With = 1}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2888343841/cannon_med/cannon_med_mk4.rules>/Part/Components"; BaseToAdd = &<automation_components_vanilla/cannon_med.rules>}
 
-	{Action = Remove; Remove = "<../../../workshop/content/799600/2888343841/cannon_med/cannon_med_mk5.rules>/Part/Components/PartCrew"}
-	{Action = Replace; Replace = "<../../../workshop/content/799600/2888343841/cannon_med/cannon_med_mk5.rules>/Part/Stats/CrewRequired"; With = 1}
-	{Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2888343841/cannon_med/cannon_med_mk5.rules>/Part/Components"; BaseToAdd = &<automation_components_vanilla/cannon_med.rules>}
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/2888343841/cannon_med/cannon_med_mk5.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/2888343841/cannon_med/cannon_med_mk5.rules>/Part/Stats/CrewRequired"; With = 1}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2888343841/cannon_med/cannon_med_mk5.rules>/Part/Components"; BaseToAdd = &<automation_components_vanilla/cannon_med.rules>}
 
-	{Action = Remove; Remove = "<../../../workshop/content/799600/2888343841/cannon_med/cannon_med_mk6.rules>/Part/Components/PartCrew"}
-	{Action = Replace; Replace = "<../../../workshop/content/799600/2888343841/cannon_med/cannon_med_mk6.rules>/Part/Stats/CrewRequired"; With = 1}
-	{Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2888343841/cannon_med/cannon_med_mk6.rules>/Part/Components"; BaseToAdd = &<automation_components_vanilla/cannon_med.rules>}
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/2888343841/cannon_med/cannon_med_mk6.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/2888343841/cannon_med/cannon_med_mk6.rules>/Part/Stats/CrewRequired"; With = 1}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2888343841/cannon_med/cannon_med_mk6.rules>/Part/Components"; BaseToAdd = &<automation_components_vanilla/cannon_med.rules>}
 
-	{Action = Remove; Remove = "<../../../workshop/content/799600/2888343841/cannon_med/cannon_med_mk7.rules>/Part/Components/PartCrew"}
-	{Action = Replace; Replace = "<../../../workshop/content/799600/2888343841/cannon_med/cannon_med_mk7.rules>/Part/Stats/CrewRequired"; With = 1}
-	{Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2888343841/cannon_med/cannon_med_mk7.rules>/Part/Components"; BaseToAdd = &<automation_components_vanilla/cannon_med.rules>}
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/2888343841/cannon_med/cannon_med_mk7.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/2888343841/cannon_med/cannon_med_mk7.rules>/Part/Stats/CrewRequired"; With = 1}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2888343841/cannon_med/cannon_med_mk7.rules>/Part/Components"; BaseToAdd = &<automation_components_vanilla/cannon_med.rules>}
 
-	{Action = Remove; Remove = "<../../../workshop/content/799600/2888343841/cannon_med/cannon_med_mk8.rules>/Part/Components/PartCrew"}
-	{Action = Replace; Replace = "<../../../workshop/content/799600/2888343841/cannon_med/cannon_med_mk8.rules>/Part/Stats/CrewRequired"; With = 1}
-	{Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2888343841/cannon_med/cannon_med_mk8.rules>/Part/Components"; BaseToAdd = &<automation_components_vanilla/cannon_med.rules>}
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/2888343841/cannon_med/cannon_med_mk8.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/2888343841/cannon_med/cannon_med_mk8.rules>/Part/Stats/CrewRequired"; With = 1}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2888343841/cannon_med/cannon_med_mk8.rules>/Part/Components"; BaseToAdd = &<automation_components_vanilla/cannon_med.rules>}
 
 	//cannon_large
-	{Action = Remove; Remove = "<../../../workshop/content/799600/2888343841/cannon_large/cannon_large_mk2.rules>/Part/Components/PartCrew"}
-	{Action = Replace; Replace = "<../../../workshop/content/799600/2888343841/cannon_large/cannon_large_mk2.rules>/Part/Stats/CrewRequired"; With = 2}
-	{Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2888343841/cannon_large/cannon_large_mk2.rules>/Part/Components"; BaseToAdd = &<automation_components_vanilla/cannon_large.rules>}
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/2888343841/cannon_large/cannon_large_mk2.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/2888343841/cannon_large/cannon_large_mk2.rules>/Part/Stats/CrewRequired"; With = 2}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2888343841/cannon_large/cannon_large_mk2.rules>/Part/Components"; BaseToAdd = &<automation_components_vanilla/cannon_large.rules>}
 
-	{Action = Remove; Remove = "<../../../workshop/content/799600/2888343841/cannon_large/cannon_large_mk3.rules>/Part/Components/PartCrew"}
-	{Action = Replace; Replace = "<../../../workshop/content/799600/2888343841/cannon_large/cannon_large_mk3.rules>/Part/Stats/CrewRequired"; With = 2}
-	{Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2888343841/cannon_large/cannon_large_mk3.rules>/Part/Components"; BaseToAdd = &<automation_components_vanilla/cannon_large.rules>}
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/2888343841/cannon_large/cannon_large_mk3.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/2888343841/cannon_large/cannon_large_mk3.rules>/Part/Stats/CrewRequired"; With = 2}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2888343841/cannon_large/cannon_large_mk3.rules>/Part/Components"; BaseToAdd = &<automation_components_vanilla/cannon_large.rules>}
 
-	{Action = Remove; Remove = "<../../../workshop/content/799600/2888343841/cannon_large/cannon_large_mk4.rules>/Part/Components/PartCrew"}
-	{Action = Replace; Replace = "<../../../workshop/content/799600/2888343841/cannon_large/cannon_large_mk4.rules>/Part/Stats/CrewRequired"; With = 2}
-	{Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2888343841/cannon_large/cannon_large_mk4.rules>/Part/Components"; BaseToAdd = &<automation_components_vanilla/cannon_large.rules>}
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/2888343841/cannon_large/cannon_large_mk4.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/2888343841/cannon_large/cannon_large_mk4.rules>/Part/Stats/CrewRequired"; With = 2}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2888343841/cannon_large/cannon_large_mk4.rules>/Part/Components"; BaseToAdd = &<automation_components_vanilla/cannon_large.rules>}
 
-	{Action = Remove; Remove = "<../../../workshop/content/799600/2888343841/cannon_large/cannon_large_mk5.rules>/Part/Components/PartCrew"}
-	{Action = Replace; Replace = "<../../../workshop/content/799600/2888343841/cannon_large/cannon_large_mk5.rules>/Part/Stats/CrewRequired"; With = 2}
-	{Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2888343841/cannon_large/cannon_large_mk5.rules>/Part/Components"; BaseToAdd = &<automation_components_vanilla/cannon_large.rules>}
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/2888343841/cannon_large/cannon_large_mk5.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/2888343841/cannon_large/cannon_large_mk5.rules>/Part/Stats/CrewRequired"; With = 2}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2888343841/cannon_large/cannon_large_mk5.rules>/Part/Components"; BaseToAdd = &<automation_components_vanilla/cannon_large.rules>}
 
-	{Action = Remove; Remove = "<../../../workshop/content/799600/2888343841/cannon_large/cannon_large_mk6.rules>/Part/Components/PartCrew"}
-	{Action = Replace; Replace = "<../../../workshop/content/799600/2888343841/cannon_large/cannon_large_mk6.rules>/Part/Stats/CrewRequired"; With = 2}
-	{Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2888343841/cannon_large/cannon_large_mk6.rules>/Part/Components"; BaseToAdd = &<automation_components_vanilla/cannon_large.rules>}
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/2888343841/cannon_large/cannon_large_mk6.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/2888343841/cannon_large/cannon_large_mk6.rules>/Part/Stats/CrewRequired"; With = 2}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2888343841/cannon_large/cannon_large_mk6.rules>/Part/Components"; BaseToAdd = &<automation_components_vanilla/cannon_large.rules>}
 
-	{Action = Remove; Remove = "<../../../workshop/content/799600/2888343841/cannon_large/cannon_large_mk7.rules>/Part/Components/PartCrew"}
-	{Action = Replace; Replace = "<../../../workshop/content/799600/2888343841/cannon_large/cannon_large_mk7.rules>/Part/Stats/CrewRequired"; With = 2}
-	{Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2888343841/cannon_large/cannon_large_mk7.rules>/Part/Components"; BaseToAdd = &<automation_components_vanilla/cannon_large.rules>}
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/2888343841/cannon_large/cannon_large_mk7.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/2888343841/cannon_large/cannon_large_mk7.rules>/Part/Stats/CrewRequired"; With = 2}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2888343841/cannon_large/cannon_large_mk7.rules>/Part/Components"; BaseToAdd = &<automation_components_vanilla/cannon_large.rules>}
 
-	{Action = Remove; Remove = "<../../../workshop/content/799600/2888343841/cannon_large/cannon_large_mk8.rules>/Part/Components/PartCrew"}
-	{Action = Replace; Replace = "<../../../workshop/content/799600/2888343841/cannon_large/cannon_large_mk8.rules>/Part/Stats/CrewRequired"; With = 2}
-	{Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2888343841/cannon_large/cannon_large_mk8.rules>/Part/Components"; BaseToAdd = &<automation_components_vanilla/cannon_large.rules>}
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/2888343841/cannon_large/cannon_large_mk8.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/2888343841/cannon_large/cannon_large_mk8.rules>/Part/Stats/CrewRequired"; With = 2}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2888343841/cannon_large/cannon_large_mk8.rules>/Part/Components"; BaseToAdd = &<automation_components_vanilla/cannon_large.rules>}
 
 	//cannon_deck
-	{Action = Remove; Remove = "<../../../workshop/content/799600/2888343841/cannon_deck/cannon_deck_mk2.rules>/Part/Components/PartCrew"}
-	{Action = Replace; Replace = "<../../../workshop/content/799600/2888343841/cannon_deck/cannon_deck_mk2.rules>/Part/Stats/CrewRequired"; With = 4}
-	{Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2888343841/cannon_deck/cannon_deck_mk2.rules>/Part/Components"; BaseToAdd = &<automation_components_vanilla/cannon_deck.rules>}
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/2888343841/cannon_deck/cannon_deck_mk2.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/2888343841/cannon_deck/cannon_deck_mk2.rules>/Part/Stats/CrewRequired"; With = 4}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2888343841/cannon_deck/cannon_deck_mk2.rules>/Part/Components"; BaseToAdd = &<automation_components_vanilla/cannon_deck.rules>}
 
-	{Action = Remove; Remove = "<../../../workshop/content/799600/2888343841/cannon_deck/cannon_deck_mk3.rules>/Part/Components/PartCrew"}
-	{Action = Replace; Replace = "<../../../workshop/content/799600/2888343841/cannon_deck/cannon_deck_mk3.rules>/Part/Stats/CrewRequired"; With = 4}
-	{Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2888343841/cannon_deck/cannon_deck_mk3.rules>/Part/Components"; BaseToAdd = &<automation_components_vanilla/cannon_deck.rules>}
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/2888343841/cannon_deck/cannon_deck_mk3.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/2888343841/cannon_deck/cannon_deck_mk3.rules>/Part/Stats/CrewRequired"; With = 4}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2888343841/cannon_deck/cannon_deck_mk3.rules>/Part/Components"; BaseToAdd = &<automation_components_vanilla/cannon_deck.rules>}
 
-	{Action = Remove; Remove = "<../../../workshop/content/799600/2888343841/cannon_deck/cannon_deck_mk4.rules>/Part/Components/PartCrew"}
-	{Action = Replace; Replace = "<../../../workshop/content/799600/2888343841/cannon_deck/cannon_deck_mk4.rules>/Part/Stats/CrewRequired"; With = 4}
-	{Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2888343841/cannon_deck/cannon_deck_mk4.rules>/Part/Components"; BaseToAdd = &<automation_components_vanilla/cannon_deck.rules>}
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/2888343841/cannon_deck/cannon_deck_mk4.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/2888343841/cannon_deck/cannon_deck_mk4.rules>/Part/Stats/CrewRequired"; With = 4}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2888343841/cannon_deck/cannon_deck_mk4.rules>/Part/Components"; BaseToAdd = &<automation_components_vanilla/cannon_deck.rules>}
 
-	{Action = Remove; Remove = "<../../../workshop/content/799600/2888343841/cannon_deck/cannon_deck_mk5.rules>/Part/Components/PartCrew"}
-	{Action = Replace; Replace = "<../../../workshop/content/799600/2888343841/cannon_deck/cannon_deck_mk5.rules>/Part/Stats/CrewRequired"; With = 4}
-	{Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2888343841/cannon_deck/cannon_deck_mk5.rules>/Part/Components"; BaseToAdd = &<automation_components_vanilla/cannon_deck.rules>}
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/2888343841/cannon_deck/cannon_deck_mk5.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/2888343841/cannon_deck/cannon_deck_mk5.rules>/Part/Stats/CrewRequired"; With = 4}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2888343841/cannon_deck/cannon_deck_mk5.rules>/Part/Components"; BaseToAdd = &<automation_components_vanilla/cannon_deck.rules>}
 
-	{Action = Remove; Remove = "<../../../workshop/content/799600/2888343841/cannon_deck/cannon_deck_mk6.rules>/Part/Components/PartCrew"}
-	{Action = Replace; Replace = "<../../../workshop/content/799600/2888343841/cannon_deck/cannon_deck_mk6.rules>/Part/Stats/CrewRequired"; With = 4}
-	{Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2888343841/cannon_deck/cannon_deck_mk6.rules>/Part/Components"; BaseToAdd = &<automation_components_vanilla/cannon_deck.rules>}
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/2888343841/cannon_deck/cannon_deck_mk6.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/2888343841/cannon_deck/cannon_deck_mk6.rules>/Part/Stats/CrewRequired"; With = 4}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2888343841/cannon_deck/cannon_deck_mk6.rules>/Part/Components"; BaseToAdd = &<automation_components_vanilla/cannon_deck.rules>}
 
-	{Action = Remove; Remove = "<../../../workshop/content/799600/2888343841/cannon_deck/cannon_deck_mk7.rules>/Part/Components/PartCrew"}
-	{Action = Replace; Replace = "<../../../workshop/content/799600/2888343841/cannon_deck/cannon_deck_mk7.rules>/Part/Stats/CrewRequired"; With = 4}
-	{Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2888343841/cannon_deck/cannon_deck_mk7.rules>/Part/Components"; BaseToAdd = &<automation_components_vanilla/cannon_deck.rules>}
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/2888343841/cannon_deck/cannon_deck_mk7.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/2888343841/cannon_deck/cannon_deck_mk7.rules>/Part/Stats/CrewRequired"; With = 4}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2888343841/cannon_deck/cannon_deck_mk7.rules>/Part/Components"; BaseToAdd = &<automation_components_vanilla/cannon_deck.rules>}
 
-	{Action = Remove; Remove = "<../../../workshop/content/799600/2888343841/cannon_deck/cannon_deck_mk8.rules>/Part/Components/PartCrew"}
-	{Action = Replace; Replace = "<../../../workshop/content/799600/2888343841/cannon_deck/cannon_deck_mk8.rules>/Part/Stats/CrewRequired"; With = 4}
-	{Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2888343841/cannon_deck/cannon_deck_mk8.rules>/Part/Components"; BaseToAdd = &<automation_components_vanilla/cannon_deck.rules>}
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/2888343841/cannon_deck/cannon_deck_mk8.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/2888343841/cannon_deck/cannon_deck_mk8.rules>/Part/Stats/CrewRequired"; With = 4}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2888343841/cannon_deck/cannon_deck_mk8.rules>/Part/Components"; BaseToAdd = &<automation_components_vanilla/cannon_deck.rules>}
 
 	//missile_launcher
-	{Action = Remove; Remove = "<../../../workshop/content/799600/2888343841/missile_launcher/missile_launcher_mk2.rules>/Part/Components/PartCrew"}
-	{Action = Replace; Replace = "<../../../workshop/content/799600/2888343841/missile_launcher/missile_launcher_mk2.rules>/Part/Stats/CrewRequired"; With = 2}
-	{Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2888343841/missile_launcher/missile_launcher_mk2.rules>/Part/Components"; BaseToAdd = &<automation_components_vanilla/missile_launcher.rules>}
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/2888343841/missile_launcher/missile_launcher_mk2.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/2888343841/missile_launcher/missile_launcher_mk2.rules>/Part/Stats/CrewRequired"; With = 2}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2888343841/missile_launcher/missile_launcher_mk2.rules>/Part/Components"; BaseToAdd = &<automation_components_vanilla/missile_launcher.rules>}
 
-	{Action = Remove; Remove = "<../../../workshop/content/799600/2888343841/missile_launcher/missile_launcher_mk3.rules>/Part/Components/PartCrew"}
-	{Action = Replace; Replace = "<../../../workshop/content/799600/2888343841/missile_launcher/missile_launcher_mk3.rules>/Part/Stats/CrewRequired"; With = 2}
-	{Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2888343841/missile_launcher/missile_launcher_mk3.rules>/Part/Components"; BaseToAdd = &<automation_components_vanilla/missile_launcher.rules>}
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/2888343841/missile_launcher/missile_launcher_mk3.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/2888343841/missile_launcher/missile_launcher_mk3.rules>/Part/Stats/CrewRequired"; With = 2}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2888343841/missile_launcher/missile_launcher_mk3.rules>/Part/Components"; BaseToAdd = &<automation_components_vanilla/missile_launcher.rules>}
 
-	{Action = Remove; Remove = "<../../../workshop/content/799600/2888343841/missile_launcher/missile_launcher_mk4.rules>/Part/Components/PartCrew"}
-	{Action = Replace; Replace = "<../../../workshop/content/799600/2888343841/missile_launcher/missile_launcher_mk4.rules>/Part/Stats/CrewRequired"; With = 2}
-	{Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2888343841/missile_launcher/missile_launcher_mk4.rules>/Part/Components"; BaseToAdd = &<automation_components_vanilla/missile_launcher.rules>}
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/2888343841/missile_launcher/missile_launcher_mk4.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/2888343841/missile_launcher/missile_launcher_mk4.rules>/Part/Stats/CrewRequired"; With = 2}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2888343841/missile_launcher/missile_launcher_mk4.rules>/Part/Components"; BaseToAdd = &<automation_components_vanilla/missile_launcher.rules>}
 
-	{Action = Remove; Remove = "<../../../workshop/content/799600/2888343841/missile_launcher/missile_launcher_mk5.rules>/Part/Components/PartCrew"}
-	{Action = Replace; Replace = "<../../../workshop/content/799600/2888343841/missile_launcher/missile_launcher_mk5.rules>/Part/Stats/CrewRequired"; With = 2}
-	{Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2888343841/missile_launcher/missile_launcher_mk5.rules>/Part/Components"; BaseToAdd = &<automation_components_vanilla/missile_launcher.rules>}
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/2888343841/missile_launcher/missile_launcher_mk5.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/2888343841/missile_launcher/missile_launcher_mk5.rules>/Part/Stats/CrewRequired"; With = 2}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2888343841/missile_launcher/missile_launcher_mk5.rules>/Part/Components"; BaseToAdd = &<automation_components_vanilla/missile_launcher.rules>}
 
-	{Action = Remove; Remove = "<../../../workshop/content/799600/2888343841/missile_launcher/missile_launcher_mk6.rules>/Part/Components/PartCrew"}
-	{Action = Replace; Replace = "<../../../workshop/content/799600/2888343841/missile_launcher/missile_launcher_mk6.rules>/Part/Stats/CrewRequired"; With = 2}
-	{Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2888343841/missile_launcher/missile_launcher_mk6.rules>/Part/Components"; BaseToAdd = &<automation_components_vanilla/missile_launcher.rules>}
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/2888343841/missile_launcher/missile_launcher_mk6.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/2888343841/missile_launcher/missile_launcher_mk6.rules>/Part/Stats/CrewRequired"; With = 2}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2888343841/missile_launcher/missile_launcher_mk6.rules>/Part/Components"; BaseToAdd = &<automation_components_vanilla/missile_launcher.rules>}
 
-	{Action = Remove; Remove = "<../../../workshop/content/799600/2888343841/missile_launcher/missile_launcher_mk7.rules>/Part/Components/PartCrew"}
-	{Action = Replace; Replace = "<../../../workshop/content/799600/2888343841/missile_launcher/missile_launcher_mk7.rules>/Part/Stats/CrewRequired"; With = 2}
-	{Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2888343841/missile_launcher/missile_launcher_mk7.rules>/Part/Components"; BaseToAdd = &<automation_components_vanilla/missile_launcher.rules>}
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/2888343841/missile_launcher/missile_launcher_mk7.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/2888343841/missile_launcher/missile_launcher_mk7.rules>/Part/Stats/CrewRequired"; With = 2}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2888343841/missile_launcher/missile_launcher_mk7.rules>/Part/Components"; BaseToAdd = &<automation_components_vanilla/missile_launcher.rules>}
 
-	{Action = Remove; Remove = "<../../../workshop/content/799600/2888343841/missile_launcher/missile_launcher_mk8.rules>/Part/Components/PartCrew"}
-	{Action = Replace; Replace = "<../../../workshop/content/799600/2888343841/missile_launcher/missile_launcher_mk8.rules>/Part/Stats/CrewRequired"; With = 2}
-	{Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2888343841/missile_launcher/missile_launcher_mk8.rules>/Part/Components"; BaseToAdd = &<automation_components_vanilla/missile_launcher.rules>}
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/2888343841/missile_launcher/missile_launcher_mk8.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/2888343841/missile_launcher/missile_launcher_mk8.rules>/Part/Stats/CrewRequired"; With = 2}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2888343841/missile_launcher/missile_launcher_mk8.rules>/Part/Components"; BaseToAdd = &<automation_components_vanilla/missile_launcher.rules>}
 
 	//railgun_loader
-	{Action = Remove; Remove = "<../../../workshop/content/799600/2888343841/railgun_loader/railgun_loader_mk2.rules>/Part/Components/PartCrew"}
-	{Action = Replace; Replace = "<../../../workshop/content/799600/2888343841/railgun_loader/railgun_loader_mk2.rules>/Part/Stats/CrewRequired"; With = 2}
-	{Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2888343841/railgun_loader/railgun_loader_mk2.rules>/Part/Components"; BaseToAdd = &<automation_components_vanilla/railgun_loader.rules>}
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/2888343841/railgun_loader/railgun_loader_mk2.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/2888343841/railgun_loader/railgun_loader_mk2.rules>/Part/Stats/CrewRequired"; With = 2}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2888343841/railgun_loader/railgun_loader_mk2.rules>/Part/Components"; BaseToAdd = &<automation_components_vanilla/railgun_loader.rules>}
 
-	{Action = Remove; Remove = "<../../../workshop/content/799600/2888343841/railgun_loader/railgun_loader_mk3.rules>/Part/Components/PartCrew"}
-	{Action = Replace; Replace = "<../../../workshop/content/799600/2888343841/railgun_loader/railgun_loader_mk3.rules>/Part/Stats/CrewRequired"; With = 2}
-	{Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2888343841/railgun_loader/railgun_loader_mk3.rules>/Part/Components"; BaseToAdd = &<automation_components_vanilla/railgun_loader.rules>}
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/2888343841/railgun_loader/railgun_loader_mk3.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/2888343841/railgun_loader/railgun_loader_mk3.rules>/Part/Stats/CrewRequired"; With = 2}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2888343841/railgun_loader/railgun_loader_mk3.rules>/Part/Components"; BaseToAdd = &<automation_components_vanilla/railgun_loader.rules>}
 
-	{Action = Remove; Remove = "<../../../workshop/content/799600/2888343841/railgun_loader/railgun_loader_mk4.rules>/Part/Components/PartCrew"}
-	{Action = Replace; Replace = "<../../../workshop/content/799600/2888343841/railgun_loader/railgun_loader_mk4.rules>/Part/Stats/CrewRequired"; With = 2}
-	{Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2888343841/railgun_loader/railgun_loader_mk4.rules>/Part/Components"; BaseToAdd = &<automation_components_vanilla/railgun_loader.rules>}
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/2888343841/railgun_loader/railgun_loader_mk4.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/2888343841/railgun_loader/railgun_loader_mk4.rules>/Part/Stats/CrewRequired"; With = 2}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2888343841/railgun_loader/railgun_loader_mk4.rules>/Part/Components"; BaseToAdd = &<automation_components_vanilla/railgun_loader.rules>}
 
-	{Action = Remove; Remove = "<../../../workshop/content/799600/2888343841/railgun_loader/railgun_loader_mk5.rules>/Part/Components/PartCrew"}
-	{Action = Replace; Replace = "<../../../workshop/content/799600/2888343841/railgun_loader/railgun_loader_mk5.rules>/Part/Stats/CrewRequired"; With = 2}
-	{Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2888343841/railgun_loader/railgun_loader_mk5.rules>/Part/Components"; BaseToAdd = &<automation_components_vanilla/railgun_loader.rules>}
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/2888343841/railgun_loader/railgun_loader_mk5.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/2888343841/railgun_loader/railgun_loader_mk5.rules>/Part/Stats/CrewRequired"; With = 2}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2888343841/railgun_loader/railgun_loader_mk5.rules>/Part/Components"; BaseToAdd = &<automation_components_vanilla/railgun_loader.rules>}
 
-	{Action = Remove; Remove = "<../../../workshop/content/799600/2888343841/railgun_loader/railgun_loader_mk6.rules>/Part/Components/PartCrew"}
-	{Action = Replace; Replace = "<../../../workshop/content/799600/2888343841/railgun_loader/railgun_loader_mk6.rules>/Part/Stats/CrewRequired"; With = 2}
-	{Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2888343841/railgun_loader/railgun_loader_mk6.rules>/Part/Components"; BaseToAdd = &<automation_components_vanilla/railgun_loader.rules>}
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/2888343841/railgun_loader/railgun_loader_mk6.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/2888343841/railgun_loader/railgun_loader_mk6.rules>/Part/Stats/CrewRequired"; With = 2}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2888343841/railgun_loader/railgun_loader_mk6.rules>/Part/Components"; BaseToAdd = &<automation_components_vanilla/railgun_loader.rules>}
 
-	{Action = Remove; Remove = "<../../../workshop/content/799600/2888343841/railgun_loader/railgun_loader_mk7.rules>/Part/Components/PartCrew"}
-	{Action = Replace; Replace = "<../../../workshop/content/799600/2888343841/railgun_loader/railgun_loader_mk7.rules>/Part/Stats/CrewRequired"; With = 2}
-	{Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2888343841/railgun_loader/railgun_loader_mk7.rules>/Part/Components"; BaseToAdd = &<automation_components_vanilla/railgun_loader.rules>}
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/2888343841/railgun_loader/railgun_loader_mk7.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/2888343841/railgun_loader/railgun_loader_mk7.rules>/Part/Stats/CrewRequired"; With = 2}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2888343841/railgun_loader/railgun_loader_mk7.rules>/Part/Components"; BaseToAdd = &<automation_components_vanilla/railgun_loader.rules>}
 
-	{Action = Remove; Remove = "<../../../workshop/content/799600/2888343841/railgun_loader/railgun_loader_mk8.rules>/Part/Components/PartCrew"}
-	{Action = Replace; Replace = "<../../../workshop/content/799600/2888343841/railgun_loader/railgun_loader_mk8.rules>/Part/Stats/CrewRequired"; With = 2}
-	{Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2888343841/railgun_loader/railgun_loader_mk8.rules>/Part/Components"; BaseToAdd = &<automation_components_vanilla/railgun_loader.rules>}
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/2888343841/railgun_loader/railgun_loader_mk8.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/2888343841/railgun_loader/railgun_loader_mk8.rules>/Part/Stats/CrewRequired"; With = 2}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2888343841/railgun_loader/railgun_loader_mk8.rules>/Part/Components"; BaseToAdd = &<automation_components_vanilla/railgun_loader.rules>}
 
 	//flak_cannon_large
-	{Action = Remove; Remove = "<../../../workshop/content/799600/2888343841/flak_cannon_large/flak_cannon_large_mk2.rules>/Part/Components/PartCrew"}
-	{Action = Replace; Replace = "<../../../workshop/content/799600/2888343841/flak_cannon_large/flak_cannon_large_mk2.rules>/Part/Stats/CrewRequired"; With = 3}
-	{Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2888343841/flak_cannon_large/flak_cannon_large_mk2.rules>/Part/Components"; BaseToAdd = &<automation_components_vanilla/flak_cannon_large.rules>}
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/2888343841/flak_cannon_large/flak_cannon_large_mk2.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/2888343841/flak_cannon_large/flak_cannon_large_mk2.rules>/Part/Stats/CrewRequired"; With = 3}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2888343841/flak_cannon_large/flak_cannon_large_mk2.rules>/Part/Components"; BaseToAdd = &<automation_components_vanilla/flak_cannon_large.rules>}
 
-	{Action = Remove; Remove = "<../../../workshop/content/799600/2888343841/flak_cannon_large/flak_cannon_large_mk3.rules>/Part/Components/PartCrew"}
-	{Action = Replace; Replace = "<../../../workshop/content/799600/2888343841/flak_cannon_large/flak_cannon_large_mk3.rules>/Part/Stats/CrewRequired"; With = 3}
-	{Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2888343841/flak_cannon_large/flak_cannon_large_mk3.rules>/Part/Components"; BaseToAdd = &<automation_components_vanilla/flak_cannon_large.rules>}
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/2888343841/flak_cannon_large/flak_cannon_large_mk3.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/2888343841/flak_cannon_large/flak_cannon_large_mk3.rules>/Part/Stats/CrewRequired"; With = 3}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2888343841/flak_cannon_large/flak_cannon_large_mk3.rules>/Part/Components"; BaseToAdd = &<automation_components_vanilla/flak_cannon_large.rules>}
 
-	{Action = Remove; Remove = "<../../../workshop/content/799600/2888343841/flak_cannon_large/flak_cannon_large_mk4.rules>/Part/Components/PartCrew"}
-	{Action = Replace; Replace = "<../../../workshop/content/799600/2888343841/flak_cannon_large/flak_cannon_large_mk4.rules>/Part/Stats/CrewRequired"; With = 3}
-	{Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2888343841/flak_cannon_large/flak_cannon_large_mk4.rules>/Part/Components"; BaseToAdd = &<automation_components_vanilla/flak_cannon_large.rules>}
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/2888343841/flak_cannon_large/flak_cannon_large_mk4.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/2888343841/flak_cannon_large/flak_cannon_large_mk4.rules>/Part/Stats/CrewRequired"; With = 3}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2888343841/flak_cannon_large/flak_cannon_large_mk4.rules>/Part/Components"; BaseToAdd = &<automation_components_vanilla/flak_cannon_large.rules>}
 
-	{Action = Remove; Remove = "<../../../workshop/content/799600/2888343841/flak_cannon_large/flak_cannon_large_mk5.rules>/Part/Components/PartCrew"}
-	{Action = Replace; Replace = "<../../../workshop/content/799600/2888343841/flak_cannon_large/flak_cannon_large_mk5.rules>/Part/Stats/CrewRequired"; With = 3}
-	{Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2888343841/flak_cannon_large/flak_cannon_large_mk5.rules>/Part/Components"; BaseToAdd = &<automation_components_vanilla/flak_cannon_large.rules>}
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/2888343841/flak_cannon_large/flak_cannon_large_mk5.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/2888343841/flak_cannon_large/flak_cannon_large_mk5.rules>/Part/Stats/CrewRequired"; With = 3}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2888343841/flak_cannon_large/flak_cannon_large_mk5.rules>/Part/Components"; BaseToAdd = &<automation_components_vanilla/flak_cannon_large.rules>}
 
-	{Action = Remove; Remove = "<../../../workshop/content/799600/2888343841/flak_cannon_large/flak_cannon_large_mk6.rules>/Part/Components/PartCrew"}
-	{Action = Replace; Replace = "<../../../workshop/content/799600/2888343841/flak_cannon_large/flak_cannon_large_mk6.rules>/Part/Stats/CrewRequired"; With = 3}
-	{Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2888343841/flak_cannon_large/flak_cannon_large_mk6.rules>/Part/Components"; BaseToAdd = &<automation_components_vanilla/flak_cannon_large.rules>}
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/2888343841/flak_cannon_large/flak_cannon_large_mk6.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/2888343841/flak_cannon_large/flak_cannon_large_mk6.rules>/Part/Stats/CrewRequired"; With = 3}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2888343841/flak_cannon_large/flak_cannon_large_mk6.rules>/Part/Components"; BaseToAdd = &<automation_components_vanilla/flak_cannon_large.rules>}
 
-	{Action = Remove; Remove = "<../../../workshop/content/799600/2888343841/flak_cannon_large/flak_cannon_large_mk7.rules>/Part/Components/PartCrew"}
-	{Action = Replace; Replace = "<../../../workshop/content/799600/2888343841/flak_cannon_large/flak_cannon_large_mk7.rules>/Part/Stats/CrewRequired"; With = 3}
-	{Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2888343841/flak_cannon_large/flak_cannon_large_mk7.rules>/Part/Components"; BaseToAdd = &<automation_components_vanilla/flak_cannon_large.rules>}
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/2888343841/flak_cannon_large/flak_cannon_large_mk7.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/2888343841/flak_cannon_large/flak_cannon_large_mk7.rules>/Part/Stats/CrewRequired"; With = 3}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2888343841/flak_cannon_large/flak_cannon_large_mk7.rules>/Part/Components"; BaseToAdd = &<automation_components_vanilla/flak_cannon_large.rules>}
 
-	{Action = Remove; Remove = "<../../../workshop/content/799600/2888343841/flak_cannon_large/flak_cannon_large_mk8.rules>/Part/Components/PartCrew"}
-	{Action = Replace; Replace = "<../../../workshop/content/799600/2888343841/flak_cannon_large/flak_cannon_large_mk8.rules>/Part/Stats/CrewRequired"; With = 3}
-	{Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2888343841/flak_cannon_large/flak_cannon_large_mk8.rules>/Part/Components"; BaseToAdd = &<automation_components_vanilla/flak_cannon_large.rules>}
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/2888343841/flak_cannon_large/flak_cannon_large_mk8.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/2888343841/flak_cannon_large/flak_cannon_large_mk8.rules>/Part/Stats/CrewRequired"; With = 3}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2888343841/flak_cannon_large/flak_cannon_large_mk8.rules>/Part/Components"; BaseToAdd = &<automation_components_vanilla/flak_cannon_large.rules>}
 
 	//engine_room
-	{Action = Remove; Remove = "<../../../workshop/content/799600/2888343841/engine_room/engine_room_mk2.rules>/Part/Components/PartCrew"}
-	{Action = Replace; Replace = "<../../../workshop/content/799600/2888343841/engine_room/engine_room_mk2.rules>/Part/Stats/CrewRequired"; With = 2}
-	{Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2888343841/engine_room/engine_room_mk2.rules>/Part/Components"; BaseToAdd = &<automation_components_vanilla/engine_room.rules>}
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/2888343841/engine_room/engine_room_mk2.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/2888343841/engine_room/engine_room_mk2.rules>/Part/Stats/CrewRequired"; With = 2}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2888343841/engine_room/engine_room_mk2.rules>/Part/Components"; BaseToAdd = &<automation_components_vanilla/engine_room.rules>}
 
-	{Action = Remove; Remove = "<../../../workshop/content/799600/2888343841/engine_room/engine_room_mk3.rules>/Part/Components/PartCrew"}
-	{Action = Replace; Replace = "<../../../workshop/content/799600/2888343841/engine_room/engine_room_mk3.rules>/Part/Stats/CrewRequired"; With = 2}
-	{Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2888343841/engine_room/engine_room_mk3.rules>/Part/Components"; BaseToAdd = &<automation_components_vanilla/engine_room.rules>}
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/2888343841/engine_room/engine_room_mk3.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/2888343841/engine_room/engine_room_mk3.rules>/Part/Stats/CrewRequired"; With = 2}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2888343841/engine_room/engine_room_mk3.rules>/Part/Components"; BaseToAdd = &<automation_components_vanilla/engine_room.rules>}
 
-	{Action = Remove; Remove = "<../../../workshop/content/799600/2888343841/engine_room/engine_room_mk4.rules>/Part/Components/PartCrew"}
-	{Action = Replace; Replace = "<../../../workshop/content/799600/2888343841/engine_room/engine_room_mk4.rules>/Part/Stats/CrewRequired"; With = 2}
-	{Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2888343841/engine_room/engine_room_mk4.rules>/Part/Components"; BaseToAdd = &<automation_components_vanilla/engine_room.rules>}
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/2888343841/engine_room/engine_room_mk4.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/2888343841/engine_room/engine_room_mk4.rules>/Part/Stats/CrewRequired"; With = 2}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2888343841/engine_room/engine_room_mk4.rules>/Part/Components"; BaseToAdd = &<automation_components_vanilla/engine_room.rules>}
 
-	{Action = Remove; Remove = "<../../../workshop/content/799600/2888343841/engine_room/engine_room_mk5.rules>/Part/Components/PartCrew"}
-	{Action = Replace; Replace = "<../../../workshop/content/799600/2888343841/engine_room/engine_room_mk5.rules>/Part/Stats/CrewRequired"; With = 2}
-	{Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2888343841/engine_room/engine_room_mk5.rules>/Part/Components"; BaseToAdd = &<automation_components_vanilla/engine_room.rules>}
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/2888343841/engine_room/engine_room_mk5.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/2888343841/engine_room/engine_room_mk5.rules>/Part/Stats/CrewRequired"; With = 2}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2888343841/engine_room/engine_room_mk5.rules>/Part/Components"; BaseToAdd = &<automation_components_vanilla/engine_room.rules>}
 
-	{Action = Remove; Remove = "<../../../workshop/content/799600/2888343841/engine_room/engine_room_mk6.rules>/Part/Components/PartCrew"}
-	{Action = Replace; Replace = "<../../../workshop/content/799600/2888343841/engine_room/engine_room_mk6.rules>/Part/Stats/CrewRequired"; With = 2}
-	{Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2888343841/engine_room/engine_room_mk6.rules>/Part/Components"; BaseToAdd = &<automation_components_vanilla/engine_room.rules>}
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/2888343841/engine_room/engine_room_mk6.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/2888343841/engine_room/engine_room_mk6.rules>/Part/Stats/CrewRequired"; With = 2}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2888343841/engine_room/engine_room_mk6.rules>/Part/Components"; BaseToAdd = &<automation_components_vanilla/engine_room.rules>}
 
-	{Action = Remove; Remove = "<../../../workshop/content/799600/2888343841/engine_room/engine_room_mk7.rules>/Part/Components/PartCrew"}
-	{Action = Replace; Replace = "<../../../workshop/content/799600/2888343841/engine_room/engine_room_mk7.rules>/Part/Stats/CrewRequired"; With = 2}
-	{Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2888343841/engine_room/engine_room_mk7.rules>/Part/Components"; BaseToAdd = &<automation_components_vanilla/engine_room.rules>}
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/2888343841/engine_room/engine_room_mk7.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/2888343841/engine_room/engine_room_mk7.rules>/Part/Stats/CrewRequired"; With = 2}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2888343841/engine_room/engine_room_mk7.rules>/Part/Components"; BaseToAdd = &<automation_components_vanilla/engine_room.rules>}
 
-	{Action = Remove; Remove = "<../../../workshop/content/799600/2888343841/engine_room/engine_room_mk8.rules>/Part/Components/PartCrew"}
-	{Action = Replace; Replace = "<../../../workshop/content/799600/2888343841/engine_room/engine_room_mk8.rules>/Part/Stats/CrewRequired"; With = 2}
-	{Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2888343841/engine_room/engine_room_mk8.rules>/Part/Components"; BaseToAdd = &<automation_components_vanilla/engine_room.rules>}
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/2888343841/engine_room/engine_room_mk8.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/2888343841/engine_room/engine_room_mk8.rules>/Part/Stats/CrewRequired"; With = 2}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2888343841/engine_room/engine_room_mk8.rules>/Part/Components"; BaseToAdd = &<automation_components_vanilla/engine_room.rules>}
 
 	//mining_laser_small
-	{Action = Remove; Remove = "<../../../workshop/content/799600/2888343841/mining_laser_small/mining_laser_small_mk2.rules>/Part/Components/PartCrew"}
-	{Action = Replace; Replace = "<../../../workshop/content/799600/2888343841/mining_laser_small/mining_laser_small_mk2.rules>/Part/Stats/CrewRequired"; With = 1}
-	{Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2888343841/mining_laser_small/mining_laser_small_mk2.rules>/Part/Components"; BaseToAdd = &<automation_components_vanilla/mining_laser_small.rules>}
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/2888343841/mining_laser_small/mining_laser_small_mk2.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/2888343841/mining_laser_small/mining_laser_small_mk2.rules>/Part/Stats/CrewRequired"; With = 1}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2888343841/mining_laser_small/mining_laser_small_mk2.rules>/Part/Components"; BaseToAdd = &<automation_components_vanilla/mining_laser_small.rules>}
 
-	{Action = Remove; Remove = "<../../../workshop/content/799600/2888343841/mining_laser_small/mining_laser_small_mk3.rules>/Part/Components/PartCrew"}
-	{Action = Replace; Replace = "<../../../workshop/content/799600/2888343841/mining_laser_small/mining_laser_small_mk3.rules>/Part/Stats/CrewRequired"; With = 1}
-	{Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2888343841/mining_laser_small/mining_laser_small_mk3.rules>/Part/Components"; BaseToAdd = &<automation_components_vanilla/mining_laser_small.rules>}
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/2888343841/mining_laser_small/mining_laser_small_mk3.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/2888343841/mining_laser_small/mining_laser_small_mk3.rules>/Part/Stats/CrewRequired"; With = 1}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2888343841/mining_laser_small/mining_laser_small_mk3.rules>/Part/Components"; BaseToAdd = &<automation_components_vanilla/mining_laser_small.rules>}
 
-	{Action = Remove; Remove = "<../../../workshop/content/799600/2888343841/mining_laser_small/mining_laser_small_mk4.rules>/Part/Components/PartCrew"}
-	{Action = Replace; Replace = "<../../../workshop/content/799600/2888343841/mining_laser_small/mining_laser_small_mk4.rules>/Part/Stats/CrewRequired"; With = 1}
-	{Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2888343841/mining_laser_small/mining_laser_small_mk4.rules>/Part/Components"; BaseToAdd = &<automation_components_vanilla/mining_laser_small.rules>}
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/2888343841/mining_laser_small/mining_laser_small_mk4.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/2888343841/mining_laser_small/mining_laser_small_mk4.rules>/Part/Stats/CrewRequired"; With = 1}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2888343841/mining_laser_small/mining_laser_small_mk4.rules>/Part/Components"; BaseToAdd = &<automation_components_vanilla/mining_laser_small.rules>}
 
-	{Action = Remove; Remove = "<../../../workshop/content/799600/2888343841/mining_laser_small/mining_laser_small_mk5.rules>/Part/Components/PartCrew"}
-	{Action = Replace; Replace = "<../../../workshop/content/799600/2888343841/mining_laser_small/mining_laser_small_mk5.rules>/Part/Stats/CrewRequired"; With = 1}
-	{Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2888343841/mining_laser_small/mining_laser_small_mk5.rules>/Part/Components"; BaseToAdd = &<automation_components_vanilla/mining_laser_small.rules>}
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/2888343841/mining_laser_small/mining_laser_small_mk5.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/2888343841/mining_laser_small/mining_laser_small_mk5.rules>/Part/Stats/CrewRequired"; With = 1}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2888343841/mining_laser_small/mining_laser_small_mk5.rules>/Part/Components"; BaseToAdd = &<automation_components_vanilla/mining_laser_small.rules>}
 
-	{Action = Remove; Remove = "<../../../workshop/content/799600/2888343841/mining_laser_small/mining_laser_small_mk6.rules>/Part/Components/PartCrew"}
-	{Action = Replace; Replace = "<../../../workshop/content/799600/2888343841/mining_laser_small/mining_laser_small_mk6.rules>/Part/Stats/CrewRequired"; With = 1}
-	{Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2888343841/mining_laser_small/mining_laser_small_mk6.rules>/Part/Components"; BaseToAdd = &<automation_components_vanilla/mining_laser_small.rules>}
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/2888343841/mining_laser_small/mining_laser_small_mk6.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/2888343841/mining_laser_small/mining_laser_small_mk6.rules>/Part/Stats/CrewRequired"; With = 1}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2888343841/mining_laser_small/mining_laser_small_mk6.rules>/Part/Components"; BaseToAdd = &<automation_components_vanilla/mining_laser_small.rules>}
 
-	{Action = Remove; Remove = "<../../../workshop/content/799600/2888343841/mining_laser_small/mining_laser_small_mk7.rules>/Part/Components/PartCrew"}
-	{Action = Replace; Replace = "<../../../workshop/content/799600/2888343841/mining_laser_small/mining_laser_small_mk7.rules>/Part/Stats/CrewRequired"; With = 1}
-	{Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2888343841/mining_laser_small/mining_laser_small_mk7.rules>/Part/Components"; BaseToAdd = &<automation_components_vanilla/mining_laser_small.rules>}
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/2888343841/mining_laser_small/mining_laser_small_mk7.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/2888343841/mining_laser_small/mining_laser_small_mk7.rules>/Part/Stats/CrewRequired"; With = 1}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2888343841/mining_laser_small/mining_laser_small_mk7.rules>/Part/Components"; BaseToAdd = &<automation_components_vanilla/mining_laser_small.rules>}
 
-	{Action = Remove; Remove = "<../../../workshop/content/799600/2888343841/mining_laser_small/mining_laser_small_mk8.rules>/Part/Components/PartCrew"}
-	{Action = Replace; Replace = "<../../../workshop/content/799600/2888343841/mining_laser_small/mining_laser_small_mk8.rules>/Part/Stats/CrewRequired"; With = 1}
-	{Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2888343841/mining_laser_small/mining_laser_small_mk8.rules>/Part/Components"; BaseToAdd = &<automation_components_vanilla/mining_laser_small.rules>}
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/2888343841/mining_laser_small/mining_laser_small_mk8.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/2888343841/mining_laser_small/mining_laser_small_mk8.rules>/Part/Stats/CrewRequired"; With = 1}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2888343841/mining_laser_small/mining_laser_small_mk8.rules>/Part/Components"; BaseToAdd = &<automation_components_vanilla/mining_laser_small.rules>}
 
 	//sensor_array
-	{Action = Remove; Remove = "<../../../workshop/content/799600/2888343841/sensor_array/sensor_array_mk2.rules>/Part/Components/PartCrew"}
-	{Action = Replace; Replace = "<../../../workshop/content/799600/2888343841/sensor_array/sensor_array_mk2.rules>/Part/Stats/CrewRequired"; With = 4}
-	{Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2888343841/sensor_array/sensor_array_mk2.rules>/Part/Components"; BaseToAdd = &<automation_components_vanilla/sensor_array.rules>}
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/2888343841/sensor_array/sensor_array_mk2.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/2888343841/sensor_array/sensor_array_mk2.rules>/Part/Stats/CrewRequired"; With = 4}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2888343841/sensor_array/sensor_array_mk2.rules>/Part/Components"; BaseToAdd = &<automation_components_vanilla/sensor_array.rules>}
 
-	{Action = Remove; Remove = "<../../../workshop/content/799600/2888343841/sensor_array/sensor_array_mk3.rules>/Part/Components/PartCrew"}
-	{Action = Replace; Replace = "<../../../workshop/content/799600/2888343841/sensor_array/sensor_array_mk3.rules>/Part/Stats/CrewRequired"; With = 4}
-	{Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2888343841/sensor_array/sensor_array_mk3.rules>/Part/Components"; BaseToAdd = &<automation_components_vanilla/sensor_array.rules>}
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/2888343841/sensor_array/sensor_array_mk3.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/2888343841/sensor_array/sensor_array_mk3.rules>/Part/Stats/CrewRequired"; With = 4}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2888343841/sensor_array/sensor_array_mk3.rules>/Part/Components"; BaseToAdd = &<automation_components_vanilla/sensor_array.rules>}
 
-	{Action = Remove; Remove = "<../../../workshop/content/799600/2888343841/sensor_array/sensor_array_mk4.rules>/Part/Components/PartCrew"}
-	{Action = Replace; Replace = "<../../../workshop/content/799600/2888343841/sensor_array/sensor_array_mk4.rules>/Part/Stats/CrewRequired"; With = 4}
-	{Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2888343841/sensor_array/sensor_array_mk4.rules>/Part/Components"; BaseToAdd = &<automation_components_vanilla/sensor_array.rules>}
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/2888343841/sensor_array/sensor_array_mk4.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/2888343841/sensor_array/sensor_array_mk4.rules>/Part/Stats/CrewRequired"; With = 4}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2888343841/sensor_array/sensor_array_mk4.rules>/Part/Components"; BaseToAdd = &<automation_components_vanilla/sensor_array.rules>}
 
-	{Action = Remove; Remove = "<../../../workshop/content/799600/2888343841/sensor_array/sensor_array_mk5.rules>/Part/Components/PartCrew"}
-	{Action = Replace; Replace = "<../../../workshop/content/799600/2888343841/sensor_array/sensor_array_mk5.rules>/Part/Stats/CrewRequired"; With = 4}
-	{Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2888343841/sensor_array/sensor_array_mk5.rules>/Part/Components"; BaseToAdd = &<automation_components_vanilla/sensor_array.rules>}
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/2888343841/sensor_array/sensor_array_mk5.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/2888343841/sensor_array/sensor_array_mk5.rules>/Part/Stats/CrewRequired"; With = 4}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2888343841/sensor_array/sensor_array_mk5.rules>/Part/Components"; BaseToAdd = &<automation_components_vanilla/sensor_array.rules>}
 
-	{Action = Remove; Remove = "<../../../workshop/content/799600/2888343841/sensor_array/sensor_array_mk6.rules>/Part/Components/PartCrew"}
-	{Action = Replace; Replace = "<../../../workshop/content/799600/2888343841/sensor_array/sensor_array_mk6.rules>/Part/Stats/CrewRequired"; With = 4}
-	{Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2888343841/sensor_array/sensor_array_mk6.rules>/Part/Components"; BaseToAdd = &<automation_components_vanilla/sensor_array.rules>}
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/2888343841/sensor_array/sensor_array_mk6.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/2888343841/sensor_array/sensor_array_mk6.rules>/Part/Stats/CrewRequired"; With = 4}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2888343841/sensor_array/sensor_array_mk6.rules>/Part/Components"; BaseToAdd = &<automation_components_vanilla/sensor_array.rules>}
 
-	{Action = Remove; Remove = "<../../../workshop/content/799600/2888343841/sensor_array/sensor_array_mk7.rules>/Part/Components/PartCrew"}
-	{Action = Replace; Replace = "<../../../workshop/content/799600/2888343841/sensor_array/sensor_array_mk7.rules>/Part/Stats/CrewRequired"; With = 4}
-	{Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2888343841/sensor_array/sensor_array_mk7.rules>/Part/Components"; BaseToAdd = &<automation_components_vanilla/sensor_array.rules>}
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/2888343841/sensor_array/sensor_array_mk7.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/2888343841/sensor_array/sensor_array_mk7.rules>/Part/Stats/CrewRequired"; With = 4}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2888343841/sensor_array/sensor_array_mk7.rules>/Part/Components"; BaseToAdd = &<automation_components_vanilla/sensor_array.rules>}
 
-	{Action = Remove; Remove = "<../../../workshop/content/799600/2888343841/sensor_array/sensor_array_mk8.rules>/Part/Components/PartCrew"}
-	{Action = Replace; Replace = "<../../../workshop/content/799600/2888343841/sensor_array/sensor_array_mk8.rules>/Part/Stats/CrewRequired"; With = 4}
-	{Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2888343841/sensor_array/sensor_array_mk8.rules>/Part/Components"; BaseToAdd = &<automation_components_vanilla/sensor_array.rules>}
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/2888343841/sensor_array/sensor_array_mk8.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/2888343841/sensor_array/sensor_array_mk8.rules>/Part/Stats/CrewRequired"; With = 4}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2888343841/sensor_array/sensor_array_mk8.rules>/Part/Components"; BaseToAdd = &<automation_components_vanilla/sensor_array.rules>}
 	//------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ]
