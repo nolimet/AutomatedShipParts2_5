@@ -1,0 +1,16 @@
+Parts
+{
+	AephixAITerminal = "AI Core"
+	AephixAITerminalIcon = &AephixAITerminal
+	AephixAITerminalDesc = "Operates the part in fron of it as though it was a crew member."
+}
+
+Stats
+{
+	AephixOperatingPower = "<white>Operating Power: </white><good>{0:0}</good> <gray>crew(s) equivalent</gray>"
+}
+
+BuildBox
+{
+	BuffAephixAITerminal = "<good>+{0:0}</good>"
+}
