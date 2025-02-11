@@ -192,6 +192,374 @@ Actions
 	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2886141879/parts/modular_missile_loader/modular_missile_loader.rules>/Part/Components"; BaseToAdd = &<automation_components_modular_missiles/modular_missile_loader.rules>}
 	
 	//------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+	// ------------------------------------------------------------
+	// More Deck Cannons for 0.22
+	// https://steamcommunity.com/sharedfiles/filedetails/?id=3052680147
+
+	// 4 crew ------------------------------------------------------------
+	// SteamLibrary\steamapps\workshop\content\799600\3052680147\3_152mm\3_152mm.rules
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/3052680147/3_152mm/3_152mm.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/3052680147/3_152mm/3_152mm.rules>/Part/Stats/CrewRequired"; With = 4}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/3052680147/3_152mm/3_152mm.rules>/Part/Components"; BaseToAdd = &<more_cannons/3_152mm.rules>}
+
+	// SteamLibrary\steamapps\workshop\content\799600\3052680147\4_130mm\4_130mm.rules
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/3052680147/4_130mm/4_130mm.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/3052680147/4_130mm/4_130mm.rules>/Part/Stats/CrewRequired"; With = 4}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/3052680147/4_130mm/4_130mm.rules>/Part/Components"; BaseToAdd = &<more_cannons/4_130mm.rules>}
+
+	// 6 crew ------------------------------------------------------------
+	// SteamLibrary\steamapps\workshop\content\799600\3052680147\2_381mm\2_381mm.rules
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/3052680147/2_381mm/2_381mm.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/3052680147/2_381mm/2_381mm.rules>/Part/Stats/CrewRequired"; With = 6}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/3052680147/2_381mm/2_381mm.rules>/Part/Components"; BaseToAdd = &<more_cannons/2_381mm.rules>}
+
+	// 8 crew ------------------------------------------------------------
+	// SteamLibrary\steamapps\workshop\content\799600\3052680147\2_420mm\2_420mm.rules
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/3052680147/2_420mm/2_420mm.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/3052680147/2_420mm/2_420mm.rules>/Part/Stats/CrewRequired"; With = 8}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/3052680147/2_420mm/2_420mm.rules>/Part/Components"; BaseToAdd = &<more_cannons/2_420mm.rules>}
+
+	// SteamLibrary\steamapps\workshop\content\799600\3052680147\2_420mm_b\2_420mm_b.rules
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/3052680147/2_420mm_b/2_420mm_b.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/3052680147/2_420mm_b/2_420mm_b.rules>/Part/Stats/CrewRequired"; With = 8}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/3052680147/2_420mm_b/2_420mm_b.rules>/Part/Components"; BaseToAdd = &<more_cannons/2_420mm_b.rules>}
+
+	// SteamLibrary\steamapps\workshop\content\799600\3052680147\2_510mm\2_510mm.rules
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/3052680147/2_510mm/2_510mm.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/3052680147/2_510mm/2_510mm.rules>/Part/Stats/CrewRequired"; With = 8}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/3052680147/2_510mm/2_510mm.rules>/Part/Components"; BaseToAdd = &<more_cannons/2_510mm.rules>}
+
+	// SteamLibrary\steamapps\workshop\content\799600\3052680147\3_460mm\3_460mm.rules
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/3052680147/3_460mm/3_460mm.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/3052680147/3_460mm/3_460mm.rules>/Part/Stats/CrewRequired"; With = 8}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/3052680147/3_460mm/3_460mm.rules>/Part/Components"; BaseToAdd = &<more_cannons/3_460mm.rules>}
+
+	// 10 crew ------------------------------------------------------------
+	// SteamLibrary\steamapps\workshop\content\799600\3052680147\4_431mm\4_431mm.rules
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/3052680147/4_431mm/4_431mm.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/3052680147/4_431mm/4_431mm.rules>/Part/Stats/CrewRequired"; With = 10}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/3052680147/4_431mm/4_431mm.rules>/Part/Components"; BaseToAdd = &<more_cannons/4_431mm.rules>}
+
+	// SteamLibrary\steamapps\workshop\content\799600\3052680147\6_406mm\6_406mm.rules
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/3052680147/6_406mm/6_406mm.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/3052680147/6_406mm/6_406mm.rules>/Part/Stats/CrewRequired"; With = 10}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/3052680147/6_406mm/6_406mm.rules>/Part/Components"; BaseToAdd = &<more_cannons/6_406mm.rules>}
+	
+	// 20 crew (wow) ------------------------------------------------------------
+	// SteamLibrary\steamapps\workshop\content\799600\3052680147\2_800mm\2_800mm.rules
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/3052680147/2_800mm/2_800mm.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/3052680147/2_800mm/2_800mm.rules>/Part/Stats/CrewRequired"; With = 20}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/3052680147/2_800mm/2_800mm.rules>/Part/Components"; BaseToAdd = &<more_cannons/2_800mm.rules>}
+
+	// SteamLibrary\steamapps\workshop\content\799600\3052680147\3_800mm\3_800mm.rules
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/3052680147/3_800mm/3_800mm.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/3052680147/3_800mm/3_800mm.rules>/Part/Stats/CrewRequired"; With = 20}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/3052680147/3_800mm/3_800mm.rules>/Part/Components"; BaseToAdd = &<more_cannons/3_800mm.rules>}
+
+	// ------------------------------------------------------------
+	
+	//starwars FACTIONS
+	// https://steamcommunity.com/sharedfiles/filedetails/?id=3121346591
+
+	// SteamLibrary\steamapps\workshop\content\799600\3121346591\parts\Weapons\droid_turret\droid_turret.rules
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/3121346591/parts/Weapons/droid_turret/droid_turret.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/3121346591/parts/Weapons/droid_turret/droid_turret.rules>/Part/Stats/CrewRequired"; With = 1}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/3121346591/parts/Weapons/droid_turret/droid_turret.rules>/Part/Components"; BaseToAdd = &<starwars/droid_turret.rules>}
+	
+	//starwars ACD 
+	// https://steamcommunity.com/sharedfiles/filedetails/?id=3119349707
+
+	// SteamLibrary\steamapps\workshop\content\799600\3119349707\ships\terran\weapons\missile_launchers\missile_launcher_medium\missile_launcher.rules
+	// Missile launcher (2 crew)
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/3119349707/ships/terran/weapons/missile_launchers/missile_launcher_medium/missile_launcher.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/3119349707/ships/terran/weapons/missile_launchers/missile_launcher_medium/missile_launcher.rules>/Part/Stats/CrewRequired"; With = 2}	
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/3119349707/ships/terran/weapons/missile_launchers/missile_launcher_medium/missile_launcher.rules>/Part/Components"; BaseToAdd = &<starwars/missile_launcher.rules>}
+
+	// Star Wars Bridge (13 Crew)
+	// SteamLibrary\steamapps\workshop\content\799600\3119349707\ships\terran\control_rooms\bridges\Republic_Empire\bridge.rules
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/3119349707/ships/terran/control_rooms/bridges/Republic_Empire/bridge.rules>/Part/Components/PartCrewCaptian"}
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/3119349707/ships/terran/control_rooms/bridges/Republic_Empire/bridge.rules>/Part/Components/PartCrewNavigatorsL"}
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/3119349707/ships/terran/control_rooms/bridges/Republic_Empire/bridge.rules>/Part/Components/PartCrewNavigatorsR"}
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/3119349707/ships/terran/control_rooms/bridges/Republic_Empire/bridge.rules>/Part/Components/PartCrewOfficers"}
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/3119349707/ships/terran/control_rooms/bridges/Republic_Empire/bridge.rules>/Part/Components/IsOperational"}
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/3119349707/ships/terran/control_rooms/bridges/Republic_Empire/bridge.rules>/Part/Components/Indicators"}
+	// Replace the total CrewRequired value
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/3119349707/ships/terran/control_rooms/bridges/Republic_Empire/bridge.rules>/Part/Stats/CrewRequired"; With = 12}
+	// Add the new modded PartCrew system
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/3119349707/ships/terran/control_rooms/bridges/Republic_Empire/bridge.rules>/Part/Components"; BaseToAdd = &<starwars/bridge.rules>}
+
+	// Star Wars War Room (8 Crew)
+	// SteamLibrary\steamapps\workshop\content\799600\3119349707\ships\terran\control_rooms\warroom\WarRoom.rules
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/3119349707/ships/terran/control_rooms/warroom/WarRoom.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/3119349707/ships/terran/control_rooms/warroom/WarRoom.rules>/Part/Stats/CrewRequired"; With = 8}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/3119349707/ships/terran/control_rooms/warroom/WarRoom.rules>/Part/Components"; BaseToAdd = &<starwars/WarRoom.rules>}
+
+	// 1 crew 
+
+	// SteamLibrary\steamapps\workshop\content\799600\3119349707\ships\terran\weapons\cannons\FixedHeavyLaserCannon\fixedheavylaser.rules
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/3119349707/ships/terran/weapons/cannons/FixedHeavyLaserCannon/fixedheavylaser.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/3119349707/ships/terran/weapons/cannons/FixedHeavyLaserCannon/fixedheavylaser.rules>/Part/Stats/CrewRequired"; With = 1}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/3119349707/ships/terran/weapons/cannons/FixedHeavyLaserCannon/fixedheavylaser.rules>/Part/Components"; BaseToAdd = &<starwars/fixedheavylaser.rules>}
+
+	// SteamLibrary\steamapps\workshop\content\799600\3119349707\ships\terran\weapons\missile_launchers\missile_launcher_small\missile_launcher_small_tl_backup.rules
+	// {IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/3119349707/ships/terran/weapons/missile_launchers/missile_launcher_small/missile_launcher_small_tl_backup.rules>/Part/Components/PartCrew"}
+	// {IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/3119349707/ships/terran/weapons/missile_launchers/missile_launcher_small/missile_launcher_small_tl_backup.rules>/Part/Stats/CrewRequired"; With = 1}
+	// {IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/3119349707/ships/terran/weapons/missile_launchers/missile_launcher_small/missile_launcher_small_tl_backup.rules>/Part/Components"; BaseToAdd = &<starwars/missile_launcher_small_tl_backup.rules>}
+
+	// SteamLibrary\steamapps\workshop\content\799600\3119349707\ships\terran\weapons\missile_launchers\missile_launcher_small\missile_launcher_small.rules
+	// {IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/3119349707/ships/terran/weapons/missile_launchers/missile_launcher_small/missile_launcher_small.rules>/Part/Components/PartCrew"}
+	// {IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/3119349707/ships/terran/weapons/missile_launchers/missile_launcher_small/missile_launcher_small.rules>/Part/Stats/CrewRequired"; With = 1}
+	// {IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/3119349707/ships/terran/weapons/missile_launchers/missile_launcher_small/missile_launcher_small.rules>/Part/Components"; BaseToAdd = &<starwars/missile_launcher_small.rules>}
+
+	// SteamLibrary\steamapps\workshop\content\799600\3119349707\ships\terran\weapons\small\Tiny_TL_Burst\swturret_A.rules
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/3119349707/ships/terran/weapons/small/Tiny_TL_Burst/swturret_A.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/3119349707/ships/terran/weapons/small/Tiny_TL_Burst/swturret_A.rules>/Part/Stats/CrewRequired"; With = 1}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/3119349707/ships/terran/weapons/small/Tiny_TL_Burst/swturret_A.rules>/Part/Components"; BaseToAdd = &<starwars/swturret_A.rules>}
+
+	// SteamLibrary\steamapps\workshop\content\799600\3119349707\ships\terran\weapons\small\Tiny_TL_Heavy\swturret_B.rules
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/3119349707/ships/terran/weapons/small/Tiny_TL_Heavy/swturret_B.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/3119349707/ships/terran/weapons/small/Tiny_TL_Heavy/swturret_B.rules>/Part/Stats/CrewRequired"; With = 1}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/3119349707/ships/terran/weapons/small/Tiny_TL_Heavy/swturret_B.rules>/Part/Components"; BaseToAdd = &<starwars/swturret_B.rules>}
+
+	// SteamLibrary\steamapps\workshop\content\799600\3119349707\ships\terran\weapons\small\Tiny_TL_Rapid\swturret_C.rules
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/3119349707/ships/terran/weapons/small/Tiny_TL_Rapid/swturret_C.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/3119349707/ships/terran/weapons/small/Tiny_TL_Rapid/swturret_C.rules>/Part/Stats/CrewRequired"; With = 1}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/3119349707/ships/terran/weapons/small/Tiny_TL_Rapid/swturret_C.rules>/Part/Components"; BaseToAdd = &<starwars/swturret_C.rules>}
+
+
+	// 2 crew 
+
+	// SteamLibrary\steamapps\workshop\content\799600\3119349707\ships\terran\weapons\ions\IonCannon_Heavy\heavy_ion_cannon_switchable.rules
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/3119349707/ships/terran/weapons/ions/IonCannon_Heavy/heavy_ion_cannon_switchable.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/3119349707/ships/terran/weapons/ions/IonCannon_Heavy/heavy_ion_cannon_switchable.rules>/Part/Stats/CrewRequired"; With = 2}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/3119349707/ships/terran/weapons/ions/IonCannon_Heavy/heavy_ion_cannon_switchable.rules>/Part/Components"; BaseToAdd = &<starwars/heavy_ion_cannon_switchable.rules>}
+
+	// SteamLibrary\steamapps\workshop\content\799600\3119349707\ships\terran\weapons\ions\IonCannon_Medium\medium_ion_cannon.rules
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/3119349707/ships/terran/weapons/ions/IonCannon_Medium/medium_ion_cannon.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/3119349707/ships/terran/weapons/ions/IonCannon_Medium/medium_ion_cannon.rules>/Part/Stats/CrewRequired"; With = 2}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/3119349707/ships/terran/weapons/ions/IonCannon_Medium/medium_ion_cannon.rules>/Part/Components"; BaseToAdd = &<starwars/medium_ion_cannon.rules>}
+
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/3119349707/ships/terran/weapons/turbolasers/Turbolasers_Medium_Quad/medium_turbolaser_quad_switchable.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/3119349707/ships/terran/weapons/turbolasers/Turbolasers_Medium_Quad/medium_turbolaser_quad_switchable.rules>/Part/Stats/CrewRequired"; With = 2}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/3119349707/ships/terran/weapons/turbolasers/Turbolasers_Medium_Quad/medium_turbolaser_quad_switchable.rules>/Part/Components"; BaseToAdd = &<starwars/medium_turbolaser_quad_switchable.rules>}
+
+	// cis_turbolaser_switchable.rules \799600\3119349707\ships\terran\weapons\turbolasers\Turbolasers_Big\cis_turbolaser_switchable.rules
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/3119349707/ships/terran/weapons/turbolasers/Turbolasers_Big/cis_turbolaser_switchable.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/3119349707/ships/terran/weapons/turbolasers/Turbolasers_Big/cis_turbolaser_switchable.rules>/Part/Stats/CrewRequired"; With = 2}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/3119349707/ships/terran/weapons/turbolasers/Turbolasers_Big/cis_turbolaser_switchable.rules>/Part/Components"; BaseToAdd = &<starwars/cis_turbolaser_switchable.rules>}		
+
+	// falcon_laser_cannon.rules \799600\3119349707\ships\terran\weapons\special\FalconLaser\falcon_laser_cannon.rules
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/3119349707/ships/terran/weapons/special/FalconLaser/falcon_laser_cannon.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/3119349707/ships/terran/weapons/special/FalconLaser/falcon_laser_cannon.rules>/Part/Stats/CrewRequired"; With = 2}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/3119349707/ships/terran/weapons/special/FalconLaser/falcon_laser_cannon.rules>/Part/Components"; BaseToAdd = &<starwars/falcon_laser_cannon.rules>}
+
+	// heavy_turbolaser_switchable.rules
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/3119349707/ships/terran/weapons/turbolasers/Turbolasers_Big/heavy_turbolaser_switchable.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/3119349707/ships/terran/weapons/turbolasers/Turbolasers_Big/heavy_turbolaser_switchable.rules>/Part/Stats/CrewRequired"; With = 2}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/3119349707/ships/terran/weapons/turbolasers/Turbolasers_Big/heavy_turbolaser_switchable.rules>/Part/Components"; BaseToAdd = &<starwars/heavy_turbolaser_switchable.rules>}
+
+	// imperial_turbolaser_switchable.rules
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/3119349707/ships/terran/weapons/turbolasers/Turbolasers_Big/imperial_turbolaser_switchable.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/3119349707/ships/terran/weapons/turbolasers/Turbolasers_Big/imperial_turbolaser_switchable.rules>/Part/Stats/CrewRequired"; With = 2}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/3119349707/ships/terran/weapons/turbolasers/Turbolasers_Big/imperial_turbolaser_switchable.rules>/Part/Components"; BaseToAdd = &<starwars/imperial_turbolaser_switchable.rules>}
+
+	// light_turbolaser_switchable.rules
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/3119349707/ships/terran/weapons/turbolasers/Turbolasers_Light/light_turbolaser_switchable.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/3119349707/ships/terran/weapons/turbolasers/Turbolasers_Light/light_turbolaser_switchable.rules>/Part/Stats/CrewRequired"; With = 2}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/3119349707/ships/terran/weapons/turbolasers/Turbolasers_Light/light_turbolaser_switchable.rules>/Part/Components"; BaseToAdd = &<starwars/light_turbolaser_switchable.rules>}
+
+	// medium_triple_turbolaser.rules
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/3119349707/ships/terran/weapons/turbolasers/Turbolasers_Triple/medium_triple_turbolaser.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/3119349707/ships/terran/weapons/turbolasers/Turbolasers_Triple/medium_triple_turbolaser.rules>/Part/Stats/CrewRequired"; With = 2}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/3119349707/ships/terran/weapons/turbolasers/Turbolasers_Triple/medium_triple_turbolaser.rules>/Part/Components"; BaseToAdd = &<starwars/medium_triple_turbolaser.rules>}
+
+	// med_turbolaser_switchable.rules
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/3119349707/ships/terran/weapons/turbolasers/Turbolasers_Med/med_turbolaser_switchable.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/3119349707/ships/terran/weapons/turbolasers/Turbolasers_Med/med_turbolaser_switchable.rules>/Part/Stats/CrewRequired"; With = 2}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/3119349707/ships/terran/weapons/turbolasers/Turbolasers_Med/med_turbolaser_switchable.rules>/Part/Components"; BaseToAdd = &<starwars/med_turbolaser_switchable.rules>}
+
+	// republic_turbolaser_switchable.rules
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/3119349707/ships/terran/weapons/turbolasers/Turbolasers_Big/republic_turbolaser_switchable.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/3119349707/ships/terran/weapons/turbolasers/Turbolasers_Big/republic_turbolaser_switchable.rules>/Part/Stats/CrewRequired"; With = 2}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/3119349707/ships/terran/weapons/turbolasers/Turbolasers_Big/republic_turbolaser_switchable.rules>/Part/Components"; BaseToAdd = &<starwars/republic_turbolaser_switchable.rules>}
+
+	// small_triple_turbolaser.rules
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/3119349707/ships/terran/weapons/turbolasers/Turbolasers_Triple/small_triple_turbolaser.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/3119349707/ships/terran/weapons/turbolasers/Turbolasers_Triple/small_triple_turbolaser.rules>/Part/Stats/CrewRequired"; With = 2}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/3119349707/ships/terran/weapons/turbolasers/Turbolasers_Triple/small_triple_turbolaser.rules>/Part/Components"; BaseToAdd = &<starwars/small_triple_turbolaser.rules>}
+
+	// turbolaser_ball_small01.rules
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/3119349707/ships/terran/weapons/turbolasers/Turbolasers_Ball_Small/turbolaser_ball_small01.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/3119349707/ships/terran/weapons/turbolasers/Turbolasers_Ball_Small/turbolaser_ball_small01.rules>/Part/Stats/CrewRequired"; With = 2}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/3119349707/ships/terran/weapons/turbolasers/Turbolasers_Ball_Small/turbolaser_ball_small01.rules>/Part/Components"; BaseToAdd = &<starwars/turbolaser_ball_small01.rules>}
+
+	// turbolaser_ball_small02.rules
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/3119349707/ships/terran/weapons/turbolasers/Turbolasers_Ball_Small/turbolaser_ball_small02.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/3119349707/ships/terran/weapons/turbolasers/Turbolasers_Ball_Small/turbolaser_ball_small02.rules>/Part/Stats/CrewRequired"; With = 2}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/3119349707/ships/terran/weapons/turbolasers/Turbolasers_Ball_Small/turbolaser_ball_small02.rules>/Part/Components"; BaseToAdd = &<starwars/turbolaser_ball_small02.rules>}
+
+	// turbolaser_ball_small03.rules
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/3119349707/ships/terran/weapons/turbolasers/Turbolasers_Ball_Small/turbolaser_ball_small03.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/3119349707/ships/terran/weapons/turbolasers/Turbolasers_Ball_Small/turbolaser_ball_small03.rules>/Part/Stats/CrewRequired"; With = 2}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/3119349707/ships/terran/weapons/turbolasers/Turbolasers_Ball_Small/turbolaser_ball_small03.rules>/Part/Components"; BaseToAdd = &<starwars/turbolaser_ball_small03.rules>}
+
+	// turbolaser_carronade.rules
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/3119349707/ships/terran/weapons/turbolasers/Turbolasers_Carronade/turbolaser_carronade.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/3119349707/ships/terran/weapons/turbolasers/Turbolasers_Carronade/turbolaser_carronade.rules>/Part/Stats/CrewRequired"; With = 2}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/3119349707/ships/terran/weapons/turbolasers/Turbolasers_Carronade/turbolaser_carronade.rules>/Part/Components"; BaseToAdd = &<starwars/turbolaser_carronade.rules>}
+
+	// turbolaser_flak_cannon01.rules
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/3119349707/ships/terran/weapons/turbolasers/Turbolasers_Flak_Cannon/turbolaser_flak_cannon01.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/3119349707/ships/terran/weapons/turbolasers/Turbolasers_Flak_Cannon/turbolaser_flak_cannon01.rules>/Part/Stats/CrewRequired"; With = 2}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/3119349707/ships/terran/weapons/turbolasers/Turbolasers_Flak_Cannon/turbolaser_flak_cannon01.rules>/Part/Components"; BaseToAdd = &<starwars/turbolaser_flak_cannon01.rules>}
+
+	// turbolaser_light_pd4.rules
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/3119349707/ships/terran/weapons/turbolasers/Turbolasers_Light/turbolaser_light_pd4.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/3119349707/ships/terran/weapons/turbolasers/Turbolasers_Light/turbolaser_light_pd4.rules>/Part/Stats/CrewRequired"; With = 2}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/3119349707/ships/terran/weapons/turbolasers/Turbolasers_Light/turbolaser_light_pd4.rules>/Part/Components"; BaseToAdd = &<starwars/turbolaser_light_pd4.rules>}
+
+	// turbolaser_med_LR01.rules
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/3119349707/ships/terran/weapons/turbolasers/Turbolasers_Med_LR01/turbolaser_med_LR01.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/3119349707/ships/terran/weapons/turbolasers/Turbolasers_Med_LR01/turbolaser_med_LR01.rules>/Part/Stats/CrewRequired"; With = 2}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/3119349707/ships/terran/weapons/turbolasers/Turbolasers_Med_LR01/turbolaser_med_LR01.rules>/Part/Components"; BaseToAdd = &<starwars/turbolaser_med_LR01.rules>}
+
+	// turbolaser_spinal_turret_2x3.rules
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/3119349707/ships/terran/weapons/turbolasers/Turbolasers_Spinal_Turret/turbolaser_spinal_turret_2x3.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/3119349707/ships/terran/weapons/turbolasers/Turbolasers_Spinal_Turret/turbolaser_spinal_turret_2x3.rules>/Part/Stats/CrewRequired"; With = 2}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/3119349707/ships/terran/weapons/turbolasers/Turbolasers_Spinal_Turret/turbolaser_spinal_turret_2x3.rules>/Part/Components"; BaseToAdd = &<starwars/turbolaser_spinal_turret_2x3.rules>}
+
+	// turbolaser_tower_triple01.rules
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/3119349707/ships/terran/weapons/turbolasers/Turbolasers_Tower/turbolaser_tower_triple01.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/3119349707/ships/terran/weapons/turbolasers/Turbolasers_Tower/turbolaser_tower_triple01.rules>/Part/Stats/CrewRequired"; With = 2}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/3119349707/ships/terran/weapons/turbolasers/Turbolasers_Tower/turbolaser_tower_triple01.rules>/Part/Components"; BaseToAdd = &<starwars/turbolaser_tower_triple01.rules>}
+
+	// xx9_turbolaser_switchable.rules
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/3119349707/ships/terran/weapons/turbolasers/Turbolasers_Big/xx9_turbolaser_switchable.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/3119349707/ships/terran/weapons/turbolasers/Turbolasers_Big/xx9_turbolaser_switchable.rules>/Part/Stats/CrewRequired"; With = 2}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/3119349707/ships/terran/weapons/turbolasers/Turbolasers_Big/xx9_turbolaser_switchable.rules>/Part/Components"; BaseToAdd = &<starwars/xx9_turbolaser_switchable.rules>}
+
+	// 3 crew 
+
+	// \799600\3119349707\ships\terran\weapons\turbolasers\Turbolasers_Ball_Medium\turbolaser_ball_med_roof_base.rules
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/3119349707/ships/terran/weapons/turbolasers/Turbolasers_Ball_Medium/turbolaser_ball_med_roof_base.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/3119349707/ships/terran/weapons/turbolasers/Turbolasers_Ball_Medium/turbolaser_ball_med_roof_base.rules>/Part/Stats/CrewRequired"; With = 3}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/3119349707/ships/terran/weapons/turbolasers/Turbolasers_Ball_Medium/turbolaser_ball_med_roof_base.rules>/Part/Components"; BaseToAdd = &<starwars/turbolaser_ball_med_roof_base.rules>}
+
+	// \799600\3119349707\ships\terran\weapons\turbolasers\Turbolasers_Ball_Medium\turbolaser_ball_med_side_base.rules
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/3119349707/ships/terran/weapons/turbolasers/Turbolasers_Ball_Medium/turbolaser_ball_med_side_base.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/3119349707/ships/terran/weapons/turbolasers/Turbolasers_Ball_Medium/turbolaser_ball_med_side_base.rules>/Part/Stats/CrewRequired"; With = 3}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/3119349707/ships/terran/weapons/turbolasers/Turbolasers_Ball_Medium/turbolaser_ball_med_side_base.rules>/Part/Components"; BaseToAdd = &<starwars/turbolaser_ball_med_side_base.rules>}
+
+	// SteamLibrary\steamapps\workshop\content\799600\3119349707\ships\terran\utilities\mining_laser_huge\mining_laser_huge.rules
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/3119349707/ships/terran/utilities/mining_laser_huge/mining_laser_huge.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/3119349707/ships/terran/utilities/mining_laser_huge/mining_laser_huge.rules>/Part/Stats/CrewRequired"; With = 3}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/3119349707/ships/terran/utilities/mining_laser_huge/mining_laser_huge.rules>/Part/Components"; BaseToAdd = &<starwars/mining_laser_huge.rules>}
+
+	// 4 Crew
+
+	// SteamLibrary\steamapps\workshop\content\799600\3119349707\ships\terran\weapons\super\axial_superlaser\axial_superlaser.rules
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/3119349707/ships/terran/weapons/super/axial_superlaser/axial_superlaser.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/3119349707/ships/terran/weapons/super/axial_superlaser/axial_superlaser.rules>/Part/Stats/CrewRequired"; With = 4}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/3119349707/ships/terran/weapons/super/axial_superlaser/axial_superlaser.rules>/Part/Components"; BaseToAdd = &<starwars/axial_superlaser.rules>}
+
+	//H:\SteamLibrary\steamapps\workshop\content\799600\3119349707\ships\terran\weapons\super\deathstar_superlaser\deathstar_superlaser_sect2L.rules
+	// {IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/3119349707/ships/terran/weapons/super/deathstar_superlaser/deathstar_superlaser_sect2L.rules>/Part/Components/PartCrew"}
+	// {IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/3119349707/ships/terran/weapons/super/deathstar_superlaser/deathstar_superlaser_sect2L.rules>/Part/Stats/CrewRequired"; With = 4}
+	// {IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/3119349707/ships/terran/weapons/super/deathstar_superlaser/deathstar_superlaser_sect2L.rules>/Part/Components"; BaseToAdd = &<starwars/deathstar_superlaser_sect2L.rules>}
+
+	//H:\SteamLibrary\steamapps\workshop\content\799600\3119349707\ships\terran\weapons\super\deathstar_superlaser\deathstar_superlaser_sect2R.rules
+	// {IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/3119349707/ships/terran/weapons/super/deathstar_superlaser/deathstar_superlaser_sect2R.rules>/Part/Components/PartCrew"}
+	// {IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/3119349707/ships/terran/weapons/super/deathstar_superlaser/deathstar_superlaser_sect2R.rules>/Part/Stats/CrewRequired"; With = 4}
+	// {IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/3119349707/ships/terran/weapons/super/deathstar_superlaser/deathstar_superlaser_sect2R.rules>/Part/Components"; BaseToAdd = &<starwars/deathstar_superlaser_sect2R.rules>}
+
+	// SteamLibrary\steamapps\workshop\content\799600\3119349707\ships\terran\weapons\super\deathstar_superlaser\deathstar_superlaser.rules
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/3119349707/ships/terran/weapons/super/deathstar_superlaser/deathstar_superlaser.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/3119349707/ships/terran/weapons/super/deathstar_superlaser/deathstar_superlaser.rules>/Part/Stats/CrewRequired"; With = 4}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/3119349707/ships/terran/weapons/super/deathstar_superlaser/deathstar_superlaser.rules>/Part/Components"; BaseToAdd = &<starwars/deathstar_superlaser.rules>}
+
+	// SteamLibrary\steamapps\workshop\content\799600\3119349707\ships\terran\weapons\super\deathstar_superlaser2\DSLaser_core.rules
+	// {IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/3119349707/ships/terran/weapons/super/deathstar_superlaser2/DSLaser_core.rules>/Part/Components/PartCrew"}
+	// {IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/3119349707/ships/terran/weapons/super/deathstar_superlaser2/DSLaser_core.rules>/Part/Stats/CrewRequired"; With = 4}
+	// {IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/3119349707/ships/terran/weapons/super/deathstar_superlaser2/DSLaser_core.rules>/Part/Components"; BaseToAdd = &<starwars/DSLaser_core.rules>}	
+
+	// SteamLibrary\steamapps\workshop\content\799600\3119349707\ships\terran\weapons\super\Heavy_Artillery_Turbolaser_SPHA_T\heavy_artillery_turbolaser_SPHA_T.rules
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/3119349707/ships/terran/weapons/super/Heavy_Artillery_Turbolaser_SPHA_T/heavy_artillery_turbolaser_SPHA_T.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/3119349707/ships/terran/weapons/super/Heavy_Artillery_Turbolaser_SPHA_T/heavy_artillery_turbolaser_SPHA_T.rules>/Part/Stats/CrewRequired"; With = 4}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/3119349707/ships/terran/weapons/super/Heavy_Artillery_Turbolaser_SPHA_T/heavy_artillery_turbolaser_SPHA_T.rules>/Part/Components"; BaseToAdd = &<starwars/heavy_artillery_turbolaser_SPHA_T.rules>}
+
+	// SteamLibrary\steamapps\workshop\content\799600\3119349707\ships\terran\weapons\super\orbital_autocannon\orbital_autocannon.rules
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/3119349707/ships/terran/weapons/super/orbital_autocannon/orbital_autocannon.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/3119349707/ships/terran/weapons/super/orbital_autocannon/orbital_autocannon.rules>/Part/Stats/CrewRequired"; With = 4}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/3119349707/ships/terran/weapons/super/orbital_autocannon/orbital_autocannon.rules>/Part/Components"; BaseToAdd = &<starwars/orbital_autocannon.rules>}
+
+	// SteamLibrary\steamapps\workshop\content\799600\3119349707\ships\terran\weapons\super\orbital_bombardment_particle_cannon\orbital_bombardment_particle_cannon.rules
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/3119349707/ships/terran/weapons/super/orbital_bombardment_particle_cannon/orbital_bombardment_particle_cannon.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/3119349707/ships/terran/weapons/super/orbital_bombardment_particle_cannon/orbital_bombardment_particle_cannon.rules>/Part/Stats/CrewRequired"; With = 4}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/3119349707/ships/terran/weapons/super/orbital_bombardment_particle_cannon/orbital_bombardment_particle_cannon.rules>/Part/Components"; BaseToAdd = &<starwars/orbital_bombardment_particle_cannon.rules>}
+
+	// SteamLibrary\steamapps\workshop\content\799600\3119349707\ships\terran\weapons\super\superheavy_composite_beam_turbolaser\superheavy_composite_beam_turbolaser.rules
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/3119349707/ships/terran/weapons/super/superheavy_composite_beam_turbolaser/superheavy_composite_beam_turbolaser.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/3119349707/ships/terran/weapons/super/superheavy_composite_beam_turbolaser/superheavy_composite_beam_turbolaser.rules>/Part/Stats/CrewRequired"; With = 4}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/3119349707/ships/terran/weapons/super/superheavy_composite_beam_turbolaser/superheavy_composite_beam_turbolaser.rules>/Part/Components"; BaseToAdd = &<starwars/superheavy_composite_beam_turbolaser.rules>}
+
+	// SteamLibrary\steamapps\workshop\content\799600\3119349707\ships\terran\weapons\turbolasers\Turbolasers_Ball_Large\turbolaser_ball_large_roof_base.rules
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/3119349707/ships/terran/weapons/turbolasers/Turbolasers_Ball_Large/turbolaser_ball_large_roof_base.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/3119349707/ships/terran/weapons/turbolasers/Turbolasers_Ball_Large/turbolaser_ball_large_roof_base.rules>/Part/Stats/CrewRequired"; With = 4}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/3119349707/ships/terran/weapons/turbolasers/Turbolasers_Ball_Large/turbolaser_ball_large_roof_base.rules>/Part/Components"; BaseToAdd = &<starwars/turbolaser_ball_large_roof_base.rules>}
+
+	// SteamLibrary\steamapps\workshop\content\799600\3119349707\ships\terran\weapons\turbolasers\Turbolasers_Ball_Large\turbolaser_ball_large_side_base.rules
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/3119349707/ships/terran/weapons/turbolasers/Turbolasers_Ball_Large/turbolaser_ball_large_side_base.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/3119349707/ships/terran/weapons/turbolasers/Turbolasers_Ball_Large/turbolaser_ball_large_side_base.rules>/Part/Stats/CrewRequired"; With = 4}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/3119349707/ships/terran/weapons/turbolasers/Turbolasers_Ball_Large/turbolaser_ball_large_side_base.rules>/Part/Components"; BaseToAdd = &<starwars/turbolaser_ball_large_side_base.rules>}
+
+	// SteamLibrary\steamapps\workshop\content\799600\3119349707\ships\terran\weapons\turbolasers\Turbolasers_Large\turbolaser_large_base.rules
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/3119349707/ships/terran/weapons/turbolasers/Turbolasers_Large/turbolaser_large_base.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/3119349707/ships/terran/weapons/turbolasers/Turbolasers_Large/turbolaser_large_base.rules>/Part/Stats/CrewRequired"; With = 4}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/3119349707/ships/terran/weapons/turbolasers/Turbolasers_Large/turbolaser_large_base.rules>/Part/Components"; BaseToAdd = &<starwars/turbolaser_large_base.rules>}
+
+	// SteamLibrary\steamapps\workshop\content\799600\3119349707\ships\terran\weapons\turbolasers\Turbolasers_Medium\turbolaser_medium_base.rules
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/3119349707/ships/terran/weapons/turbolasers/Turbolasers_Medium/turbolaser_medium_base.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/3119349707/ships/terran/weapons/turbolasers/Turbolasers_Medium/turbolaser_medium_base.rules>/Part/Stats/CrewRequired"; With = 4}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/3119349707/ships/terran/weapons/turbolasers/Turbolasers_Medium/turbolaser_medium_base.rules>/Part/Components"; BaseToAdd = &<starwars/turbolaser_medium_base.rules>}
+
+	// 6 Crew
+
+	// SteamLibrary\steamapps\workshop\content\799600\3119349707\ships\terran\weapons\turbolasers\Turbolasers_Ball_Huge\turbolaser_ball_huge_roof_base.rules
+	// {IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/3119349707/ships/terran/weapons/turbolasers/Turbolasers_Ball_Huge/turbolaser_ball_huge_roof_base.rules>/Part/Components/PartCrew"}
+	// {IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/3119349707/ships/terran/weapons/turbolasers/Turbolasers_Ball_Huge/turbolaser_ball_huge_roof_base.rules>/Part/Stats/CrewRequired"; With = 6}
+	// {IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/3119349707/ships/terran/weapons/turbolasers/Turbolasers_Ball_Huge/turbolaser_ball_huge_roof_base.rules>/Part/Components"; BaseToAdd = &<starwars/turbolaser_ball_huge_roof_base.rules>}
+
+	// SteamLibrary\steamapps\workshop\content\799600\3119349707\ships\terran\weapons\turbolasers\Turbolasers_Ball_Huge\turbolaser_ball_huge_side_base.rules
+	// {IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/3119349707/ships/terran/weapons/turbolasers/Turbolasers_Ball_Huge/turbolaser_ball_huge_side_base.rules>/Part/Components/PartCrew"}
+	// {IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/3119349707/ships/terran/weapons/turbolasers/Turbolasers_Ball_Huge/turbolaser_ball_huge_side_base.rules>/Part/Stats/CrewRequired"; With = 6}
+	// {IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/3119349707/ships/terran/weapons/turbolasers/Turbolasers_Ball_Huge/turbolaser_ball_huge_side_base.rules>/Part/Components"; BaseToAdd = &<starwars/turbolaser_ball_huge_side_base.rules>}
+
+	// SteamLibrary\steamapps\workshop\content\799600\3119349707\ships\terran\weapons\turbolasers\Turbolasers_Medium_Quad\medium_turbolaser_quad03.rules
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/3119349707/ships/terran/weapons/turbolasers/Turbolasers_Medium_Quad/medium_turbolaser_quad03.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/3119349707/ships/terran/weapons/turbolasers/Turbolasers_Medium_Quad/medium_turbolaser_quad03.rules>/Part/Stats/CrewRequired"; With = 6}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/3119349707/ships/terran/weapons/turbolasers/Turbolasers_Medium_Quad/medium_turbolaser_quad03.rules>/Part/Components"; BaseToAdd = &<starwars/medium_turbolaser_quad03.rules>}
+
+	// SteamLibrary\steamapps\workshop\content\799600\3119349707\ships\terran\weapons\turbolasers\Turbolasers_Octuple_Barbette\octuple_barbette_turbolaser.rules
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/3119349707/ships/terran/weapons/turbolasers/Turbolasers_Octuple_Barbette/octuple_barbette_turbolaser.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/3119349707/ships/terran/weapons/turbolasers/Turbolasers_Octuple_Barbette/octuple_barbette_turbolaser.rules>/Part/Stats/CrewRequired"; With = 6}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/3119349707/ships/terran/weapons/turbolasers/Turbolasers_Octuple_Barbette/octuple_barbette_turbolaser.rules>/Part/Components"; BaseToAdd = &<starwars/octuple_barbette_turbolaser.rules>}
+
+	// SteamLibrary\steamapps\workshop\content\799600\3119349707\ships\terran\weapons\turbolasers\Turbolasers_Octuple_Barbette\quad_barbette_turbolaser.rules
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/3119349707/ships/terran/weapons/turbolasers/Turbolasers_Octuple_Barbette/quad_barbette_turbolaser.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/3119349707/ships/terran/weapons/turbolasers/Turbolasers_Octuple_Barbette/quad_barbette_turbolaser.rules>/Part/Stats/CrewRequired"; With = 6}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/3119349707/ships/terran/weapons/turbolasers/Turbolasers_Octuple_Barbette/quad_barbette_turbolaser.rules>/Part/Components"; BaseToAdd = &<starwars/quad_barbette_turbolaser.rules>}
+	
+	// SteamLibrary\steamapps\workshop\content\799600\3019500035\engineering_bay\engineering_bay.rules
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/3019500035/engineering_bay/engineering_bay.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/3019500035/engineering_bay/engineering_bay.rules>/Part/Stats/CrewRequired"; With = 4}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/3019500035/engineering_bay/engineering_bay.rules>/Part/Components"; BaseToAdd = &<starwars/engineering_bay_ai.rules>}
+
+	// SteamLibrary\steamapps\workshop\content\799600\3023201707\large_impulse_drive\large_impulse_drive.rules
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/3023201707/large_impulse_drive/large_impulse_drive.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/3023201707/large_impulse_drive/large_impulse_drive.rules>/Part/Stats/CrewRequired"; With = 4}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/3023201707/large_impulse_drive/large_impulse_drive.rules>/Part/Components"; BaseToAdd = &<starwars/large_impulse_drive_ai.rules>}
+
 	//------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 	// Tiered parts https://steamcommunity.com/sharedfiles/filedetails/?id=2888343841
 
