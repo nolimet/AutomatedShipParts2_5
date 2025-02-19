@@ -560,6 +560,48 @@ Actions
 	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/3023201707/large_impulse_drive/large_impulse_drive.rules>/Part/Stats/CrewRequired"; With = 4}
 	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/3023201707/large_impulse_drive/large_impulse_drive.rules>/Part/Components"; BaseToAdd = &<starwars/large_impulse_drive_ai.rules>}
 
+	// 8 Crew 
+
+	// H:\SteamLibrary\steamapps\workshop\content\799600\3119349707\ships\terran\weapons\turbolasers\Turbolasers_Siege_12x12\siege_turbolaser12x12.rules
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/3119349707/ships/terran/weapons/turbolasers/Turbolasers_Siege_12x12/siege_turbolaser12x12.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/3119349707/ships/terran/weapons/turbolasers/Turbolasers_Siege_12x12/siege_turbolaser12x12.rules>/Part/Stats/CrewRequired"; With = 8}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/3119349707/ships/terran/weapons/turbolasers/Turbolasers_Siege_12x12/siege_turbolaser12x12.rules>/Part/Components"; BaseToAdd = &<starwars/siege_turbolaser12x12.rules>}
+
+	// H:\SteamLibrary\steamapps\workshop\content\799600\3119349707\ships\terran\weapons\turbolasers\Turbolasers_Mortar_Siege_14x14\turbolaser_mortar_siege01.rules
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/3119349707/ships/terran/weapons/turbolasers/Turbolasers_Mortar_Siege_14x14/turbolaser_mortar_siege01.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/3119349707/ships/terran/weapons/turbolasers/Turbolasers_Mortar_Siege_14x14/turbolaser_mortar_siege01.rules>/Part/Stats/CrewRequired"; With = 8}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/3119349707/ships/terran/weapons/turbolasers/Turbolasers_Mortar_Siege_14x14/turbolaser_mortar_siege01.rules>/Part/Components"; BaseToAdd = &<starwars/turbolaser_mortar_siege01.rules>}
+
+	// H:\SteamLibrary\steamapps\workshop\content\799600\3119349707\ships\terran\weapons\turbolasers\Turbolasers_Huge\turbolaser_huge_base.rules
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/3119349707/ships/terran/weapons/turbolasers/Turbolasers_Huge/turbolaser_huge_base.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/3119349707/ships/terran/weapons/turbolasers/Turbolasers_Huge/turbolaser_huge_base.rules>/Part/Stats/CrewRequired"; With = 8}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/3119349707/ships/terran/weapons/turbolasers/Turbolasers_Huge/turbolaser_huge_base.rules>/Part/Components"; BaseToAdd = &<starwars/turbolaser_huge_base.rules>}
+
+	// H:\SteamLibrary\steamapps\workshop\content\799600\3119349707\ships\terran\weapons\turbolasers\Turbolasers_Huge\huge_turbolaserx3_switchable.rules
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/3119349707/ships/terran/weapons/turbolasers/Turbolasers_Huge/huge_turbolaserx3_switchable.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/3119349707/ships/terran/weapons/turbolasers/Turbolasers_Huge/huge_turbolaserx3_switchable.rules>/Part/Stats/CrewRequired"; With = 8}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/3119349707/ships/terran/weapons/turbolasers/Turbolasers_Huge/huge_turbolaserx3_switchable.rules>/Part/Components"; BaseToAdd = &<starwars/huge_turbolaserx3_switchable.rules>}
+
+	// H:\SteamLibrary\steamapps\workshop\content\799600\3119349707\ships\terran\weapons\turbolasers\Turbolasers_Huge\huge_turbolaserx2_switchable.rules
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/3119349707/ships/terran/weapons/turbolasers/Turbolasers_Huge/huge_turbolaserx2_switchable.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/3119349707/ships/terran/weapons/turbolasers/Turbolasers_Huge/huge_turbolaserx2_switchable.rules>/Part/Stats/CrewRequired"; With = 8}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/3119349707/ships/terran/weapons/turbolasers/Turbolasers_Huge/huge_turbolaserx2_switchable.rules>/Part/Components"; BaseToAdd = &<starwars/huge_turbolaserx2_switchable.rules>}
+	
+	// H:\SteamLibrary\steamapps\workshop\content\799600\3119349707\ships\terran\weapons\turbolasers\Turbolasers_Huge\huge_turbolaserx1_switchable.rules
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/3119349707/ships/terran/weapons/turbolasers/Turbolasers_Huge/huge_turbolaserx1_switchable.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/3119349707/ships/terran/weapons/turbolasers/Turbolasers_Huge/huge_turbolaserx1_switchable.rules>/Part/Stats/CrewRequired"; With = 8}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/3119349707/ships/terran/weapons/turbolasers/Turbolasers_Huge/huge_turbolaserx1_switchable.rules>/Part/Components"; BaseToAdd = &<starwars/huge_turbolaserx1_switchable.rules>}
+	
+	// H:\SteamLibrary\steamapps\workshop\content\799600\3119349707\ships\terran\weapons\turbolasers\Turbolasers_Huge\huge_turbolaser_switchable.rules
+	// {IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/3119349707/ships/terran/weapons/turbolasers/Turbolasers_Huge/huge_turbolaser_switchable.rules>/Part/Components/PartCrew"}
+	// {IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/3119349707/ships/terran/weapons/turbolasers/Turbolasers_Huge/huge_turbolaser_switchable.rules>/Part/Stats/CrewRequired"; With = 8}
+	// {IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/3119349707/ships/terran/weapons/turbolasers/Turbolasers_Huge/huge_turbolaser_switchable.rules>/Part/Components"; BaseToAdd = &<starwars/huge_turbolaser_switchable.rules>}
+	
+	// H:\SteamLibrary\steamapps\workshop\content\799600\3119349707\ships\terran\weapons\turbolasers\Turbolasers_Tower\turbolaser_tower_siege01.rules
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/3119349707/ships/terran/weapons/turbolasers/Turbolasers_Tower/turbolaser_tower_siege01.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/3119349707/ships/terran/weapons/turbolasers/Turbolasers_Tower/turbolaser_tower_siege01.rules>/Part/Stats/CrewRequired"; With = 8}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/3119349707/ships/terran/weapons/turbolasers/Turbolasers_Tower/turbolaser_tower_siege01.rules>/Part/Components"; BaseToAdd = &<starwars/turbolaser_tower_siege01.rules>}
+
 	//------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 	// Tiered parts https://steamcommunity.com/sharedfiles/filedetails/?id=2888343841
 
