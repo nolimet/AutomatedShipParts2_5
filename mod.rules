@@ -1,6 +1,6 @@
 ID = zoe.ai_terminal
 Name = "AI Core - Automated Ship Parts 2.5"
-CompatibleGameVersions = ["0.27.0"]
+CompatibleGameVersions = ["0.29.0"]
 ModifiesMultiplayer = true
 Logo = "logo.png"
 Description =
