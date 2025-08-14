@@ -1,0 +1,38 @@
+PartCrew
+{
+	Type = MultiToggle
+	Toggles = [PartCrewMinusNone, PartCrewMinusOne]
+	Mode = Any
+}
+
+NeedsCrewMinusNone
+{
+	Type = MultiToggle
+	Toggles = [PartCrewMinusOne]
+	Mode = Any
+	Invert = True
+}
+
+PartCrewMinusNone
+{
+	Type = PartCrew
+	Crew = 1
+	DefaultPriority = &/PRIORITIES/Weapon_Crew
+	PrerequisitesBeforeCrewing = [PowerToggle, ScorchedToggle, NeedsCrewMinusNone]
+	HighPriorityPrerequisites = [CombinedAmmo]
+	CrewDestinations
+	[
+		[1.375, 1.25]
+	]
+	CrewLocations
+	[
+		CrewLocation
+	]
+}
+
+PartCrewMinusOne
+{
+	Type = BuffToggle
+	BuffType = AephixAITerminal
+	MinBuffValue = 1
+}

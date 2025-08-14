@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="211cb9db-28a2-4937-9515-4675b1ca8b8c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/projectSettingsUpdater.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2886141879/modular_missile_loader.rules" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2888343841/cannon_deck_mk1.rules" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2888343841/cannon_large_mk1.rules" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2888343841/cannon_med_mk1.rules" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2888343841/chaingun_mk1.rules" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2888343841/disruptor_mk1.rules" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2888343841/engine_room_mk1.rules" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2888343841/factory_control_room_mk1.rules" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2888343841/flak_cannon_large_mk1.rules" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2888343841/ion_beam_emitter_mk1.rules" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2888343841/laser_blaster_large_mk1.rules" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2888343841/laser_blaster_small_mk1.rules" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2888343841/mining_laser_small_mk1.rules" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2888343841/missile_launcher_mk1.rules" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2888343841/observatory_mk1.rules" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2888343841/railgun_loader_mk1.rules" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2888343841/sensor_array_mk1.rules" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2888343841/thruster_rocket_nozzle_mk2.rules" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2888343841/thruster_rocket_nozzle_mk3.rules" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2888343841/thruster_rocket_nozzle_mk4.rules" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2888343841/thruster_rocket_nozzle_mk5.rules" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2888343841/thruster_rocket_nozzle_mk6.rules" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2888343841/thruster_rocket_nozzle_mk7.rules" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2888343841/thruster_rocket_nozzle_mk8.rules" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2888343841/tractor_beam_emitter_mk1.rules" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2888343841/weapon_control_room_mk1.rules" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3052680147/2_381mm.rules" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3052680147/2_420mm.rules" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3052680147/2_420mm_b.rules" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3052680147/2_510mm.rules" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3052680147/2_800mm.rules" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3052680147/3_152mm.rules" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3052680147/3_460mm.rules" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3052680147/3_800mm.rules" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3052680147/4_130mm.rules" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3052680147/4_431mm.rules" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3052680147/6_406mm.rules" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3119349707/DSLaser_core.rules" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3119349707/Eta2cockpit.rules" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3119349707/WarRoom.rules" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3119349707/axial_superlaser.rules" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3119349707/bridge.rules" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3119349707/cis_turbolaser_switchable.rules" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3119349707/cockpit.rules" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3119349707/deathstar_superlaser_sect2R.rules" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3119349707/dual_laser_cannon_switchable.rules" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3119349707/dual_laser_cannon_switchable_test.rules" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3119349707/falcon_laser_cannon.rules" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3119349707/fixedheavylaser.rules" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3119349707/heavy_artillery_turbolaser_SPHA_T.rules" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3119349707/heavy_ion_cannon_switchable.rules" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3119349707/heavy_turbolaser_switchable.rules" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3119349707/huge_turbolaser_switchable.rules" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3119349707/huge_turbolaserx1_switchable.rules" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3119349707/huge_turbolaserx2_switchable.rules" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3119349707/huge_turbolaserx3_switchable.rules" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3119349707/imperial_turbolaser_switchable.rules" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3119349707/light_turbolaser_switchable.rules" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3119349707/med_turbolaser_switchable.rules" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3119349707/medium_ion_cannon.rules" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3119349707/medium_triple_turbolaser.rules" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3119349707/medium_turbolaser_quad03.rules" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3119349707/medium_turbolaser_quad_switchable.rules" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3119349707/mining_laser_huge.rules" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3119349707/missile_launcher.rules" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3119349707/missile_launcher_backup.rules" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3119349707/missile_launcher_large.rules" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3119349707/missile_launcher_small.rules" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3119349707/missile_launcher_small_tl_backup.rules" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3119349707/navicomputer.rules" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3119349707/octuple_barbette_turbolaser.rules" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3119349707/orbital_autocannon.rules" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3119349707/orbital_bombardment_particle_cannon.rules" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3119349707/quad_barbette_turbolaser.rules" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3119349707/republic_turbolaser_switchable.rules" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3119349707/siege_turbolaser12x12.rules" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3119349707/small_blasterlaser - Kopie.rules" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3119349707/small_blasterlaser.rules" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3119349707/small_triple_turbolaser.rules" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3119349707/superheavy_composite_beam_turbolaser.rules" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3119349707/superlaser_command.rules" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3119349707/swturret_A.rules" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3119349707/swturret_B.rules" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3119349707/swturret_C.rules" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3119349707/tractor_beam_emitter_huge.rules" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3119349707/turbolaser_ball_huge_roof_base.rules" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3119349707/turbolaser_ball_huge_side_base.rules" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3119349707/turbolaser_ball_large_roof_base.rules" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3119349707/turbolaser_ball_large_side_base.rules" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3119349707/turbolaser_ball_med_roof_base.rules" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3119349707/turbolaser_ball_med_side_base.rules" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3119349707/turbolaser_ball_small01.rules" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3119349707/turbolaser_ball_small02.rules" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3119349707/turbolaser_ball_small03.rules" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3119349707/turbolaser_carronade.rules" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3119349707/turbolaser_flak_cannon01.rules" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3119349707/turbolaser_huge_base.rules" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3119349707/turbolaser_large_base.rules" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3119349707/turbolaser_light_pd4.rules" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3119349707/turbolaser_med_LR01.rules" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3119349707/turbolaser_medium_base.rules" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3119349707/turbolaser_mortar_siege01.rules" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3119349707/turbolaser_tower_siege01.rules" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3119349707/turbolaser_tower_triple01.rules" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3119349707/xx9_turbolaser_switchable.rules" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vanilla/cannon_deck.rules" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vanilla/cannon_large.rules" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vanilla/cannon_med.rules" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vanilla/chaingun.rules" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vanilla/control_room_large.rules" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vanilla/control_room_med.rules" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vanilla/control_room_small.rules" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vanilla/disruptor.rules" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vanilla/engine_room.rules" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vanilla/flak_cannon_large.rules" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vanilla/hyperdrive_beacon.rules" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vanilla/ion_beam_emitter.rules" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vanilla/laser_blaster_large.rules" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vanilla/laser_blaster_small.rules" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vanilla/mining_laser_small.rules" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vanilla/missile_launcher.rules" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vanilla/railgun_loader.rules" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vanilla/resonance_beam_turret.rules" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vanilla/sensor_array.rules" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vanilla/thruster_rocket_nozzle.rules" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vanilla/tractor_beam_emitter.rules" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tool/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tool/ModGenerator/.idea/.idea.ModGenerator/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tool/ModGenerator/.idea/.idea.ModGenerator/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tool/ModGenerator/.idea/.idea.ModGenerator/.idea/indexLayout.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tool/ModGenerator/.idea/.idea.ModGenerator/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tool/ModGenerator/ModGenerator.sln" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tool/ModGenerator/ModGenerator.sln.DotSettings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tool/ModGenerator/ModGenerator/Config/TargetConfiguration.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tool/ModGenerator/ModGenerator/CrewData.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tool/ModGenerator/ModGenerator/ModGenerator.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tool/ModGenerator/ModGenerator/ModRulesGenerator.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tool/ModGenerator/ModGenerator/PartOverrideGenerator.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tool/ModGenerator/ModGenerator/Program.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tool/ModGenerator/ModGenerator/Rules Decoder.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tool/ModGenerator/global.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/automation_components_modular_missiles/modular_mine_loader.rules" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/automation_components_modular_missiles/modular_missile_loader.rules" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/automation_components_vanilla/cannon_deck.rules" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/automation_components_vanilla/cannon_large.rules" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/automation_components_vanilla/cannon_med.rules" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/automation_components_vanilla/chaingun.rules" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/automation_components_vanilla/control_room_large.rules" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/automation_components_vanilla/control_room_med.rules" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/automation_components_vanilla/control_room_small.rules" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/automation_components_vanilla/disruptor.rules" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/automation_components_vanilla/engine_room.rules" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/automation_components_vanilla/flak_cannon_large.rules" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/automation_components_vanilla/hyperdrive_beacon.rules" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/automation_components_vanilla/ion_beam_emitter.rules" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/automation_components_vanilla/laser_blaster_large.rules" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/automation_components_vanilla/laser_blaster_small.rules" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/automation_components_vanilla/manipulator_beam_emitter.rules" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/automation_components_vanilla/mining_laser_small.rules" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/automation_components_vanilla/missile_launcher.rules" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/automation_components_vanilla/railgun_loader.rules" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/automation_components_vanilla/sensor_array.rules" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/automation_components_vanilla/tractor_beam_emitter.rules" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mod.rules" beforeDir="false" afterPath="$PROJECT_DIR$/mod.rules" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/more_cannons/2_381mm.rules" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/more_cannons/2_420mm.rules" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/more_cannons/2_420mm_b.rules" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/more_cannons/2_510mm.rules" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/more_cannons/2_800mm.rules" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/more_cannons/3_152mm.rules" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/more_cannons/3_460mm.rules" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/more_cannons/3_800mm.rules" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/more_cannons/4_130mm.rules" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/more_cannons/4_431mm.rules" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/more_cannons/6_406mm.rules" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starwars/DSLaser_core.rules" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starwars/WarRoom.rules" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starwars/axial_superlaser.rules" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starwars/bridge.rules" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starwars/cis_turbolaser_switchable.rules" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starwars/deathstar_superlaser.rules" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starwars/deathstar_superlaser_sect2L.rules" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starwars/deathstar_superlaser_sect2R.rules" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starwars/droid_turret.rules" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starwars/engineering_bay_ai.rules" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starwars/falcon_laser_cannon.rules" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starwars/fixedheavylaser.rules" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starwars/heavy_artillery_turbolaser_SPHA_T.rules" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starwars/heavy_ion_cannon_switchable.rules" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starwars/heavy_turbolaser_switchable.rules" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starwars/huge_turbolaser_switchable.rules" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starwars/huge_turbolaserx1_switchable.rules" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starwars/huge_turbolaserx2_switchable.rules" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starwars/huge_turbolaserx3_switchable.rules" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starwars/imperial_turbolaser_switchable.rules" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starwars/large_impulse_drive_ai.rules" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starwars/light_turbolaser_switchable.rules" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starwars/med_turbolaser_switchable.rules" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starwars/medium_ion_cannon.rules" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starwars/medium_triple_turbolaser.rules" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starwars/medium_turbolaser_quad03.rules" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starwars/medium_turbolaser_quad_switchable.rules" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starwars/mining_laser_huge.rules" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starwars/missile_launcher.rules" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starwars/missile_launcher_small.rules" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starwars/missile_launcher_small_tl_backup.rules" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starwars/octuple_barbette_turbolaser.rules" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starwars/orbital_autocannon.rules" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starwars/orbital_bombardment_particle_cannon.rules" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starwars/quad_barbette_turbolaser.rules" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starwars/republic_turbolaser_switchable.rules" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starwars/siege_turbolaser12x12.rules" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starwars/small_blasterlaser.rules" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starwars/small_triple_turbolaser.rules" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starwars/superheavy_composite_beam_turbolaser.rules" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starwars/swturret_A.rules" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starwars/swturret_B.rules" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starwars/swturret_C.rules" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starwars/turbolaser_ball_huge_roof_base.rules" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starwars/turbolaser_ball_large_roof_base.rules" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starwars/turbolaser_ball_large_side_base.rules" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starwars/turbolaser_ball_med_roof_base.rules" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starwars/turbolaser_ball_med_side_base.rules" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starwars/turbolaser_ball_small01.rules" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starwars/turbolaser_ball_small02.rules" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starwars/turbolaser_ball_small03.rules" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starwars/turbolaser_carronade.rules" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starwars/turbolaser_flak_cannon01.rules" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starwars/turbolaser_huge_base.rules" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starwars/turbolaser_large_base.rules" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starwars/turbolaser_light_pd4.rules" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starwars/turbolaser_med_LR01.rules" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starwars/turbolaser_medium_base.rules" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starwars/turbolaser_mortar_siege01.rules" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starwars/turbolaser_spinal_turret_2x3.rules" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starwars/turbolaser_tower_siege01.rules" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starwars/turbolaser_tower_triple01.rules" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starwars/xx9_turbolaser_switchable.rules" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="directory" />
+      <option value="repository" />
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="31CWdarK8r8WYNvHI8PehyEhBEc" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="211cb9db-28a2-4937-9515-4675b1ca8b8c" name="Changes" comment="" />
+      <created>1755028623137</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1755028623137</updated>
+      <workItem from="1755028624542" duration="3346000" />
+      <workItem from="1755110944090" duration="2641000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+</project>

@@ -1,0 +1,100 @@
+PartCrew
+{
+	Type = MultiToggle
+	Toggles = [PartCrewMinusNone, PartCrewMinusOne, PartCrewMinusTwo, PartCrewMinusThree]
+	Mode = Any
+}
+
+NeedsCrewMinusNone
+{
+	Type = MultiToggle
+	Toggles = [PartCrewMinusOne, PartCrewMinusTwo, PartCrewMinusThree]
+	Mode = Any
+	Invert = True
+}
+
+PartCrewMinusNone
+{
+	Type = PartCrew
+	Crew = 3
+	DefaultPriority = &<./Data/ships/base_ship.rules>/DefaultSalvagePriority
+	PrerequisitesBeforeCrewing = [PowerToggle, NeedsCrewMinusNone]
+	HighPriorityPrerequisites = [BatteryStorage]
+	CrewDestinations
+	[
+		[2, 1.81]
+		[1.36, 1.36]
+		[2.64, 1.36]
+	]
+	CrewLocations
+	[
+		CrewLocationMid
+		CrewLocationLeft
+		CrewLocationRight
+	]
+}
+
+NeedsCrewMinusOne
+{
+	Type = BuffToggle
+	BuffType = AephixAITerminal
+	MaxBuffValue = 1
+	MinBuffValue = 1
+}
+PartCrewMinusOne
+{
+	Type = PartCrew
+	Crew = 2
+	DefaultPriority = &<./Data/ships/base_ship.rules>/DefaultSalvagePriority
+	PrerequisitesBeforeCrewing = [PowerToggle, NeedsCrewMinusOne]
+    HighPriorityPrerequisites = [BatteryStorage]
+	OverridePriorityKey = PartCrewMinusNone
+	CrewDestinations
+	[
+		[2, 1.81]
+		[1.36, 1.36]
+		[2.64, 1.36]
+	]
+	CrewLocations
+	[
+		CrewLocationMid
+		CrewLocationLeft
+		CrewLocationRight
+	]
+}
+
+NeedsCrewMinusTwo
+{
+	Type = BuffToggle
+	BuffType = AephixAITerminal
+	MaxBuffValue = 2
+	MinBuffValue = 2
+}
+PartCrewMinusTwo
+{
+	Type = PartCrew
+	Crew = 1
+	DefaultPriority = &<./Data/ships/base_ship.rules>/DefaultSalvagePriority
+	PrerequisitesBeforeCrewing = [PowerToggle, NeedsCrewMinusTwo]
+    HighPriorityPrerequisites = [BatteryStorage]
+	OverridePriorityKey = PartCrewMinusNone
+	CrewDestinations
+	[
+		[2, 1.81]
+		[1.36, 1.36]
+		[2.64, 1.36]
+	]
+	CrewLocations
+	[
+		CrewLocationMid
+		CrewLocationLeft
+		CrewLocationRight
+	]
+}
+
+PartCrewMinusThree
+{
+	Type = BuffToggle
+	BuffType = AephixAITerminal
+	MinBuffValue = 3
+}
