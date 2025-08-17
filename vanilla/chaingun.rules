@@ -22,9 +22,12 @@ PartCrewMinusNone
 	HighPriorityPrerequisites = [CombinedAmmoStorage]
 	CrewDestinations
 	[
-		[1.5, 192/64]
-		[55/64, 322/64]
-		[137/64, 322/64]
+		[1.5
+		192/64]
+		[55/64
+		322/64]
+		[137/64
+		322/64]
 	]
 	CrewLocations
 	[
@@ -51,9 +54,12 @@ PartCrewMinusOne
 	OverridePriorityKey = PartCrewMinusNone
 	CrewDestinations
 	[
-		[1.5, 192/64]
-		[55/64, 322/64]
-		[137/64, 322/64]
+		[1.5
+		192/64]
+		[55/64
+		322/64]
+		[137/64
+		322/64]
 	]
 	CrewLocations
 	[
@@ -80,9 +86,12 @@ PartCrewMinusTwo
 	OverridePriorityKey = PartCrewMinusNone
 	CrewDestinations
 	[
-		[1.5, 192/64]
-		[55/64, 322/64]
-		[137/64, 322/64]
+		[1.5
+		192/64]
+		[55/64
+		322/64]
+		[137/64
+		322/64]
 	]
 	CrewLocations
 	[

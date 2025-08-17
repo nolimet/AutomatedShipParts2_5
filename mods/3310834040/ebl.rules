@@ -1,0 +1,577 @@
+PartCrew
+{
+	Type = MultiToggle
+	Toggles = [PartCrewMinusNone, PartCrewMinusOne, PartCrewMinusTwo, PartCrewMinusThree, PartCrewMinusFour, PartCrewMinusFive, PartCrewMinusSix, PartCrewMinusSeven, PartCrewMinusEight, PartCrewMinusNine, PartCrewMinusTen, PartCrewMinusEleven, PartCrewMinusTwelve]
+	Mode = Any
+}
+
+NeedsCrewMinusNone
+{
+	Type = MultiToggle
+	Toggles = [PartCrewMinusOne, PartCrewMinusTwo, PartCrewMinusThree, PartCrewMinusFour, PartCrewMinusFive, PartCrewMinusSix, PartCrewMinusSeven, PartCrewMinusEight, PartCrewMinusNine, PartCrewMinusTen, PartCrewMinusEleven, PartCrewMinusTwelve]
+	Mode = Any
+	Invert = True
+}
+
+PartCrewMinusNone
+{
+	Type = PartCrew
+	Crew = 12
+	DefaultPriority = &/PRIORITIES/Thruster_Supply
+	PrerequisitesBeforeCrewing = [PowerToggle, NeedsCrewMinusNone]
+	HighPriorityPrerequisites = [BatteryStorage]
+	CrewDestinations
+	[
+		[2.55, 2.32]
+		[3.45, 2.32]
+		[4.45, 2.32]
+		[5.45, 2.32]
+		[2.5, 3]
+		[3.5, 3]
+		[4.5, 3]
+		[5.5, 3]
+		[2.55, 3.62]
+		[3.45, 3.62]
+		[4.55, 3.62]
+		[5.45, 3.62]
+	]
+	CrewLocations
+	[
+		CrewLocation1
+		CrewLocation2
+		CrewLocation3
+		CrewLocation4
+		                CrewLocation5
+		CrewLocation6
+		CrewLocation7
+		CrewLocation8
+		                CrewLocation9
+		CrewLocation10
+		CrewLocation11
+		CrewLocation12
+	]
+}
+
+NeedsCrewMinusOne
+{
+	Type = BuffToggle
+	BuffType = AephixAITerminal
+	MaxBuffValue = 1
+	MinBuffValue = 1
+}
+PartCrewMinusOne
+{
+	Type = PartCrew
+	Crew = 11
+	DefaultPriority = &/PRIORITIES/Thruster_Supply
+	PrerequisitesBeforeCrewing = [PowerToggle, NeedsCrewMinusOne]
+    HighPriorityPrerequisites = [BatteryStorage]
+	OverridePriorityKey = PartCrewMinusNone
+	CrewDestinations
+	[
+		[2.55, 2.32]
+		[3.45, 2.32]
+		[4.45, 2.32]
+		[5.45, 2.32]
+		[2.5, 3]
+		[3.5, 3]
+		[4.5, 3]
+		[5.5, 3]
+		[2.55, 3.62]
+		[3.45, 3.62]
+		[4.55, 3.62]
+		[5.45, 3.62]
+	]
+	CrewLocations
+	[
+		CrewLocation1
+		CrewLocation2
+		CrewLocation3
+		CrewLocation4
+		                CrewLocation5
+		CrewLocation6
+		CrewLocation7
+		CrewLocation8
+		                CrewLocation9
+		CrewLocation10
+		CrewLocation11
+		CrewLocation12
+	]
+}
+
+NeedsCrewMinusTwo
+{
+	Type = BuffToggle
+	BuffType = AephixAITerminal
+	MaxBuffValue = 2
+	MinBuffValue = 2
+}
+PartCrewMinusTwo
+{
+	Type = PartCrew
+	Crew = 10
+	DefaultPriority = &/PRIORITIES/Thruster_Supply
+	PrerequisitesBeforeCrewing = [PowerToggle, NeedsCrewMinusTwo]
+    HighPriorityPrerequisites = [BatteryStorage]
+	OverridePriorityKey = PartCrewMinusNone
+	CrewDestinations
+	[
+		[2.55, 2.32]
+		[3.45, 2.32]
+		[4.45, 2.32]
+		[5.45, 2.32]
+		[2.5, 3]
+		[3.5, 3]
+		[4.5, 3]
+		[5.5, 3]
+		[2.55, 3.62]
+		[3.45, 3.62]
+		[4.55, 3.62]
+		[5.45, 3.62]
+	]
+	CrewLocations
+	[
+		CrewLocation1
+		CrewLocation2
+		CrewLocation3
+		CrewLocation4
+		                CrewLocation5
+		CrewLocation6
+		CrewLocation7
+		CrewLocation8
+		                CrewLocation9
+		CrewLocation10
+		CrewLocation11
+		CrewLocation12
+	]
+}
+
+NeedsCrewMinusThree
+{
+	Type = BuffToggle
+	BuffType = AephixAITerminal
+	MaxBuffValue = 3
+	MinBuffValue = 3
+}
+PartCrewMinusThree
+{
+	Type = PartCrew
+	Crew = 9
+	DefaultPriority = &/PRIORITIES/Thruster_Supply
+	PrerequisitesBeforeCrewing = [PowerToggle, NeedsCrewMinusThree]
+    HighPriorityPrerequisites = [BatteryStorage]
+	OverridePriorityKey = PartCrewMinusNone
+	CrewDestinations
+	[
+		[2.55, 2.32]
+		[3.45, 2.32]
+		[4.45, 2.32]
+		[5.45, 2.32]
+		[2.5, 3]
+		[3.5, 3]
+		[4.5, 3]
+		[5.5, 3]
+		[2.55, 3.62]
+		[3.45, 3.62]
+		[4.55, 3.62]
+		[5.45, 3.62]
+	]
+	CrewLocations
+	[
+		CrewLocation1
+		CrewLocation2
+		CrewLocation3
+		CrewLocation4
+		                CrewLocation5
+		CrewLocation6
+		CrewLocation7
+		CrewLocation8
+		                CrewLocation9
+		CrewLocation10
+		CrewLocation11
+		CrewLocation12
+	]
+}
+
+NeedsCrewMinusFour
+{
+	Type = BuffToggle
+	BuffType = AephixAITerminal
+	MaxBuffValue = 4
+	MinBuffValue = 4
+}
+PartCrewMinusFour
+{
+	Type = PartCrew
+	Crew = 8
+	DefaultPriority = &/PRIORITIES/Thruster_Supply
+	PrerequisitesBeforeCrewing = [PowerToggle, NeedsCrewMinusFour]
+    HighPriorityPrerequisites = [BatteryStorage]
+	OverridePriorityKey = PartCrewMinusNone
+	CrewDestinations
+	[
+		[2.55, 2.32]
+		[3.45, 2.32]
+		[4.45, 2.32]
+		[5.45, 2.32]
+		[2.5, 3]
+		[3.5, 3]
+		[4.5, 3]
+		[5.5, 3]
+		[2.55, 3.62]
+		[3.45, 3.62]
+		[4.55, 3.62]
+		[5.45, 3.62]
+	]
+	CrewLocations
+	[
+		CrewLocation1
+		CrewLocation2
+		CrewLocation3
+		CrewLocation4
+		                CrewLocation5
+		CrewLocation6
+		CrewLocation7
+		CrewLocation8
+		                CrewLocation9
+		CrewLocation10
+		CrewLocation11
+		CrewLocation12
+	]
+}
+
+NeedsCrewMinusFive
+{
+	Type = BuffToggle
+	BuffType = AephixAITerminal
+	MaxBuffValue = 5
+	MinBuffValue = 5
+}
+PartCrewMinusFive
+{
+	Type = PartCrew
+	Crew = 7
+	DefaultPriority = &/PRIORITIES/Thruster_Supply
+	PrerequisitesBeforeCrewing = [PowerToggle, NeedsCrewMinusFive]
+    HighPriorityPrerequisites = [BatteryStorage]
+	OverridePriorityKey = PartCrewMinusNone
+	CrewDestinations
+	[
+		[2.55, 2.32]
+		[3.45, 2.32]
+		[4.45, 2.32]
+		[5.45, 2.32]
+		[2.5, 3]
+		[3.5, 3]
+		[4.5, 3]
+		[5.5, 3]
+		[2.55, 3.62]
+		[3.45, 3.62]
+		[4.55, 3.62]
+		[5.45, 3.62]
+	]
+	CrewLocations
+	[
+		CrewLocation1
+		CrewLocation2
+		CrewLocation3
+		CrewLocation4
+		                CrewLocation5
+		CrewLocation6
+		CrewLocation7
+		CrewLocation8
+		                CrewLocation9
+		CrewLocation10
+		CrewLocation11
+		CrewLocation12
+	]
+}
+
+NeedsCrewMinusSix
+{
+	Type = BuffToggle
+	BuffType = AephixAITerminal
+	MaxBuffValue = 6
+	MinBuffValue = 6
+}
+PartCrewMinusSix
+{
+	Type = PartCrew
+	Crew = 6
+	DefaultPriority = &/PRIORITIES/Thruster_Supply
+	PrerequisitesBeforeCrewing = [PowerToggle, NeedsCrewMinusSix]
+    HighPriorityPrerequisites = [BatteryStorage]
+	OverridePriorityKey = PartCrewMinusNone
+	CrewDestinations
+	[
+		[2.55, 2.32]
+		[3.45, 2.32]
+		[4.45, 2.32]
+		[5.45, 2.32]
+		[2.5, 3]
+		[3.5, 3]
+		[4.5, 3]
+		[5.5, 3]
+		[2.55, 3.62]
+		[3.45, 3.62]
+		[4.55, 3.62]
+		[5.45, 3.62]
+	]
+	CrewLocations
+	[
+		CrewLocation1
+		CrewLocation2
+		CrewLocation3
+		CrewLocation4
+		                CrewLocation5
+		CrewLocation6
+		CrewLocation7
+		CrewLocation8
+		                CrewLocation9
+		CrewLocation10
+		CrewLocation11
+		CrewLocation12
+	]
+}
+
+NeedsCrewMinusSeven
+{
+	Type = BuffToggle
+	BuffType = AephixAITerminal
+	MaxBuffValue = 7
+	MinBuffValue = 7
+}
+PartCrewMinusSeven
+{
+	Type = PartCrew
+	Crew = 5
+	DefaultPriority = &/PRIORITIES/Thruster_Supply
+	PrerequisitesBeforeCrewing = [PowerToggle, NeedsCrewMinusSeven]
+    HighPriorityPrerequisites = [BatteryStorage]
+	OverridePriorityKey = PartCrewMinusNone
+	CrewDestinations
+	[
+		[2.55, 2.32]
+		[3.45, 2.32]
+		[4.45, 2.32]
+		[5.45, 2.32]
+		[2.5, 3]
+		[3.5, 3]
+		[4.5, 3]
+		[5.5, 3]
+		[2.55, 3.62]
+		[3.45, 3.62]
+		[4.55, 3.62]
+		[5.45, 3.62]
+	]
+	CrewLocations
+	[
+		CrewLocation1
+		CrewLocation2
+		CrewLocation3
+		CrewLocation4
+		                CrewLocation5
+		CrewLocation6
+		CrewLocation7
+		CrewLocation8
+		                CrewLocation9
+		CrewLocation10
+		CrewLocation11
+		CrewLocation12
+	]
+}
+
+NeedsCrewMinusEight
+{
+	Type = BuffToggle
+	BuffType = AephixAITerminal
+	MaxBuffValue = 8
+	MinBuffValue = 8
+}
+PartCrewMinusEight
+{
+	Type = PartCrew
+	Crew = 4
+	DefaultPriority = &/PRIORITIES/Thruster_Supply
+	PrerequisitesBeforeCrewing = [PowerToggle, NeedsCrewMinusEight]
+    HighPriorityPrerequisites = [BatteryStorage]
+	OverridePriorityKey = PartCrewMinusNone
+	CrewDestinations
+	[
+		[2.55, 2.32]
+		[3.45, 2.32]
+		[4.45, 2.32]
+		[5.45, 2.32]
+		[2.5, 3]
+		[3.5, 3]
+		[4.5, 3]
+		[5.5, 3]
+		[2.55, 3.62]
+		[3.45, 3.62]
+		[4.55, 3.62]
+		[5.45, 3.62]
+	]
+	CrewLocations
+	[
+		CrewLocation1
+		CrewLocation2
+		CrewLocation3
+		CrewLocation4
+		                CrewLocation5
+		CrewLocation6
+		CrewLocation7
+		CrewLocation8
+		                CrewLocation9
+		CrewLocation10
+		CrewLocation11
+		CrewLocation12
+	]
+}
+
+NeedsCrewMinusNine
+{
+	Type = BuffToggle
+	BuffType = AephixAITerminal
+	MaxBuffValue = 9
+	MinBuffValue = 9
+}
+PartCrewMinusNine
+{
+	Type = PartCrew
+	Crew = 3
+	DefaultPriority = &/PRIORITIES/Thruster_Supply
+	PrerequisitesBeforeCrewing = [PowerToggle, NeedsCrewMinusNine]
+    HighPriorityPrerequisites = [BatteryStorage]
+	OverridePriorityKey = PartCrewMinusNone
+	CrewDestinations
+	[
+		[2.55, 2.32]
+		[3.45, 2.32]
+		[4.45, 2.32]
+		[5.45, 2.32]
+		[2.5, 3]
+		[3.5, 3]
+		[4.5, 3]
+		[5.5, 3]
+		[2.55, 3.62]
+		[3.45, 3.62]
+		[4.55, 3.62]
+		[5.45, 3.62]
+	]
+	CrewLocations
+	[
+		CrewLocation1
+		CrewLocation2
+		CrewLocation3
+		CrewLocation4
+		                CrewLocation5
+		CrewLocation6
+		CrewLocation7
+		CrewLocation8
+		                CrewLocation9
+		CrewLocation10
+		CrewLocation11
+		CrewLocation12
+	]
+}
+
+NeedsCrewMinusTen
+{
+	Type = BuffToggle
+	BuffType = AephixAITerminal
+	MaxBuffValue = 10
+	MinBuffValue = 10
+}
+PartCrewMinusTen
+{
+	Type = PartCrew
+	Crew = 2
+	DefaultPriority = &/PRIORITIES/Thruster_Supply
+	PrerequisitesBeforeCrewing = [PowerToggle, NeedsCrewMinusTen]
+    HighPriorityPrerequisites = [BatteryStorage]
+	OverridePriorityKey = PartCrewMinusNone
+	CrewDestinations
+	[
+		[2.55, 2.32]
+		[3.45, 2.32]
+		[4.45, 2.32]
+		[5.45, 2.32]
+		[2.5, 3]
+		[3.5, 3]
+		[4.5, 3]
+		[5.5, 3]
+		[2.55, 3.62]
+		[3.45, 3.62]
+		[4.55, 3.62]
+		[5.45, 3.62]
+	]
+	CrewLocations
+	[
+		CrewLocation1
+		CrewLocation2
+		CrewLocation3
+		CrewLocation4
+		                CrewLocation5
+		CrewLocation6
+		CrewLocation7
+		CrewLocation8
+		                CrewLocation9
+		CrewLocation10
+		CrewLocation11
+		CrewLocation12
+	]
+}
+
+NeedsCrewMinusEleven
+{
+	Type = BuffToggle
+	BuffType = AephixAITerminal
+	MaxBuffValue = 11
+	MinBuffValue = 11
+}
+PartCrewMinusEleven
+{
+	Type = PartCrew
+	Crew = 1
+	DefaultPriority = &/PRIORITIES/Thruster_Supply
+	PrerequisitesBeforeCrewing = [PowerToggle, NeedsCrewMinusEleven]
+    HighPriorityPrerequisites = [BatteryStorage]
+	OverridePriorityKey = PartCrewMinusNone
+	CrewDestinations
+	[
+		[2.55, 2.32]
+		[3.45, 2.32]
+		[4.45, 2.32]
+		[5.45, 2.32]
+		[2.5, 3]
+		[3.5, 3]
+		[4.5, 3]
+		[5.5, 3]
+		[2.55, 3.62]
+		[3.45, 3.62]
+		[4.55, 3.62]
+		[5.45, 3.62]
+	]
+	CrewLocations
+	[
+		CrewLocation1
+		CrewLocation2
+		CrewLocation3
+		CrewLocation4
+		                CrewLocation5
+		CrewLocation6
+		CrewLocation7
+		CrewLocation8
+		                CrewLocation9
+		CrewLocation10
+		CrewLocation11
+		CrewLocation12
+	]
+}
+
+PartCrewMinusTwelve
+{
+	Type = BuffToggle
+	BuffType = AephixAITerminal
+	MinBuffValue = 12
+}

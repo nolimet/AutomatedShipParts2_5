@@ -22,10 +22,14 @@ PartCrewMinusNone
 	HighPriorityPrerequisites = [BatteryStorage]
 	CrewDestinations
 	[
-		[0.4, 1.5]
-		[2.6, 1.5]
-		[1.5, 0.4]
-		[1.5, 2.6]
+		[0.4
+		1.5]
+		[2.6
+		1.5]
+		[1.5
+		0.4]
+		[1.5
+		2.6]
 	]
 	CrewLocations
 	[
@@ -53,10 +57,14 @@ PartCrewMinusOne
 	OverridePriorityKey = PartCrewMinusNone
 	CrewDestinations
 	[
-		[0.4, 1.5]
-		[2.6, 1.5]
-		[1.5, 0.4]
-		[1.5, 2.6]
+		[0.4
+		1.5]
+		[2.6
+		1.5]
+		[1.5
+		0.4]
+		[1.5
+		2.6]
 	]
 	CrewLocations
 	[

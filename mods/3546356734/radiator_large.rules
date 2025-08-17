@@ -1,0 +1,71 @@
+PartCrew
+{
+	Type = MultiToggle
+	Toggles = [PartCrewMinusNone, PartCrewMinusOne, PartCrewMinusTwo]
+	Mode = Any
+}
+
+NeedsCrewMinusNone
+{
+	Type = MultiToggle
+	Toggles = [PartCrewMinusOne, PartCrewMinusTwo]
+	Mode = Any
+	Invert = True
+}
+
+PartCrewMinusNone
+{
+	Type = PartCrew
+	Crew = 2
+	DefaultPriority = &/PRIORITIES/ControlRoom_Crew
+	PrerequisitesBeforeCrewing = [ IsOperationalOverclocked , NeedsCrewMinusNone]
+	HighPriorityPrerequisites = []
+	CrewDestinations
+	[
+		[0.5
+		3]
+		[1.5
+		3]
+	]
+	CrewLocations
+	[
+		CrewLocation
+		                CrewLocation1
+	]
+}
+
+NeedsCrewMinusOne
+{
+	Type = BuffToggle
+	BuffType = AephixAITerminal
+	MaxBuffValue = 1
+	MinBuffValue = 1
+}
+PartCrewMinusOne
+{
+	Type = PartCrew
+	Crew = 1
+	DefaultPriority = &/PRIORITIES/ControlRoom_Crew
+	PrerequisitesBeforeCrewing = [ IsOperationalOverclocked , NeedsCrewMinusOne]
+    HighPriorityPrerequisites = []
+	OverridePriorityKey = PartCrewMinusNone
+	CrewDestinations
+	[
+		[0.5
+		3]
+		[1.5
+		3]
+	]
+	CrewLocations
+	[
+		CrewLocation
+		                CrewLocation1
+	]
+}
+
+PartCrewMinusTwo
+{
+	Type = BuffToggle
+	BuffType = AephixAITerminal
+	MinBuffValue = 2
+}

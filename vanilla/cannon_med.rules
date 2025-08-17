@@ -22,7 +22,8 @@ PartCrewMinusNone
 	HighPriorityPrerequisites = [CombinedAmmo]
 	CrewDestinations
 	[
-		[1.375, 1.25]
+		[1.375
+		1.25]
 	]
 	CrewLocations
 	[
