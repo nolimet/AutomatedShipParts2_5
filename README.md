@@ -1,3 +1,5 @@
+[Mod tool](https://github.com/nolimet/AutomatedShipParts2_5-ModTool)
+
 [SteamWorkshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3352091344)
 
 # Supported mods
