@@ -10,7 +10,7 @@ StringsFolder = "strings"
 Actions:
 //----------------Modded modules---------------------------
 &<vanilla/vanilla.rules>/Actions,
-&<manual/2888343841/2888343841.rules>/Actions,
+//&<manual/2888343841/2888343841.rules>/Actions,
 &<mods/2886141879/2886141879.rules>/Actions,
 &<mods/3052680147/3052680147.rules>/Actions,
 &<mods/3539253648/3539253648.rules>/Actions,
