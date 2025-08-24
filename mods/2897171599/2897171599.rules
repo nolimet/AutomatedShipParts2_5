@@ -1,0 +1,10 @@
+// 2897171599 - Ancient Singularity Cannon - 1.30.0
+Actions
+[
+	//Ancient Singularity Cannon, version 1.30.0, game version 0.30.0
+	//tess_singularity.rules
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/2897171599/tess_singularity/tess_singularity.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/2897171599/tess_singularity/tess_singularity.rules>/Part/Stats/CrewRequired"; With = 2}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2897171599/tess_singularity/tess_singularity.rules>/Part/Components"; BaseToAdd = &<tess_singularity.rules>}
+
+]

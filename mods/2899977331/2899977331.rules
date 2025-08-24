@@ -1,0 +1,10 @@
+// 2899977331 - Ancient Phazor - 1.30.0
+Actions
+[
+	//Ancient Phazor, version 1.30.0, game version 0.30.0
+	//tess_phazor.rules
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/2899977331/tess_phazor/tess_phazor.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/2899977331/tess_phazor/tess_phazor.rules>/Part/Stats/CrewRequired"; With = 1}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2899977331/tess_phazor/tess_phazor.rules>/Part/Components"; BaseToAdd = &<tess_phazor.rules>}
+
+]

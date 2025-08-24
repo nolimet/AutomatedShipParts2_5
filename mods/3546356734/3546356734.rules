@@ -1,0 +1,25 @@
+// 3546356734 - The Infernum - 1.0.1
+Actions
+[
+	//The Infernum, version 1.0.1, game version 0.30.0
+	//hellfire_howitzer.rules
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/3546356734/parts/Hellflare_Howitzer/hellfire_howitzer.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/3546356734/parts/Hellflare_Howitzer/hellfire_howitzer.rules>/Part/Stats/CrewRequired"; With = 4}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/3546356734/parts/Hellflare_Howitzer/hellfire_howitzer.rules>/Part/Components"; BaseToAdd = &<hellfire_howitzer.rules>}
+
+	//radiator_improved.rules
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/3546356734/parts/radiator_improved/radiator_improved.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/3546356734/parts/radiator_improved/radiator_improved.rules>/Part/Stats/CrewRequired"; With = 1}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/3546356734/parts/radiator_improved/radiator_improved.rules>/Part/Components"; BaseToAdd = &<radiator_improved.rules>}
+
+	//radiator_large.rules
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/3546356734/parts/radiator_large/radiator_large.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/3546356734/parts/radiator_large/radiator_large.rules>/Part/Stats/CrewRequired"; With = 2}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/3546356734/parts/radiator_large/radiator_large.rules>/Part/Components"; BaseToAdd = &<radiator_large.rules>}
+
+	//radiator_improved.rules
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/3546356734/parts/radiator_old/radiator_improved.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/3546356734/parts/radiator_old/radiator_improved.rules>/Part/Stats/CrewRequired"; With = 1}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/3546356734/parts/radiator_old/radiator_improved.rules>/Part/Components"; BaseToAdd = &<radiator_improved.rules>}
+
+]

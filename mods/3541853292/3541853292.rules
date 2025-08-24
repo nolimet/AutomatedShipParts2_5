@@ -1,0 +1,25 @@
+// 3541853292 - Diagonal Cockpits - 1.0.0
+Actions
+[
+	//Diagonal Cockpits, version 1.0.0, game version 0.30.0
+	//diagonal_control_room_large.rules
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/3541853292/diagonal_control_room_large/diagonal_control_room_large.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/3541853292/diagonal_control_room_large/diagonal_control_room_large.rules>/Part/Stats/CrewRequired"; With = 7}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/3541853292/diagonal_control_room_large/diagonal_control_room_large.rules>/Part/Components"; BaseToAdd = &<diagonal_control_room_large.rules>}
+
+	//diagonal_control_room_med.rules
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/3541853292/diagonal_control_room_med/diagonal_control_room_med.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/3541853292/diagonal_control_room_med/diagonal_control_room_med.rules>/Part/Stats/CrewRequired"; With = 3}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/3541853292/diagonal_control_room_med/diagonal_control_room_med.rules>/Part/Components"; BaseToAdd = &<diagonal_control_room_med.rules>}
+
+	//diagonal_control_room_small.rules
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/3541853292/diagonal_control_room_small/diagonal_control_room_small.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/3541853292/diagonal_control_room_small/diagonal_control_room_small.rules>/Part/Stats/CrewRequired"; With = 1}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/3541853292/diagonal_control_room_small/diagonal_control_room_small.rules>/Part/Components"; BaseToAdd = &<diagonal_control_room_small.rules>}
+
+	//diagonal_control_room_tiny.rules
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/3541853292/diagonal_control_room_tiny/diagonal_control_room_tiny.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/3541853292/diagonal_control_room_tiny/diagonal_control_room_tiny.rules>/Part/Stats/CrewRequired"; With = 1}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/3541853292/diagonal_control_room_tiny/diagonal_control_room_tiny.rules>/Part/Components"; BaseToAdd = &<diagonal_control_room_tiny.rules>}
+
+]

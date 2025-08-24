@@ -1,0 +1,10 @@
+// 2884747698 - Autocannon - 1.1.3
+Actions
+[
+	//Autocannon, version 1.1.3, game version 0.30.0
+	//autocannon.rules
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/2884747698/Parts/autocannon/autocannon.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/2884747698/Parts/autocannon/autocannon.rules>/Part/Stats/CrewRequired"; With = 1}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2884747698/Parts/autocannon/autocannon.rules>/Part/Components"; BaseToAdd = &<autocannon.rules>}
+
+]

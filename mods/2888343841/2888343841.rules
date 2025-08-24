@@ -1,0 +1,130 @@
+// 2888343841 - Tiered Parts - 0.59.03
+Actions
+[
+	//Tiered Parts, version 0.59.03, game version 0.30.0
+	//engine_room_mk1.rules
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/2888343841/Parts/Misc/engine_room/engine_room_mk1.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/2888343841/Parts/Misc/engine_room/engine_room_mk1.rules>/Part/Stats/CrewRequired"; With = 2}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2888343841/Parts/Misc/engine_room/engine_room_mk1.rules>/Part/Components"; BaseToAdd = &<engine_room_mk1.rules>}
+
+	//factory_control_room_mk1.rules
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/2888343841/Parts/Misc/factory_control_room/factory_control_room_mk1.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/2888343841/Parts/Misc/factory_control_room/factory_control_room_mk1.rules>/Part/Stats/CrewRequired"; With = 2}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2888343841/Parts/Misc/factory_control_room/factory_control_room_mk1.rules>/Part/Components"; BaseToAdd = &<factory_control_room_mk1.rules>}
+
+	//observatory_mk1.rules
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/2888343841/Parts/Misc/observatory/observatory_mk1.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/2888343841/Parts/Misc/observatory/observatory_mk1.rules>/Part/Stats/CrewRequired"; With = 1}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2888343841/Parts/Misc/observatory/observatory_mk1.rules>/Part/Components"; BaseToAdd = &<observatory_mk1.rules>}
+
+	//sensor_array_mk1.rules
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/2888343841/Parts/Misc/sensor_array/sensor_array_mk1.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/2888343841/Parts/Misc/sensor_array/sensor_array_mk1.rules>/Part/Stats/CrewRequired"; With = 4}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2888343841/Parts/Misc/sensor_array/sensor_array_mk1.rules>/Part/Components"; BaseToAdd = &<sensor_array_mk1.rules>}
+
+	//tractor_beam_emitter_mk1.rules
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/2888343841/Parts/Misc/tractor_beam_emitter/tractor_beam_emitter_mk1.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/2888343841/Parts/Misc/tractor_beam_emitter/tractor_beam_emitter_mk1.rules>/Part/Stats/CrewRequired"; With = 4}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2888343841/Parts/Misc/tractor_beam_emitter/tractor_beam_emitter_mk1.rules>/Part/Components"; BaseToAdd = &<tractor_beam_emitter_mk1.rules>}
+
+	//weapon_control_room_mk1.rules
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/2888343841/Parts/Misc/weapon_control_room/weapon_control_room_mk1.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/2888343841/Parts/Misc/weapon_control_room/weapon_control_room_mk1.rules>/Part/Stats/CrewRequired"; With = 2}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2888343841/Parts/Misc/weapon_control_room/weapon_control_room_mk1.rules>/Part/Components"; BaseToAdd = &<weapon_control_room_mk1.rules>}
+
+	//thruster_rocket_nozzle_mk2.rules
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/2888343841/Parts/Propulsion/thruster_rocket_nozzle/thruster_rocket_nozzle_mk2.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/2888343841/Parts/Propulsion/thruster_rocket_nozzle/thruster_rocket_nozzle_mk2.rules>/Part/Stats/CrewRequired"; With = 2}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2888343841/Parts/Propulsion/thruster_rocket_nozzle/thruster_rocket_nozzle_mk2.rules>/Part/Components"; BaseToAdd = &<thruster_rocket_nozzle_mk2.rules>}
+
+	//thruster_rocket_nozzle_mk3.rules
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/2888343841/Parts/Propulsion/thruster_rocket_nozzle/thruster_rocket_nozzle_mk3.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/2888343841/Parts/Propulsion/thruster_rocket_nozzle/thruster_rocket_nozzle_mk3.rules>/Part/Stats/CrewRequired"; With = 2}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2888343841/Parts/Propulsion/thruster_rocket_nozzle/thruster_rocket_nozzle_mk3.rules>/Part/Components"; BaseToAdd = &<thruster_rocket_nozzle_mk3.rules>}
+
+	//thruster_rocket_nozzle_mk4.rules
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/2888343841/Parts/Propulsion/thruster_rocket_nozzle/thruster_rocket_nozzle_mk4.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/2888343841/Parts/Propulsion/thruster_rocket_nozzle/thruster_rocket_nozzle_mk4.rules>/Part/Stats/CrewRequired"; With = 2}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2888343841/Parts/Propulsion/thruster_rocket_nozzle/thruster_rocket_nozzle_mk4.rules>/Part/Components"; BaseToAdd = &<thruster_rocket_nozzle_mk4.rules>}
+
+	//thruster_rocket_nozzle_mk5.rules
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/2888343841/Parts/Propulsion/thruster_rocket_nozzle/thruster_rocket_nozzle_mk5.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/2888343841/Parts/Propulsion/thruster_rocket_nozzle/thruster_rocket_nozzle_mk5.rules>/Part/Stats/CrewRequired"; With = 2}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2888343841/Parts/Propulsion/thruster_rocket_nozzle/thruster_rocket_nozzle_mk5.rules>/Part/Components"; BaseToAdd = &<thruster_rocket_nozzle_mk5.rules>}
+
+	//thruster_rocket_nozzle_mk6.rules
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/2888343841/Parts/Propulsion/thruster_rocket_nozzle/thruster_rocket_nozzle_mk6.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/2888343841/Parts/Propulsion/thruster_rocket_nozzle/thruster_rocket_nozzle_mk6.rules>/Part/Stats/CrewRequired"; With = 2}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2888343841/Parts/Propulsion/thruster_rocket_nozzle/thruster_rocket_nozzle_mk6.rules>/Part/Components"; BaseToAdd = &<thruster_rocket_nozzle_mk6.rules>}
+
+	//thruster_rocket_nozzle_mk7.rules
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/2888343841/Parts/Propulsion/thruster_rocket_nozzle/thruster_rocket_nozzle_mk7.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/2888343841/Parts/Propulsion/thruster_rocket_nozzle/thruster_rocket_nozzle_mk7.rules>/Part/Stats/CrewRequired"; With = 2}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2888343841/Parts/Propulsion/thruster_rocket_nozzle/thruster_rocket_nozzle_mk7.rules>/Part/Components"; BaseToAdd = &<thruster_rocket_nozzle_mk7.rules>}
+
+	//thruster_rocket_nozzle_mk8.rules
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/2888343841/Parts/Propulsion/thruster_rocket_nozzle/thruster_rocket_nozzle_mk8.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/2888343841/Parts/Propulsion/thruster_rocket_nozzle/thruster_rocket_nozzle_mk8.rules>/Part/Stats/CrewRequired"; With = 2}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2888343841/Parts/Propulsion/thruster_rocket_nozzle/thruster_rocket_nozzle_mk8.rules>/Part/Components"; BaseToAdd = &<thruster_rocket_nozzle_mk8.rules>}
+
+	//cannon_deck_mk1.rules
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/2888343841/Parts/Weapons/cannon_deck/cannon_deck_mk1.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/2888343841/Parts/Weapons/cannon_deck/cannon_deck_mk1.rules>/Part/Stats/CrewRequired"; With = 4}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2888343841/Parts/Weapons/cannon_deck/cannon_deck_mk1.rules>/Part/Components"; BaseToAdd = &<cannon_deck_mk1.rules>}
+
+	//cannon_large_mk1.rules
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/2888343841/Parts/Weapons/cannon_large/cannon_large_mk1.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/2888343841/Parts/Weapons/cannon_large/cannon_large_mk1.rules>/Part/Stats/CrewRequired"; With = 2}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2888343841/Parts/Weapons/cannon_large/cannon_large_mk1.rules>/Part/Components"; BaseToAdd = &<cannon_large_mk1.rules>}
+
+	//cannon_med_mk1.rules
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/2888343841/Parts/Weapons/cannon_med/cannon_med_mk1.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/2888343841/Parts/Weapons/cannon_med/cannon_med_mk1.rules>/Part/Stats/CrewRequired"; With = 1}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2888343841/Parts/Weapons/cannon_med/cannon_med_mk1.rules>/Part/Components"; BaseToAdd = &<cannon_med_mk1.rules>}
+
+	//chaingun_mk1.rules
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/2888343841/Parts/Weapons/chaingun/chaingun_mk1.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/2888343841/Parts/Weapons/chaingun/chaingun_mk1.rules>/Part/Stats/CrewRequired"; With = 3}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2888343841/Parts/Weapons/chaingun/chaingun_mk1.rules>/Part/Components"; BaseToAdd = &<chaingun_mk1.rules>}
+
+	//disruptor_mk1.rules
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/2888343841/Parts/Weapons/disruptor/disruptor_mk1.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/2888343841/Parts/Weapons/disruptor/disruptor_mk1.rules>/Part/Stats/CrewRequired"; With = 1}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2888343841/Parts/Weapons/disruptor/disruptor_mk1.rules>/Part/Components"; BaseToAdd = &<disruptor_mk1.rules>}
+
+	//flak_cannon_large_mk1.rules
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/2888343841/Parts/Weapons/flak_cannon_large/flak_cannon_large_mk1.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/2888343841/Parts/Weapons/flak_cannon_large/flak_cannon_large_mk1.rules>/Part/Stats/CrewRequired"; With = 3}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2888343841/Parts/Weapons/flak_cannon_large/flak_cannon_large_mk1.rules>/Part/Components"; BaseToAdd = &<flak_cannon_large_mk1.rules>}
+
+	//ion_beam_emitter_mk1.rules
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/2888343841/Parts/Weapons/ion_beam_emitter/ion_beam_emitter_mk1.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/2888343841/Parts/Weapons/ion_beam_emitter/ion_beam_emitter_mk1.rules>/Part/Stats/CrewRequired"; With = 2}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2888343841/Parts/Weapons/ion_beam_emitter/ion_beam_emitter_mk1.rules>/Part/Components"; BaseToAdd = &<ion_beam_emitter_mk1.rules>}
+
+	//laser_blaster_large_mk1.rules
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/2888343841/Parts/Weapons/laser_blaster_large/laser_blaster_large_mk1.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/2888343841/Parts/Weapons/laser_blaster_large/laser_blaster_large_mk1.rules>/Part/Stats/CrewRequired"; With = 2}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2888343841/Parts/Weapons/laser_blaster_large/laser_blaster_large_mk1.rules>/Part/Components"; BaseToAdd = &<laser_blaster_large_mk1.rules>}
+
+	//laser_blaster_small_mk1.rules
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/2888343841/Parts/Weapons/laser_blaster_small/laser_blaster_small_mk1.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/2888343841/Parts/Weapons/laser_blaster_small/laser_blaster_small_mk1.rules>/Part/Stats/CrewRequired"; With = 1}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2888343841/Parts/Weapons/laser_blaster_small/laser_blaster_small_mk1.rules>/Part/Components"; BaseToAdd = &<laser_blaster_small_mk1.rules>}
+
+	//mining_laser_small_mk1.rules
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/2888343841/Parts/Weapons/mining_laser_small/mining_laser_small_mk1.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/2888343841/Parts/Weapons/mining_laser_small/mining_laser_small_mk1.rules>/Part/Stats/CrewRequired"; With = 1}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2888343841/Parts/Weapons/mining_laser_small/mining_laser_small_mk1.rules>/Part/Components"; BaseToAdd = &<mining_laser_small_mk1.rules>}
+
+	//missile_launcher_mk1.rules
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/2888343841/Parts/Weapons/missile_launcher/missile_launcher_mk1.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/2888343841/Parts/Weapons/missile_launcher/missile_launcher_mk1.rules>/Part/Stats/CrewRequired"; With = 2}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2888343841/Parts/Weapons/missile_launcher/missile_launcher_mk1.rules>/Part/Components"; BaseToAdd = &<missile_launcher_mk1.rules>}
+
+	//railgun_loader_mk1.rules
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/2888343841/Parts/Weapons/railgun_loader/railgun_loader_mk1.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/2888343841/Parts/Weapons/railgun_loader/railgun_loader_mk1.rules>/Part/Stats/CrewRequired"; With = 2}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2888343841/Parts/Weapons/railgun_loader/railgun_loader_mk1.rules>/Part/Components"; BaseToAdd = &<railgun_loader_mk1.rules>}
+
+]

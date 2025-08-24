@@ -1,0 +1,10 @@
+// 3310834040 - Crewed Power Distribution - ETTM - 1.8.7
+Actions
+[
+	//Crewed Power Distribution - ETTM, version 1.8.7, game version 0.29.0
+	//ebl.rules
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/3310834040/reactorextenders/ebl.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/3310834040/reactorextenders/ebl.rules>/Part/Stats/CrewRequired"; With = 12}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/3310834040/reactorextenders/ebl.rules>/Part/Components"; BaseToAdd = &<ebl.rules>}
+
+]

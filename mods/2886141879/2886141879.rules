@@ -1,0 +1,15 @@
+// 2886141879 - [DIGI] Modular Missiles - 1.7.3
+Actions
+[
+	//[DIGI] Modular Missiles, version 1.7.3, game version 0.30.0
+	//modular_mine_loader.rules
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/2886141879/parts/modular_mine_loader/modular_mine_loader.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/2886141879/parts/modular_mine_loader/modular_mine_loader.rules>/Part/Stats/CrewRequired"; With = 2}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2886141879/parts/modular_mine_loader/modular_mine_loader.rules>/Part/Components"; BaseToAdd = &<modular_mine_loader.rules>}
+
+	//modular_missile_loader.rules
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/2886141879/parts/modular_missile_loader/modular_missile_loader.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/2886141879/parts/modular_missile_loader/modular_missile_loader.rules>/Part/Stats/CrewRequired"; With = 2}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2886141879/parts/modular_missile_loader/modular_missile_loader.rules>/Part/Components"; BaseToAdd = &<modular_missile_loader.rules>}
+
+]

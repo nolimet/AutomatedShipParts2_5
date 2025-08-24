@@ -1,0 +1,35 @@
+// 2891248440 - Weapon Turrets - 0.6.9
+Actions
+[
+	//Weapon Turrets, version 0.6.9, game version 0.30.0
+	//turret_cannon_large.rules
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/2891248440/turret_cannon_large/turret_cannon_large.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/2891248440/turret_cannon_large/turret_cannon_large.rules>/Part/Stats/CrewRequired"; With = 2}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2891248440/turret_cannon_large/turret_cannon_large.rules>/Part/Components"; BaseToAdd = &<turret_cannon_large.rules>}
+
+	//turret_cannon_med.rules
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/2891248440/turret_cannon_med/turret_cannon_med.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/2891248440/turret_cannon_med/turret_cannon_med.rules>/Part/Stats/CrewRequired"; With = 1}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2891248440/turret_cannon_med/turret_cannon_med.rules>/Part/Components"; BaseToAdd = &<turret_cannon_med.rules>}
+
+	//turret_disruptor.rules
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/2891248440/turret_disruptor/turret_disruptor.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/2891248440/turret_disruptor/turret_disruptor.rules>/Part/Stats/CrewRequired"; With = 1}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2891248440/turret_disruptor/turret_disruptor.rules>/Part/Components"; BaseToAdd = &<turret_disruptor.rules>}
+
+	//turret_flak_cannon_large.rules
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/2891248440/turret_flak_cannon_large/turret_flak_cannon_large.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/2891248440/turret_flak_cannon_large/turret_flak_cannon_large.rules>/Part/Stats/CrewRequired"; With = 3}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2891248440/turret_flak_cannon_large/turret_flak_cannon_large.rules>/Part/Components"; BaseToAdd = &<turret_flak_cannon_large.rules>}
+
+	//turret_laser_blaster_large.rules
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/2891248440/turret_laser_blaster_large/turret_laser_blaster_large.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/2891248440/turret_laser_blaster_large/turret_laser_blaster_large.rules>/Part/Stats/CrewRequired"; With = 2}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2891248440/turret_laser_blaster_large/turret_laser_blaster_large.rules>/Part/Components"; BaseToAdd = &<turret_laser_blaster_large.rules>}
+
+	//turret_laser_blaster_small.rules
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/2891248440/turret_laser_blaster_small/turret_laser_blaster_small.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/2891248440/turret_laser_blaster_small/turret_laser_blaster_small.rules>/Part/Stats/CrewRequired"; With = 1}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2891248440/turret_laser_blaster_small/turret_laser_blaster_small.rules>/Part/Components"; BaseToAdd = &<turret_laser_blaster_small.rules>}
+
+]

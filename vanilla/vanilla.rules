@@ -1,0 +1,108 @@
+// -1 - Vanilla - 
+Actions
+[	//cannon_deck.rules
+	{Action = Remove; Remove = "<ships/terran/cannon_deck/cannon_deck.rules>/Part/Components/PartCrew"}
+	{Action = Replace; Replace = "<ships/terran/cannon_deck/cannon_deck.rules>/Part/Stats/CrewRequired"; With = 4}
+	{Action = AddBase; AddBaseTo = "<ships/terran/cannon_deck/cannon_deck.rules>/Part/Components"; BaseToAdd = &<cannon_deck.rules>}
+
+	//cannon_large.rules
+	{Action = Remove; Remove = "<ships/terran/cannon_large/cannon_large.rules>/Part/Components/PartCrew"}
+	{Action = Replace; Replace = "<ships/terran/cannon_large/cannon_large.rules>/Part/Stats/CrewRequired"; With = 2}
+	{Action = AddBase; AddBaseTo = "<ships/terran/cannon_large/cannon_large.rules>/Part/Components"; BaseToAdd = &<cannon_large.rules>}
+
+	//cannon_med.rules
+	{Action = Remove; Remove = "<ships/terran/cannon_med/cannon_med.rules>/Part/Components/PartCrew"}
+	{Action = Replace; Replace = "<ships/terran/cannon_med/cannon_med.rules>/Part/Stats/CrewRequired"; With = 1}
+	{Action = AddBase; AddBaseTo = "<ships/terran/cannon_med/cannon_med.rules>/Part/Components"; BaseToAdd = &<cannon_med.rules>}
+
+	//chaingun.rules
+	{Action = Remove; Remove = "<ships/terran/chaingun/chaingun.rules>/Part/Components/PartCrew"}
+	{Action = Replace; Replace = "<ships/terran/chaingun/chaingun.rules>/Part/Stats/CrewRequired"; With = 3}
+	{Action = AddBase; AddBaseTo = "<ships/terran/chaingun/chaingun.rules>/Part/Components"; BaseToAdd = &<chaingun.rules>}
+
+	//control_room_large.rules
+	{Action = Remove; Remove = "<ships/terran/control_room_large/control_room_large.rules>/Part/Components/PartCrew"}
+	{Action = Replace; Replace = "<ships/terran/control_room_large/control_room_large.rules>/Part/Stats/CrewRequired"; With = 7}
+	{Action = AddBase; AddBaseTo = "<ships/terran/control_room_large/control_room_large.rules>/Part/Components"; BaseToAdd = &<control_room_large.rules>}
+
+	//control_room_med.rules
+	{Action = Remove; Remove = "<ships/terran/control_room_med/control_room_med.rules>/Part/Components/PartCrew"}
+	{Action = Replace; Replace = "<ships/terran/control_room_med/control_room_med.rules>/Part/Stats/CrewRequired"; With = 3}
+	{Action = AddBase; AddBaseTo = "<ships/terran/control_room_med/control_room_med.rules>/Part/Components"; BaseToAdd = &<control_room_med.rules>}
+
+	//control_room_small.rules
+	{Action = Remove; Remove = "<ships/terran/control_room_small/control_room_small.rules>/Part/Components/PartCrew"}
+	{Action = Replace; Replace = "<ships/terran/control_room_small/control_room_small.rules>/Part/Stats/CrewRequired"; With = 1}
+	{Action = AddBase; AddBaseTo = "<ships/terran/control_room_small/control_room_small.rules>/Part/Components"; BaseToAdd = &<control_room_small.rules>}
+
+	//disruptor.rules
+	{Action = Remove; Remove = "<ships/terran/disruptor/disruptor.rules>/Part/Components/PartCrew"}
+	{Action = Replace; Replace = "<ships/terran/disruptor/disruptor.rules>/Part/Stats/CrewRequired"; With = 1}
+	{Action = AddBase; AddBaseTo = "<ships/terran/disruptor/disruptor.rules>/Part/Components"; BaseToAdd = &<disruptor.rules>}
+
+	//engine_room.rules
+	{Action = Remove; Remove = "<ships/terran/engine_room/engine_room.rules>/Part/Components/PartCrew"}
+	{Action = Replace; Replace = "<ships/terran/engine_room/engine_room.rules>/Part/Stats/CrewRequired"; With = 2}
+	{Action = AddBase; AddBaseTo = "<ships/terran/engine_room/engine_room.rules>/Part/Components"; BaseToAdd = &<engine_room.rules>}
+
+	//flak_cannon_large.rules
+	{Action = Remove; Remove = "<ships/terran/flak_cannon_large/flak_cannon_large.rules>/Part/Components/PartCrew"}
+	{Action = Replace; Replace = "<ships/terran/flak_cannon_large/flak_cannon_large.rules>/Part/Stats/CrewRequired"; With = 3}
+	{Action = AddBase; AddBaseTo = "<ships/terran/flak_cannon_large/flak_cannon_large.rules>/Part/Components"; BaseToAdd = &<flak_cannon_large.rules>}
+
+	//hyperdrive_beacon.rules
+	{Action = Remove; Remove = "<ships/terran/hyperdrive_beacon/hyperdrive_beacon.rules>/Part/Components/PartCrew"}
+	{Action = Replace; Replace = "<ships/terran/hyperdrive_beacon/hyperdrive_beacon.rules>/Part/Stats/CrewRequired"; With = 6}
+	{Action = AddBase; AddBaseTo = "<ships/terran/hyperdrive_beacon/hyperdrive_beacon.rules>/Part/Components"; BaseToAdd = &<hyperdrive_beacon.rules>}
+
+	//ion_beam_emitter.rules
+	{Action = Remove; Remove = "<ships/terran/ion_beam_emitter/ion_beam_emitter.rules>/Part/Components/PartCrew"}
+	{Action = Replace; Replace = "<ships/terran/ion_beam_emitter/ion_beam_emitter.rules>/Part/Stats/CrewRequired"; With = 2}
+	{Action = AddBase; AddBaseTo = "<ships/terran/ion_beam_emitter/ion_beam_emitter.rules>/Part/Components"; BaseToAdd = &<ion_beam_emitter.rules>}
+
+	//laser_blaster_large.rules
+	{Action = Remove; Remove = "<ships/terran/laser_blaster_large/laser_blaster_large.rules>/Part/Components/PartCrew"}
+	{Action = Replace; Replace = "<ships/terran/laser_blaster_large/laser_blaster_large.rules>/Part/Stats/CrewRequired"; With = 2}
+	{Action = AddBase; AddBaseTo = "<ships/terran/laser_blaster_large/laser_blaster_large.rules>/Part/Components"; BaseToAdd = &<laser_blaster_large.rules>}
+
+	//laser_blaster_small.rules
+	{Action = Remove; Remove = "<ships/terran/laser_blaster_small/laser_blaster_small.rules>/Part/Components/PartCrew"}
+	{Action = Replace; Replace = "<ships/terran/laser_blaster_small/laser_blaster_small.rules>/Part/Stats/CrewRequired"; With = 1}
+	{Action = AddBase; AddBaseTo = "<ships/terran/laser_blaster_small/laser_blaster_small.rules>/Part/Components"; BaseToAdd = &<laser_blaster_small.rules>}
+
+	//mining_laser_small.rules
+	{Action = Remove; Remove = "<ships/terran/mining_laser_small/mining_laser_small.rules>/Part/Components/PartCrew"}
+	{Action = Replace; Replace = "<ships/terran/mining_laser_small/mining_laser_small.rules>/Part/Stats/CrewRequired"; With = 1}
+	{Action = AddBase; AddBaseTo = "<ships/terran/mining_laser_small/mining_laser_small.rules>/Part/Components"; BaseToAdd = &<mining_laser_small.rules>}
+
+	//missile_launcher.rules
+	{Action = Remove; Remove = "<ships/terran/missile_launcher/missile_launcher.rules>/Part/Components/PartCrew"}
+	{Action = Replace; Replace = "<ships/terran/missile_launcher/missile_launcher.rules>/Part/Stats/CrewRequired"; With = 2}
+	{Action = AddBase; AddBaseTo = "<ships/terran/missile_launcher/missile_launcher.rules>/Part/Components"; BaseToAdd = &<missile_launcher.rules>}
+
+	//railgun_loader.rules
+	{Action = Remove; Remove = "<ships/terran/railgun_loader/railgun_loader.rules>/Part/Components/PartCrew"}
+	{Action = Replace; Replace = "<ships/terran/railgun_loader/railgun_loader.rules>/Part/Stats/CrewRequired"; With = 2}
+	{Action = AddBase; AddBaseTo = "<ships/terran/railgun_loader/railgun_loader.rules>/Part/Components"; BaseToAdd = &<railgun_loader.rules>}
+
+	//resonance_beam_turret.rules
+	{Action = Remove; Remove = "<ships/terran/resonance_beam_turret/resonance_beam_turret.rules>/Part/Components/PartCrew"}
+	{Action = Replace; Replace = "<ships/terran/resonance_beam_turret/resonance_beam_turret.rules>/Part/Stats/CrewRequired"; With = 4}
+	{Action = AddBase; AddBaseTo = "<ships/terran/resonance_beam_turret/resonance_beam_turret.rules>/Part/Components"; BaseToAdd = &<resonance_beam_turret.rules>}
+
+	//sensor_array.rules
+	{Action = Remove; Remove = "<ships/terran/sensor_array/sensor_array.rules>/Part/Components/PartCrew"}
+	{Action = Replace; Replace = "<ships/terran/sensor_array/sensor_array.rules>/Part/Stats/CrewRequired"; With = 4}
+	{Action = AddBase; AddBaseTo = "<ships/terran/sensor_array/sensor_array.rules>/Part/Components"; BaseToAdd = &<sensor_array.rules>}
+
+	//thruster_rocket_nozzle.rules
+	{Action = Remove; Remove = "<ships/terran/thruster_rocket_nozzle/thruster_rocket_nozzle.rules>/Part/Components/PartCrew"}
+	{Action = Replace; Replace = "<ships/terran/thruster_rocket_nozzle/thruster_rocket_nozzle.rules>/Part/Stats/CrewRequired"; With = 2}
+	{Action = AddBase; AddBaseTo = "<ships/terran/thruster_rocket_nozzle/thruster_rocket_nozzle.rules>/Part/Components"; BaseToAdd = &<thruster_rocket_nozzle.rules>}
+
+	//tractor_beam_emitter.rules
+	{Action = Remove; Remove = "<ships/terran/tractor_beam_emitter/tractor_beam_emitter.rules>/Part/Components/PartCrew"}
+	{Action = Replace; Replace = "<ships/terran/tractor_beam_emitter/tractor_beam_emitter.rules>/Part/Stats/CrewRequired"; With = 4}
+	{Action = AddBase; AddBaseTo = "<ships/terran/tractor_beam_emitter/tractor_beam_emitter.rules>/Part/Components"; BaseToAdd = &<tractor_beam_emitter.rules>}
+
+]
