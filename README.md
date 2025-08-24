@@ -15,3 +15,5 @@
 * [Diagonal Cockpits](https://steamcommunity.com/sharedfiles/filedetails/?id=3541853292)
 * [The Infernum](https://steamcommunity.com/sharedfiles/filedetails/?id=3546356734)
 * [[WIP]Weapon Turrets](https://steamcommunity.com/sharedfiles/filedetails/?id=2891248440)
+* [Ancient Singularity Cannon](https://steamcommunity.com/sharedfiles/filedetails/?id=2897171599)
+* [Ancient Phazor](https://steamcommunity.com/sharedfiles/filedetails/?id=2899977331)

@@ -178,7 +178,7 @@ Actions
 	{Action = AddBase; AddBaseTo = "<ships/terran/tractor_beam_emitter/tractor_beam_emitter.rules>/Part/Components"; BaseToAdd = &<vanilla\tractor_beam_emitter.rules>}
 
 
-	//Tiered Parts, version 0.59.02, game version 0.30.0
+	//Tiered Parts, version 0.59.03, game version 0.30.0
 	//engine_room_mk1.rules
 	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/2888343841/Parts/Misc/engine_room/engine_room_mk1.rules>/Part/Components/PartCrew"}
 	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/2888343841/Parts/Misc/engine_room/engine_room_mk1.rules>/Part/Stats/CrewRequired"; With = 2}
@@ -520,6 +520,11 @@ Actions
 
 
 	//The Infernum, version 1.0.1, game version 0.30.0
+	//hellfire_howitzer.rules
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/3546356734/parts/Hellflare_Howitzer/hellfire_howitzer.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/3546356734/parts/Hellflare_Howitzer/hellfire_howitzer.rules>/Part/Stats/CrewRequired"; With = 4}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/3546356734/parts/Hellflare_Howitzer/hellfire_howitzer.rules>/Part/Components"; BaseToAdd = &<mods\3546356734\hellfire_howitzer.rules>}
+
 	//radiator_improved.rules
 	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/3546356734/parts/radiator_improved/radiator_improved.rules>/Part/Components/PartCrew"}
 	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/3546356734/parts/radiator_improved/radiator_improved.rules>/Part/Stats/CrewRequired"; With = 1}
@@ -566,5 +571,19 @@ Actions
 	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/2891248440/turret_laser_blaster_small/turret_laser_blaster_small.rules>/Part/Components/PartCrew"}
 	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/2891248440/turret_laser_blaster_small/turret_laser_blaster_small.rules>/Part/Stats/CrewRequired"; With = 1}
 	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2891248440/turret_laser_blaster_small/turret_laser_blaster_small.rules>/Part/Components"; BaseToAdd = &<mods\2891248440\turret_laser_blaster_small.rules>}
+
+
+	//Ancient Phazor, version 1.30.0, game version 0.30.0
+	//tess_phazor.rules
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/2899977331/tess_phazor/tess_phazor.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/2899977331/tess_phazor/tess_phazor.rules>/Part/Stats/CrewRequired"; With = 1}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2899977331/tess_phazor/tess_phazor.rules>/Part/Components"; BaseToAdd = &<mods\2899977331\tess_phazor.rules>}
+
+
+	//Ancient Singularity Cannon, version 1.30.0, game version 0.30.0
+	//tess_singularity.rules
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/2897171599/tess_singularity/tess_singularity.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/2897171599/tess_singularity/tess_singularity.rules>/Part/Stats/CrewRequired"; With = 2}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2897171599/tess_singularity/tess_singularity.rules>/Part/Components"; BaseToAdd = &<mods\2897171599\tess_singularity.rules>}
 
 ]
