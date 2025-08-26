@@ -3,7 +3,7 @@
 [SteamWorkshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3352091344)
 
 # Supported mods
-* [Tiered Parts](https://steamcommunity.com/sharedfiles/filedetails/?id=2888343841)
+* [Tiered Parts](https://steamcommunity.com/sharedfiles/filedetails/?id=2888343841) Disabled due to issue with how the mod work. Needs to befixed to work again
 * [[DIGI] Modular Missiles](https://steamcommunity.com/sharedfiles/filedetails/?id=2886141879)
 * [巨炮整合最终版0.22（More Deck Cannons for 0.22）](https://steamcommunity.com/sharedfiles/filedetails/?id=3052680147)
 * [Starwars FACTIONS](https://steamcommunity.com/sharedfiles/filedetails/?id=3121346591) Disabled due to conflicts with mod
