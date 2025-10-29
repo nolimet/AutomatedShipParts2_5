@@ -1,7 +1,7 @@
 ID = nolimet.ai_terminal
 Name = "AI Core - Automated Ship Parts 2.5"
-CompatibleGameVersions = ["0.30.0"]
-Version = 2.0
+CompatibleGameVersions = ["0.30.1"]
+Version = 2.0.1
 Description="AI core that can operate the part in front of it in place of crew.\n\nOriginally created by <red>Aephiex</red>, later updated by <yellow>Zoe</yellow>. Now maintained by <orange>Nolimet</orange>"
 ModifiesMultiplayer = true
 Logo = "logo.png"
@@ -22,6 +22,7 @@ Actions:
 &<mods/2891248440/2891248440.rules>/Actions,
 &<mods/2899977331/2899977331.rules>/Actions,
 &<mods/2897171599/2897171599.rules>/Actions,
+&<mods/2946411143/2946411143.rules>/Actions,
 
 //----------------Actual Part setup------------------------
 [
