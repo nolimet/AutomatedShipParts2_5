@@ -22,14 +22,10 @@ PartCrewMinusNone
 	HighPriorityPrerequisites = [BatteryStorage]
 	CrewDestinations
 	[
-		[82/64
-		82/64]
-		[238/64
-		82/64]
-		[238/64
-		238/64]
-		[82/64
-		238/64]
+		[82/64, 82/64]
+		[238/64, 82/64]
+		[238/64, 238/64]
+		[82/64, 238/64]
 	]
 	CrewLocations
 	[
@@ -57,14 +53,10 @@ PartCrewMinusOne
 	OverridePriorityKey = PartCrewMinusNone
 	CrewDestinations
 	[
-		[82/64
-		82/64]
-		[238/64
-		82/64]
-		[238/64
-		238/64]
-		[82/64
-		238/64]
+		[82/64, 82/64]
+		[238/64, 82/64]
+		[238/64, 238/64]
+		[82/64, 238/64]
 	]
 	CrewLocations
 	[
@@ -92,14 +84,10 @@ PartCrewMinusTwo
 	OverridePriorityKey = PartCrewMinusNone
 	CrewDestinations
 	[
-		[82/64
-		82/64]
-		[238/64
-		82/64]
-		[238/64
-		238/64]
-		[82/64
-		238/64]
+		[82/64, 82/64]
+		[238/64, 82/64]
+		[238/64, 238/64]
+		[82/64, 238/64]
 	]
 	CrewLocations
 	[
@@ -127,14 +115,10 @@ PartCrewMinusThree
 	OverridePriorityKey = PartCrewMinusNone
 	CrewDestinations
 	[
-		[82/64
-		82/64]
-		[238/64
-		82/64]
-		[238/64
-		238/64]
-		[82/64
-		238/64]
+		[82/64, 82/64]
+		[238/64, 82/64]
+		[238/64, 238/64]
+		[82/64, 238/64]
 	]
 	CrewLocations
 	[

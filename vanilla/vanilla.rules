@@ -1,4 +1,4 @@
-// -1 - Vanilla - 
+//  - Cosmoteer Base - 
 Actions
 [	//cannon_deck.rules
 	{Action = Remove; Remove = "<ships/terran/cannon_deck/cannon_deck.rules>/Part/Components/PartCrew"}
