@@ -22,22 +22,14 @@ PartCrewMinusNone
 	HighPriorityPrerequisites = []
 	CrewDestinations
 	[
-		[1.5
-		2.3]
-		[.7
-		1.5]
-		[1.5
-		.7]
-		[2.3
-		1.5]
-		[.5
-		.5]
-		[2.5
-		.5]
-		[.5
-		2.5]
-		[2.5
-		2.5]
+		[1.5, 2.3]
+		[.7, 1.5]
+		[1.5, .7]
+		[2.3, 1.5]
+		[.5, .5]
+		[2.5, .5]
+		[.5, 2.5]
+		[2.5, 2.5]
 	]
 	CrewLocations
 	[
@@ -69,22 +61,14 @@ PartCrewMinusOne
 	OverridePriorityKey = PartCrewMinusNone
 	CrewDestinations
 	[
-		[1.5
-		2.3]
-		[.7
-		1.5]
-		[1.5
-		.7]
-		[2.3
-		1.5]
-		[.5
-		.5]
-		[2.5
-		.5]
-		[.5
-		2.5]
-		[2.5
-		2.5]
+		[1.5, 2.3]
+		[.7, 1.5]
+		[1.5, .7]
+		[2.3, 1.5]
+		[.5, .5]
+		[2.5, .5]
+		[.5, 2.5]
+		[2.5, 2.5]
 	]
 	CrewLocations
 	[
@@ -116,22 +100,14 @@ PartCrewMinusTwo
 	OverridePriorityKey = PartCrewMinusNone
 	CrewDestinations
 	[
-		[1.5
-		2.3]
-		[.7
-		1.5]
-		[1.5
-		.7]
-		[2.3
-		1.5]
-		[.5
-		.5]
-		[2.5
-		.5]
-		[.5
-		2.5]
-		[2.5
-		2.5]
+		[1.5, 2.3]
+		[.7, 1.5]
+		[1.5, .7]
+		[2.3, 1.5]
+		[.5, .5]
+		[2.5, .5]
+		[.5, 2.5]
+		[2.5, 2.5]
 	]
 	CrewLocations
 	[
@@ -163,22 +139,14 @@ PartCrewMinusThree
 	OverridePriorityKey = PartCrewMinusNone
 	CrewDestinations
 	[
-		[1.5
-		2.3]
-		[.7
-		1.5]
-		[1.5
-		.7]
-		[2.3
-		1.5]
-		[.5
-		.5]
-		[2.5
-		.5]
-		[.5
-		2.5]
-		[2.5
-		2.5]
+		[1.5, 2.3]
+		[.7, 1.5]
+		[1.5, .7]
+		[2.3, 1.5]
+		[.5, .5]
+		[2.5, .5]
+		[.5, 2.5]
+		[2.5, 2.5]
 	]
 	CrewLocations
 	[

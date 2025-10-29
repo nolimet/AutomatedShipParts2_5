@@ -22,10 +22,8 @@ PartCrewMinusNone
 	HighPriorityPrerequisites = []
 	CrewDestinations
 	[
-		[0.5
-		3]
-		[1.5
-		3]
+		[0.5, 3]
+		[1.5, 3]
 	]
 	CrewLocations
 	[
@@ -51,10 +49,8 @@ PartCrewMinusOne
 	OverridePriorityKey = PartCrewMinusNone
 	CrewDestinations
 	[
-		[0.5
-		3]
-		[1.5
-		3]
+		[0.5, 3]
+		[1.5, 3]
 	]
 	CrewLocations
 	[

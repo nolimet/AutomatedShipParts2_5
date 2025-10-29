@@ -22,8 +22,7 @@ PartCrewMinusNone
 	HighPriorityPrerequisites = [BatteryStorage]
 	CrewDestinations
 	[
-		[0.625
-		0.625]
+		[0.625, 0.625]
 	]
 	CrewLocations
 	[
