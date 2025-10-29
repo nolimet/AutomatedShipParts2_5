@@ -1,0 +1,515 @@
+// 2946411143 - Extended Tech Tree Mod - 1.5.1a
+Actions
+[
+	//Extended Tech Tree Mod, version 1.5.1a, game version 0.25.0
+	//disruptor.rules
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/2946411143/disruptor/disruptor.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/2946411143/disruptor/disruptor.rules>/Part/Stats/CrewRequired"; With = 1}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2946411143/disruptor/disruptor.rules>/Part/Components"; BaseToAdd = &<disruptor.rules>}
+
+	//dpmdisruptor.rules
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/2946411143/disruptor/dpmdisruptor.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/2946411143/disruptor/dpmdisruptor.rules>/Part/Stats/CrewRequired"; With = 1}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2946411143/disruptor/dpmdisruptor.rules>/Part/Components"; BaseToAdd = &<dpmdisruptor.rules>}
+
+	//dpmhdisruptor.rules
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/2946411143/disruptor/dpmhdisruptor.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/2946411143/disruptor/dpmhdisruptor.rules>/Part/Stats/CrewRequired"; With = 1}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2946411143/disruptor/dpmhdisruptor.rules>/Part/Components"; BaseToAdd = &<dpmhdisruptor.rules>}
+
+	//dpmengine_room.rules
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/2946411143/engine_room/dpmengine_room.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/2946411143/engine_room/dpmengine_room.rules>/Part/Stats/CrewRequired"; With = 2}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2946411143/engine_room/dpmengine_room.rules>/Part/Components"; BaseToAdd = &<dpmengine_room.rules>}
+
+	//dpmhyperdrive_beacon.rules
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/2946411143/hyperdrive_beacon/dpmhyperdrive_beacon.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/2946411143/hyperdrive_beacon/dpmhyperdrive_beacon.rules>/Part/Stats/CrewRequired"; With = 4}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2946411143/hyperdrive_beacon/dpmhyperdrive_beacon.rules>/Part/Components"; BaseToAdd = &<dpmhyperdrive_beacon.rules>}
+
+	//dpmnhyperdrive_beacon.rules
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/2946411143/hyperdrive_beacon/dpmnhyperdrive_beacon.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/2946411143/hyperdrive_beacon/dpmnhyperdrive_beacon.rules>/Part/Stats/CrewRequired"; With = 6}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2946411143/hyperdrive_beacon/dpmnhyperdrive_beacon.rules>/Part/Components"; BaseToAdd = &<dpmnhyperdrive_beacon.rules>}
+
+	//hyperdrive_beacon.rules
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/2946411143/hyperdrive_beacon/hyperdrive_beacon.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/2946411143/hyperdrive_beacon/hyperdrive_beacon.rules>/Part/Stats/CrewRequired"; With = 6}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2946411143/hyperdrive_beacon/hyperdrive_beacon.rules>/Part/Components"; BaseToAdd = &<hyperdrive_beacon.rules>}
+
+	//dpm6amining_laser_small.rules
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/2946411143/mining_laser_small/dpm6amining_laser_small.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/2946411143/mining_laser_small/dpm6amining_laser_small.rules>/Part/Stats/CrewRequired"; With = 1}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2946411143/mining_laser_small/dpm6amining_laser_small.rules>/Part/Components"; BaseToAdd = &<dpm6amining_laser_small.rules>}
+
+	//dpm6hmining_laser_small.rules
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/2946411143/mining_laser_small/dpm6hmining_laser_small.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/2946411143/mining_laser_small/dpm6hmining_laser_small.rules>/Part/Stats/CrewRequired"; With = 1}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2946411143/mining_laser_small/dpm6hmining_laser_small.rules>/Part/Components"; BaseToAdd = &<dpm6hmining_laser_small.rules>}
+
+	//dpm6mining_laser_small.rules
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/2946411143/mining_laser_small/dpm6mining_laser_small.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/2946411143/mining_laser_small/dpm6mining_laser_small.rules>/Part/Stats/CrewRequired"; With = 1}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2946411143/mining_laser_small/dpm6mining_laser_small.rules>/Part/Components"; BaseToAdd = &<dpm6mining_laser_small.rules>}
+
+	//dpm6namining_laser_small.rules
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/2946411143/mining_laser_small/dpm6namining_laser_small.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/2946411143/mining_laser_small/dpm6namining_laser_small.rules>/Part/Stats/CrewRequired"; With = 1}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2946411143/mining_laser_small/dpm6namining_laser_small.rules>/Part/Components"; BaseToAdd = &<dpm6namining_laser_small.rules>}
+
+	//dpm6nmining_laser_small.rules
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/2946411143/mining_laser_small/dpm6nmining_laser_small.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/2946411143/mining_laser_small/dpm6nmining_laser_small.rules>/Part/Stats/CrewRequired"; With = 1}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2946411143/mining_laser_small/dpm6nmining_laser_small.rules>/Part/Components"; BaseToAdd = &<dpm6nmining_laser_small.rules>}
+
+	//dpm6smining_laser_small.rules
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/2946411143/mining_laser_small/dpm6smining_laser_small.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/2946411143/mining_laser_small/dpm6smining_laser_small.rules>/Part/Stats/CrewRequired"; With = 1}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2946411143/mining_laser_small/dpm6smining_laser_small.rules>/Part/Components"; BaseToAdd = &<dpm6smining_laser_small.rules>}
+
+	//dpmhmining_laser_small.rules
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/2946411143/mining_laser_small/dpmhmining_laser_small.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/2946411143/mining_laser_small/dpmhmining_laser_small.rules>/Part/Stats/CrewRequired"; With = 1}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2946411143/mining_laser_small/dpmhmining_laser_small.rules>/Part/Components"; BaseToAdd = &<dpmhmining_laser_small.rules>}
+
+	//dpmmining_laser_small.rules
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/2946411143/mining_laser_small/dpmmining_laser_small.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/2946411143/mining_laser_small/dpmmining_laser_small.rules>/Part/Stats/CrewRequired"; With = 1}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2946411143/mining_laser_small/dpmmining_laser_small.rules>/Part/Components"; BaseToAdd = &<dpmmining_laser_small.rules>}
+
+	//dpmnamining_laser_small.rules
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/2946411143/mining_laser_small/dpmnamining_laser_small.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/2946411143/mining_laser_small/dpmnamining_laser_small.rules>/Part/Stats/CrewRequired"; With = 1}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2946411143/mining_laser_small/dpmnamining_laser_small.rules>/Part/Components"; BaseToAdd = &<dpmnamining_laser_small.rules>}
+
+	//dpmnmining_laser_small.rules
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/2946411143/mining_laser_small/dpmnmining_laser_small.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/2946411143/mining_laser_small/dpmnmining_laser_small.rules>/Part/Stats/CrewRequired"; With = 1}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2946411143/mining_laser_small/dpmnmining_laser_small.rules>/Part/Components"; BaseToAdd = &<dpmnmining_laser_small.rules>}
+
+	//dpmQmining_laser_small.rules
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/2946411143/mining_laser_small/dpmQmining_laser_small.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/2946411143/mining_laser_small/dpmQmining_laser_small.rules>/Part/Stats/CrewRequired"; With = 1}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2946411143/mining_laser_small/dpmQmining_laser_small.rules>/Part/Components"; BaseToAdd = &<dpmQmining_laser_small.rules>}
+
+	//dpmsmining_laser_small.rules
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/2946411143/mining_laser_small/dpmsmining_laser_small.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/2946411143/mining_laser_small/dpmsmining_laser_small.rules>/Part/Stats/CrewRequired"; With = 1}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2946411143/mining_laser_small/dpmsmining_laser_small.rules>/Part/Components"; BaseToAdd = &<dpmsmining_laser_small.rules>}
+
+	//mining_laser_small_orig.rules
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/2946411143/mining_laser_small/mining_laser_small_orig.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/2946411143/mining_laser_small/mining_laser_small_orig.rules>/Part/Stats/CrewRequired"; With = 1}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2946411143/mining_laser_small/mining_laser_small_orig.rules>/Part/Components"; BaseToAdd = &<mining_laser_small_orig.rules>}
+
+	//dpm1_missile_launcher.rules
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/2946411143/missile_launcher/dpm1_missile_launcher.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/2946411143/missile_launcher/dpm1_missile_launcher.rules>/Part/Stats/CrewRequired"; With = 2}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2946411143/missile_launcher/dpm1_missile_launcher.rules>/Part/Components"; BaseToAdd = &<dpm1_missile_launcher.rules>}
+
+	//dpmc_missile_launcher.rules
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/2946411143/missile_launcher/dpmc_missile_launcher.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/2946411143/missile_launcher/dpmc_missile_launcher.rules>/Part/Stats/CrewRequired"; With = 1}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2946411143/missile_launcher/dpmc_missile_launcher.rules>/Part/Components"; BaseToAdd = &<dpmc_missile_launcher.rules>}
+
+	//dpmmm_missile_launcher.rules
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/2946411143/missile_launcher/dpmmm_missile_launcher.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/2946411143/missile_launcher/dpmmm_missile_launcher.rules>/Part/Stats/CrewRequired"; With = 1}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2946411143/missile_launcher/dpmmm_missile_launcher.rules>/Part/Components"; BaseToAdd = &<dpmmm_missile_launcher.rules>}
+
+	//dpmm_missile_launcher - BAK 4 nog ipv 2.rules
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/2946411143/missile_launcher/dpmm_missile_launcher - BAK 4 nog ipv 2.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/2946411143/missile_launcher/dpmm_missile_launcher - BAK 4 nog ipv 2.rules>/Part/Stats/CrewRequired"; With = 2}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2946411143/missile_launcher/dpmm_missile_launcher - BAK 4 nog ipv 2.rules>/Part/Components"; BaseToAdd = &<dpmm_missile_launcher - BAK 4 nog ipv 2.rules>}
+
+	//dpmm_missile_launcher-prepoging2.rules
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/2946411143/missile_launcher/dpmm_missile_launcher-prepoging2.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/2946411143/missile_launcher/dpmm_missile_launcher-prepoging2.rules>/Part/Stats/CrewRequired"; With = 2}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2946411143/missile_launcher/dpmm_missile_launcher-prepoging2.rules>/Part/Components"; BaseToAdd = &<dpmm_missile_launcher-prepoging2.rules>}
+
+	//dpmm_missile_launcher.rules
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/2946411143/missile_launcher/dpmm_missile_launcher.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/2946411143/missile_launcher/dpmm_missile_launcher.rules>/Part/Stats/CrewRequired"; With = 2}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2946411143/missile_launcher/dpmm_missile_launcher.rules>/Part/Components"; BaseToAdd = &<dpmm_missile_launcher.rules>}
+
+	//dpmm_missile_launcherOUD.rules
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/2946411143/missile_launcher/dpmm_missile_launcherOUD.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/2946411143/missile_launcher/dpmm_missile_launcherOUD.rules>/Part/Stats/CrewRequired"; With = 2}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2946411143/missile_launcher/dpmm_missile_launcherOUD.rules>/Part/Components"; BaseToAdd = &<dpmm_missile_launcherOUD.rules>}
+
+	//dpmx_missile_launcher.rules
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/2946411143/missile_launcher/dpmx_missile_launcher.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/2946411143/missile_launcher/dpmx_missile_launcher.rules>/Part/Stats/CrewRequired"; With = 2}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2946411143/missile_launcher/dpmx_missile_launcher.rules>/Part/Components"; BaseToAdd = &<dpmx_missile_launcher.rules>}
+
+	//dpm_missile_launcher - Copy.rules
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/2946411143/missile_launcher/dpm_missile_launcher - Copy.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/2946411143/missile_launcher/dpm_missile_launcher - Copy.rules>/Part/Stats/CrewRequired"; With = 2}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2946411143/missile_launcher/dpm_missile_launcher - Copy.rules>/Part/Components"; BaseToAdd = &<dpm_missile_launcher - Copy.rules>}
+
+	//dpm_missile_launcher.rules
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/2946411143/missile_launcher/dpm_missile_launcher.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/2946411143/missile_launcher/dpm_missile_launcher.rules>/Part/Stats/CrewRequired"; With = 2}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2946411143/missile_launcher/dpm_missile_launcher.rules>/Part/Components"; BaseToAdd = &<dpm_missile_launcher.rules>}
+
+	//dpm_missile_launcher_alex.rules
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/2946411143/missile_launcher/dpm_missile_launcher_alex.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/2946411143/missile_launcher/dpm_missile_launcher_alex.rules>/Part/Stats/CrewRequired"; With = 2}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2946411143/missile_launcher/dpm_missile_launcher_alex.rules>/Part/Components"; BaseToAdd = &<dpm_missile_launcher_alex.rules>}
+
+	//missile_launcher.rules
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/2946411143/missile_launcher/missile_launcher.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/2946411143/missile_launcher/missile_launcher.rules>/Part/Stats/CrewRequired"; With = 2}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2946411143/missile_launcher/missile_launcher.rules>/Part/Components"; BaseToAdd = &<missile_launcher.rules>}
+
+	//tractor_beam_emitter.rules
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/2946411143/tractor_beam_emitter/tractor_beam_emitter.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/2946411143/tractor_beam_emitter/tractor_beam_emitter.rules>/Part/Stats/CrewRequired"; With = 4}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2946411143/tractor_beam_emitter/tractor_beam_emitter.rules>/Part/Components"; BaseToAdd = &<tractor_beam_emitter.rules>}
+
+	//dpmcannon_deck - oude.rules
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/2946411143/cannons/dpmcannon_deck/dpmcannon_deck - oude.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/2946411143/cannons/dpmcannon_deck/dpmcannon_deck - oude.rules>/Part/Stats/CrewRequired"; With = 4}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2946411143/cannons/dpmcannon_deck/dpmcannon_deck - oude.rules>/Part/Components"; BaseToAdd = &<dpmcannon_deck - oude.rules>}
+
+	//dpmcannon_deck.rules
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/2946411143/cannons/dpmcannon_deck/dpmcannon_deck.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/2946411143/cannons/dpmcannon_deck/dpmcannon_deck.rules>/Part/Stats/CrewRequired"; With = 4}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2946411143/cannons/dpmcannon_deck/dpmcannon_deck.rules>/Part/Components"; BaseToAdd = &<dpmcannon_deck.rules>}
+
+	//cannon_large.rules
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/2946411143/cannons/dpmcannon_large/cannon_large.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/2946411143/cannons/dpmcannon_large/cannon_large.rules>/Part/Stats/CrewRequired"; With = 2}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2946411143/cannons/dpmcannon_large/cannon_large.rules>/Part/Components"; BaseToAdd = &<cannon_large.rules>}
+
+	//dpmcannon_large.rules
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/2946411143/cannons/dpmcannon_large/dpmcannon_large.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/2946411143/cannons/dpmcannon_large/dpmcannon_large.rules>/Part/Stats/CrewRequired"; With = 2}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2946411143/cannons/dpmcannon_large/dpmcannon_large.rules>/Part/Components"; BaseToAdd = &<dpmcannon_large.rules>}
+
+	//dpmcannon_med - oude.rules
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/2946411143/cannons/dpmcannon_med/dpmcannon_med - oude.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/2946411143/cannons/dpmcannon_med/dpmcannon_med - oude.rules>/Part/Stats/CrewRequired"; With = 1}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2946411143/cannons/dpmcannon_med/dpmcannon_med - oude.rules>/Part/Components"; BaseToAdd = &<dpmcannon_med - oude.rules>}
+
+	//dpmcannon_med.rules
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/2946411143/cannons/dpmcannon_med/dpmcannon_med.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/2946411143/cannons/dpmcannon_med/dpmcannon_med.rules>/Part/Stats/CrewRequired"; With = 1}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2946411143/cannons/dpmcannon_med/dpmcannon_med.rules>/Part/Components"; BaseToAdd = &<dpmcannon_med.rules>}
+
+	//dpmcannon_medt.rules
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/2946411143/cannons/dpmcannon_med/dpmcannon_medt.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/2946411143/cannons/dpmcannon_med/dpmcannon_medt.rules>/Part/Stats/CrewRequired"; With = 1}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2946411143/cannons/dpmcannon_med/dpmcannon_medt.rules>/Part/Components"; BaseToAdd = &<dpmcannon_medt.rules>}
+
+	//dpmcannon_medt2.rules
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/2946411143/cannons/dpmcannon_med/dpmcannon_medt2.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/2946411143/cannons/dpmcannon_med/dpmcannon_medt2.rules>/Part/Stats/CrewRequired"; With = 1}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2946411143/cannons/dpmcannon_med/dpmcannon_medt2.rules>/Part/Components"; BaseToAdd = &<dpmcannon_medt2.rules>}
+
+	//chaingun - Copy.rules
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/2946411143/chaingun/chaingun/chaingun - Copy.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/2946411143/chaingun/chaingun/chaingun - Copy.rules>/Part/Stats/CrewRequired"; With = 3}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2946411143/chaingun/chaingun/chaingun - Copy.rules>/Part/Components"; BaseToAdd = &<chaingun - Copy.rules>}
+
+	//chaingun.rules
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/2946411143/chaingun/chaingun/chaingun.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/2946411143/chaingun/chaingun/chaingun.rules>/Part/Stats/CrewRequired"; With = 3}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2946411143/chaingun/chaingun/chaingun.rules>/Part/Components"; BaseToAdd = &<chaingun.rules>}
+
+	//chaingunOUD.rules
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/2946411143/chaingun/chaingun/chaingunOUD.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/2946411143/chaingun/chaingun/chaingunOUD.rules>/Part/Stats/CrewRequired"; With = 3}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2946411143/chaingun/chaingun/chaingunOUD.rules>/Part/Components"; BaseToAdd = &<chaingunOUD.rules>}
+
+	//dpmacontrol_room_small.rules
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/2946411143/control_room/dpmcontrol_room_small/dpmacontrol_room_small.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/2946411143/control_room/dpmcontrol_room_small/dpmacontrol_room_small.rules>/Part/Stats/CrewRequired"; With = 1}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2946411143/control_room/dpmcontrol_room_small/dpmacontrol_room_small.rules>/Part/Components"; BaseToAdd = &<dpmacontrol_room_small.rules>}
+
+	//dpmcontrol_room_small - kopie ORIG.rules
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/2946411143/control_room/dpmcontrol_room_small/dpmcontrol_room_small - kopie ORIG.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/2946411143/control_room/dpmcontrol_room_small/dpmcontrol_room_small - kopie ORIG.rules>/Part/Stats/CrewRequired"; With = 1}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2946411143/control_room/dpmcontrol_room_small/dpmcontrol_room_small - kopie ORIG.rules>/Part/Components"; BaseToAdd = &<dpmcontrol_room_small - kopie ORIG.rules>}
+
+	//dpmcontrol_room_small.rules
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/2946411143/control_room/dpmcontrol_room_small/dpmcontrol_room_small.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/2946411143/control_room/dpmcontrol_room_small/dpmcontrol_room_small.rules>/Part/Stats/CrewRequired"; With = 1}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2946411143/control_room/dpmcontrol_room_small/dpmcontrol_room_small.rules>/Part/Components"; BaseToAdd = &<dpmcontrol_room_small.rules>}
+
+	//dpmcontrol_room_small_TEST.rules
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/2946411143/control_room/dpmcontrol_room_small/dpmcontrol_room_small_TEST.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/2946411143/control_room/dpmcontrol_room_small/dpmcontrol_room_small_TEST.rules>/Part/Stats/CrewRequired"; With = 1}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2946411143/control_room/dpmcontrol_room_small/dpmcontrol_room_small_TEST.rules>/Part/Components"; BaseToAdd = &<dpmcontrol_room_small_TEST.rules>}
+
+	//control_room_small.rules
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/2946411143/control_room/dpmcontrol_room_tiny/control_room_small.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/2946411143/control_room/dpmcontrol_room_tiny/control_room_small.rules>/Part/Stats/CrewRequired"; With = 1}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2946411143/control_room/dpmcontrol_room_tiny/control_room_small.rules>/Part/Components"; BaseToAdd = &<control_room_small.rules>}
+
+	//dpmacontrol_room_tiny.rules
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/2946411143/control_room/dpmcontrol_room_tiny/dpmacontrol_room_tiny.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/2946411143/control_room/dpmcontrol_room_tiny/dpmacontrol_room_tiny.rules>/Part/Stats/CrewRequired"; With = 1}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2946411143/control_room/dpmcontrol_room_tiny/dpmacontrol_room_tiny.rules>/Part/Components"; BaseToAdd = &<dpmacontrol_room_tiny.rules>}
+
+	//dpmcontrol_room_small.rules
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/2946411143/control_room/dpmcontrol_room_tiny/dpmcontrol_room_small.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/2946411143/control_room/dpmcontrol_room_tiny/dpmcontrol_room_small.rules>/Part/Stats/CrewRequired"; With = 1}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2946411143/control_room/dpmcontrol_room_tiny/dpmcontrol_room_small.rules>/Part/Components"; BaseToAdd = &<dpmcontrol_room_small.rules>}
+
+	//dpmcontrol_room_tiny.rules
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/2946411143/control_room/dpmcontrol_room_tiny/dpmcontrol_room_tiny.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/2946411143/control_room/dpmcontrol_room_tiny/dpmcontrol_room_tiny.rules>/Part/Stats/CrewRequired"; With = 1}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2946411143/control_room/dpmcontrol_room_tiny/dpmcontrol_room_tiny.rules>/Part/Components"; BaseToAdd = &<dpmcontrol_room_tiny.rules>}
+
+	//dpmhacontrol_room_tiny - Metlaterals.rules
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/2946411143/control_room/dpmcontrol_room_tiny/dpmhacontrol_room_tiny - Metlaterals.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/2946411143/control_room/dpmcontrol_room_tiny/dpmhacontrol_room_tiny - Metlaterals.rules>/Part/Stats/CrewRequired"; With = 1}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2946411143/control_room/dpmcontrol_room_tiny/dpmhacontrol_room_tiny - Metlaterals.rules>/Part/Components"; BaseToAdd = &<dpmhacontrol_room_tiny - Metlaterals.rules>}
+
+	//dpmhacontrol_room_tiny.rules
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/2946411143/control_room/dpmcontrol_room_tiny/dpmhacontrol_room_tiny.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/2946411143/control_room/dpmcontrol_room_tiny/dpmhacontrol_room_tiny.rules>/Part/Stats/CrewRequired"; With = 1}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2946411143/control_room/dpmcontrol_room_tiny/dpmhacontrol_room_tiny.rules>/Part/Components"; BaseToAdd = &<dpmhacontrol_room_tiny.rules>}
+
+	//dpmhcontrol_room_tiny - Metlaterals.rules
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/2946411143/control_room/dpmcontrol_room_tiny/dpmhcontrol_room_tiny - Metlaterals.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/2946411143/control_room/dpmcontrol_room_tiny/dpmhcontrol_room_tiny - Metlaterals.rules>/Part/Stats/CrewRequired"; With = 1}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2946411143/control_room/dpmcontrol_room_tiny/dpmhcontrol_room_tiny - Metlaterals.rules>/Part/Components"; BaseToAdd = &<dpmhcontrol_room_tiny - Metlaterals.rules>}
+
+	//dpmhcontrol_room_tiny - WERKT.rules
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/2946411143/control_room/dpmcontrol_room_tiny/dpmhcontrol_room_tiny - WERKT.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/2946411143/control_room/dpmcontrol_room_tiny/dpmhcontrol_room_tiny - WERKT.rules>/Part/Stats/CrewRequired"; With = 1}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2946411143/control_room/dpmcontrol_room_tiny/dpmhcontrol_room_tiny - WERKT.rules>/Part/Components"; BaseToAdd = &<dpmhcontrol_room_tiny - WERKT.rules>}
+
+	//dpmhcontrol_room_tiny.rules
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/2946411143/control_room/dpmcontrol_room_tiny/dpmhcontrol_room_tiny.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/2946411143/control_room/dpmcontrol_room_tiny/dpmhcontrol_room_tiny.rules>/Part/Stats/CrewRequired"; With = 1}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2946411143/control_room/dpmcontrol_room_tiny/dpmhcontrol_room_tiny.rules>/Part/Components"; BaseToAdd = &<dpmhcontrol_room_tiny.rules>}
+
+	//dpmhacontrol_room_small.rules
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/2946411143/control_room/dpmhcontrol_room_small/dpmhacontrol_room_small.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/2946411143/control_room/dpmhcontrol_room_small/dpmhacontrol_room_small.rules>/Part/Stats/CrewRequired"; With = 1}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2946411143/control_room/dpmhcontrol_room_small/dpmhacontrol_room_small.rules>/Part/Components"; BaseToAdd = &<dpmhacontrol_room_small.rules>}
+
+	//dpmhcontrol_room_small.rules
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/2946411143/control_room/dpmhcontrol_room_small/dpmhcontrol_room_small.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/2946411143/control_room/dpmhcontrol_room_small/dpmhcontrol_room_small.rules>/Part/Stats/CrewRequired"; With = 1}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2946411143/control_room/dpmhcontrol_room_small/dpmhcontrol_room_small.rules>/Part/Components"; BaseToAdd = &<dpmhcontrol_room_small.rules>}
+
+	//dpmacontrol_room_large.rules
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/2946411143/control_room/dpmncontrol_room_large/dpmacontrol_room_large.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/2946411143/control_room/dpmncontrol_room_large/dpmacontrol_room_large.rules>/Part/Stats/CrewRequired"; With = 7}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2946411143/control_room/dpmncontrol_room_large/dpmacontrol_room_large.rules>/Part/Components"; BaseToAdd = &<dpmacontrol_room_large.rules>}
+
+	//dpmncontrol_room_large.rules
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/2946411143/control_room/dpmncontrol_room_large/dpmncontrol_room_large.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/2946411143/control_room/dpmncontrol_room_large/dpmncontrol_room_large.rules>/Part/Stats/CrewRequired"; With = 7}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2946411143/control_room/dpmncontrol_room_large/dpmncontrol_room_large.rules>/Part/Components"; BaseToAdd = &<dpmncontrol_room_large.rules>}
+
+	//dpmacontrol_room_med.rules
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/2946411143/control_room/dpmncontrol_room_med/dpmacontrol_room_med.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/2946411143/control_room/dpmncontrol_room_med/dpmacontrol_room_med.rules>/Part/Stats/CrewRequired"; With = 3}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2946411143/control_room/dpmncontrol_room_med/dpmacontrol_room_med.rules>/Part/Components"; BaseToAdd = &<dpmacontrol_room_med.rules>}
+
+	//dpmncontrol_room_med.rules
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/2946411143/control_room/dpmncontrol_room_med/dpmncontrol_room_med.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/2946411143/control_room/dpmncontrol_room_med/dpmncontrol_room_med.rules>/Part/Stats/CrewRequired"; With = 3}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2946411143/control_room/dpmncontrol_room_med/dpmncontrol_room_med.rules>/Part/Components"; BaseToAdd = &<dpmncontrol_room_med.rules>}
+
+	//dpmflak_cannon_large - HELEOUDE.rules
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/2946411143/flak/flak_cannon_large/dpmflak_cannon_large - HELEOUDE.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/2946411143/flak/flak_cannon_large/dpmflak_cannon_large - HELEOUDE.rules>/Part/Stats/CrewRequired"; With = 3}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2946411143/flak/flak_cannon_large/dpmflak_cannon_large - HELEOUDE.rules>/Part/Components"; BaseToAdd = &<dpmflak_cannon_large - HELEOUDE.rules>}
+
+	//dpmflak_cannon_large - OUDE.rules
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/2946411143/flak/flak_cannon_large/dpmflak_cannon_large - OUDE.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/2946411143/flak/flak_cannon_large/dpmflak_cannon_large - OUDE.rules>/Part/Stats/CrewRequired"; With = 3}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2946411143/flak/flak_cannon_large/dpmflak_cannon_large - OUDE.rules>/Part/Components"; BaseToAdd = &<dpmflak_cannon_large - OUDE.rules>}
+
+	//dpmflak_cannon_large.rules
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/2946411143/flak/flak_cannon_large/dpmflak_cannon_large.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/2946411143/flak/flak_cannon_large/dpmflak_cannon_large.rules>/Part/Stats/CrewRequired"; With = 3}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2946411143/flak/flak_cannon_large/dpmflak_cannon_large.rules>/Part/Components"; BaseToAdd = &<dpmflak_cannon_large.rules>}
+
+	//dpmflak_cannon_large2.rules
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/2946411143/flak/flak_cannon_large/dpmflak_cannon_large2.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/2946411143/flak/flak_cannon_large/dpmflak_cannon_large2.rules>/Part/Stats/CrewRequired"; With = 3}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2946411143/flak/flak_cannon_large/dpmflak_cannon_large2.rules>/Part/Components"; BaseToAdd = &<dpmflak_cannon_large2.rules>}
+
+	//dpmflak_cannon_largeOUDE.rules
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/2946411143/flak/flak_cannon_large/dpmflak_cannon_largeOUDE.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/2946411143/flak/flak_cannon_large/dpmflak_cannon_largeOUDE.rules>/Part/Stats/CrewRequired"; With = 3}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2946411143/flak/flak_cannon_large/dpmflak_cannon_largeOUDE.rules>/Part/Components"; BaseToAdd = &<dpmflak_cannon_largeOUDE.rules>}
+
+	//flak_cannon_large - Copy.rules
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/2946411143/flak/flak_cannon_large/flak_cannon_large - Copy.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/2946411143/flak/flak_cannon_large/flak_cannon_large - Copy.rules>/Part/Stats/CrewRequired"; With = 3}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2946411143/flak/flak_cannon_large/flak_cannon_large - Copy.rules>/Part/Components"; BaseToAdd = &<flak_cannon_large - Copy.rules>}
+
+	//flak_cannon_large.rules
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/2946411143/flak/flak_cannon_large/flak_cannon_large.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/2946411143/flak/flak_cannon_large/flak_cannon_large.rules>/Part/Stats/CrewRequired"; With = 3}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2946411143/flak/flak_cannon_large/flak_cannon_large.rules>/Part/Components"; BaseToAdd = &<flak_cannon_large.rules>}
+
+	//flak_cannon_med.rules
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/2946411143/flak/flak_cannon_large/flak_cannon_med.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/2946411143/flak/flak_cannon_large/flak_cannon_med.rules>/Part/Stats/CrewRequired"; With = 1}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2946411143/flak/flak_cannon_large/flak_cannon_med.rules>/Part/Components"; BaseToAdd = &<flak_cannon_med.rules>}
+
+	//flak_cannon_meda.rules
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/2946411143/flak/flak_cannon_large/flak_cannon_meda.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/2946411143/flak/flak_cannon_large/flak_cannon_meda.rules>/Part/Stats/CrewRequired"; With = 1}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2946411143/flak/flak_cannon_large/flak_cannon_meda.rules>/Part/Components"; BaseToAdd = &<flak_cannon_meda.rules>}
+
+	//sensor_array.rules
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/2946411143/hyperdrive_beacon/3/sensor_array.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/2946411143/hyperdrive_beacon/3/sensor_array.rules>/Part/Stats/CrewRequired"; With = 4}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2946411143/hyperdrive_beacon/3/sensor_array.rules>/Part/Components"; BaseToAdd = &<sensor_array.rules>}
+
+	//dpmion_beam_emitter.rules
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/2946411143/ion/ion_beam_emitter/dpmion_beam_emitter.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/2946411143/ion/ion_beam_emitter/dpmion_beam_emitter.rules>/Part/Stats/CrewRequired"; With = 2}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2946411143/ion/ion_beam_emitter/dpmion_beam_emitter.rules>/Part/Components"; BaseToAdd = &<dpmion_beam_emitter.rules>}
+
+	//dpmmion_beam_emitter.rules
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/2946411143/ion/ion_beam_emitter/dpmmion_beam_emitter.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/2946411143/ion/ion_beam_emitter/dpmmion_beam_emitter.rules>/Part/Stats/CrewRequired"; With = 2}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2946411143/ion/ion_beam_emitter/dpmmion_beam_emitter.rules>/Part/Components"; BaseToAdd = &<dpmmion_beam_emitter.rules>}
+
+	//laser_blaster_small.rules
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/2946411143/lasers/1/laser_blaster_small.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/2946411143/lasers/1/laser_blaster_small.rules>/Part/Stats/CrewRequired"; With = 1}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2946411143/lasers/1/laser_blaster_small.rules>/Part/Components"; BaseToAdd = &<laser_blaster_small.rules>}
+
+	//laser_blaster_small.rules
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/2946411143/lasers/2/laser_blaster_small.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/2946411143/lasers/2/laser_blaster_small.rules>/Part/Stats/CrewRequired"; With = 1}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2946411143/lasers/2/laser_blaster_small.rules>/Part/Components"; BaseToAdd = &<laser_blaster_small.rules>}
+
+	//dpmlaser_blaster_large.rules
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/2946411143/lasers/dpmlaser_blaster_large/dpmlaser_blaster_large.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/2946411143/lasers/dpmlaser_blaster_large/dpmlaser_blaster_large.rules>/Part/Stats/CrewRequired"; With = 2}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2946411143/lasers/dpmlaser_blaster_large/dpmlaser_blaster_large.rules>/Part/Components"; BaseToAdd = &<dpmlaser_blaster_large.rules>}
+
+	//dpmlaser_blaster_small.rules
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/2946411143/lasers/dpmlaser_blaster_small/dpmlaser_blaster_small.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/2946411143/lasers/dpmlaser_blaster_small/dpmlaser_blaster_small.rules>/Part/Stats/CrewRequired"; With = 1}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2946411143/lasers/dpmlaser_blaster_small/dpmlaser_blaster_small.rules>/Part/Components"; BaseToAdd = &<dpmlaser_blaster_small.rules>}
+
+	//dpmhflaser_blaster_large - BAK.rules
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/2946411143/lasersh/dpmhlaser_blaster_large/dpmhflaser_blaster_large - BAK.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/2946411143/lasersh/dpmhlaser_blaster_large/dpmhflaser_blaster_large - BAK.rules>/Part/Stats/CrewRequired"; With = 1}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2946411143/lasersh/dpmhlaser_blaster_large/dpmhflaser_blaster_large - BAK.rules>/Part/Components"; BaseToAdd = &<dpmhflaser_blaster_large - BAK.rules>}
+
+	//dpmhflaser_blaster_large.rules
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/2946411143/lasersh/dpmhlaser_blaster_large/dpmhflaser_blaster_large.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/2946411143/lasersh/dpmhlaser_blaster_large/dpmhflaser_blaster_large.rules>/Part/Stats/CrewRequired"; With = 1}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2946411143/lasersh/dpmhlaser_blaster_large/dpmhflaser_blaster_large.rules>/Part/Components"; BaseToAdd = &<dpmhflaser_blaster_large.rules>}
+
+	//dpmhlaser_blaster_large.rules
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/2946411143/lasersh/dpmhlaser_blaster_large/dpmhlaser_blaster_large.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/2946411143/lasersh/dpmhlaser_blaster_large/dpmhlaser_blaster_large.rules>/Part/Stats/CrewRequired"; With = 2}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2946411143/lasersh/dpmhlaser_blaster_large/dpmhlaser_blaster_large.rules>/Part/Components"; BaseToAdd = &<dpmhlaser_blaster_large.rules>}
+
+	//dpmhlaser_blaster_small.rules
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/2946411143/lasersh/dpmhlaser_blaster_small/dpmhlaser_blaster_small.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/2946411143/lasersh/dpmhlaser_blaster_small/dpmhlaser_blaster_small.rules>/Part/Stats/CrewRequired"; With = 1}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2946411143/lasersh/dpmhlaser_blaster_small/dpmhlaser_blaster_small.rules>/Part/Components"; BaseToAdd = &<dpmhlaser_blaster_small.rules>}
+
+	//railgun_loader - Copy.rules
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/2946411143/rail/railgun_loader/railgun_loader - Copy.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/2946411143/rail/railgun_loader/railgun_loader - Copy.rules>/Part/Stats/CrewRequired"; With = 2}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2946411143/rail/railgun_loader/railgun_loader - Copy.rules>/Part/Components"; BaseToAdd = &<railgun_loader - Copy.rules>}
+
+	//railgun_loader - WERKT.rules
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/2946411143/rail/railgun_loader/railgun_loader - WERKT.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/2946411143/rail/railgun_loader/railgun_loader - WERKT.rules>/Part/Stats/CrewRequired"; With = 2}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2946411143/rail/railgun_loader/railgun_loader - WERKT.rules>/Part/Components"; BaseToAdd = &<railgun_loader - WERKT.rules>}
+
+	//railgun_loader.rules
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/2946411143/rail/railgun_loader/railgun_loader.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/2946411143/rail/railgun_loader/railgun_loader.rules>/Part/Stats/CrewRequired"; With = 2}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2946411143/rail/railgun_loader/railgun_loader.rules>/Part/Components"; BaseToAdd = &<railgun_loader.rules>}
+
+	//railgun_loaderOUDE.rules
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/2946411143/rail/railgun_loader/railgun_loaderOUDE.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/2946411143/rail/railgun_loader/railgun_loaderOUDE.rules>/Part/Stats/CrewRequired"; With = 2}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2946411143/rail/railgun_loader/railgun_loaderOUDE.rules>/Part/Components"; BaseToAdd = &<railgun_loaderOUDE.rules>}
+
+	//dpmlasensor_array.rules
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/2946411143/sensor/dpmnsensor_array/dpmlasensor_array.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/2946411143/sensor/dpmnsensor_array/dpmlasensor_array.rules>/Part/Stats/CrewRequired"; With = 6}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2946411143/sensor/dpmnsensor_array/dpmlasensor_array.rules>/Part/Components"; BaseToAdd = &<dpmlasensor_array.rules>}
+
+	//dpmlqsensor_array.rules
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/2946411143/sensor/dpmnsensor_array/dpmlqsensor_array.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/2946411143/sensor/dpmnsensor_array/dpmlqsensor_array.rules>/Part/Stats/CrewRequired"; With = 3}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2946411143/sensor/dpmnsensor_array/dpmlqsensor_array.rules>/Part/Components"; BaseToAdd = &<dpmlqsensor_array.rules>}
+
+	//dpmlsensor_array.rules
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/2946411143/sensor/dpmnsensor_array/dpmlsensor_array.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/2946411143/sensor/dpmnsensor_array/dpmlsensor_array.rules>/Part/Stats/CrewRequired"; With = 6}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2946411143/sensor/dpmnsensor_array/dpmlsensor_array.rules>/Part/Components"; BaseToAdd = &<dpmlsensor_array.rules>}
+
+	//dpmnsensor_array.rules
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/2946411143/sensor/dpmnsensor_array/dpmnsensor_array.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/2946411143/sensor/dpmnsensor_array/dpmnsensor_array.rules>/Part/Stats/CrewRequired"; With = 4}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2946411143/sensor/dpmnsensor_array/dpmnsensor_array.rules>/Part/Components"; BaseToAdd = &<dpmnsensor_array.rules>}
+
+	//dpmnsensor_array2.rules
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/2946411143/sensor/dpmnsensor_array/dpmnsensor_array2.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/2946411143/sensor/dpmnsensor_array/dpmnsensor_array2.rules>/Part/Stats/CrewRequired"; With = 4}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2946411143/sensor/dpmnsensor_array/dpmnsensor_array2.rules>/Part/Components"; BaseToAdd = &<dpmnsensor_array2.rules>}
+
+	//dpmqsensor_array.rules
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/2946411143/sensor/dpmnsensor_array/dpmqsensor_array.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/2946411143/sensor/dpmnsensor_array/dpmqsensor_array.rules>/Part/Stats/CrewRequired"; With = 2}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2946411143/sensor/dpmnsensor_array/dpmqsensor_array.rules>/Part/Components"; BaseToAdd = &<dpmqsensor_array.rules>}
+
+	//dpmsensor_array.rules
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/2946411143/sensor/dpmnsensor_array/dpmsensor_array.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/2946411143/sensor/dpmnsensor_array/dpmsensor_array.rules>/Part/Stats/CrewRequired"; With = 4}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2946411143/sensor/dpmnsensor_array/dpmsensor_array.rules>/Part/Components"; BaseToAdd = &<dpmsensor_array.rules>}
+
+	//dpmassensor_array.rules
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/2946411143/sensor/dpmssensor_array/dpmassensor_array.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/2946411143/sensor/dpmssensor_array/dpmassensor_array.rules>/Part/Stats/CrewRequired"; With = 2}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2946411143/sensor/dpmssensor_array/dpmassensor_array.rules>/Part/Components"; BaseToAdd = &<dpmassensor_array.rules>}
+
+	//dpmqssensor_array.rules
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/2946411143/sensor/dpmssensor_array/dpmqssensor_array.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/2946411143/sensor/dpmssensor_array/dpmqssensor_array.rules>/Part/Stats/CrewRequired"; With = 1}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2946411143/sensor/dpmssensor_array/dpmqssensor_array.rules>/Part/Components"; BaseToAdd = &<dpmqssensor_array.rules>}
+
+	//dpmshsensor_array.rules
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/2946411143/sensor/dpmssensor_array/dpmshsensor_array.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/2946411143/sensor/dpmssensor_array/dpmshsensor_array.rules>/Part/Stats/CrewRequired"; With = 2}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2946411143/sensor/dpmssensor_array/dpmshsensor_array.rules>/Part/Components"; BaseToAdd = &<dpmshsensor_array.rules>}
+
+	//dpmssensor_array.rules
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/2946411143/sensor/dpmssensor_array/dpmssensor_array.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/2946411143/sensor/dpmssensor_array/dpmssensor_array.rules>/Part/Stats/CrewRequired"; With = 2}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2946411143/sensor/dpmssensor_array/dpmssensor_array.rules>/Part/Components"; BaseToAdd = &<dpmssensor_array.rules>}
+
+	//dpmthruster_rocket_nozzle.rules
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/2946411143/thrustersMRT/thruster_rocket_nozzle/dpmthruster_rocket_nozzle.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/2946411143/thrustersMRT/thruster_rocket_nozzle/dpmthruster_rocket_nozzle.rules>/Part/Stats/CrewRequired"; With = 2}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2946411143/thrustersMRT/thruster_rocket_nozzle/dpmthruster_rocket_nozzle.rules>/Part/Components"; BaseToAdd = &<dpmthruster_rocket_nozzle.rules>}
+
+	//thruster_rocket_nozzle.rules
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/2946411143/thrustersMRT/thruster_rocket_nozzle/thruster_rocket_nozzle.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/2946411143/thrustersMRT/thruster_rocket_nozzle/thruster_rocket_nozzle.rules>/Part/Stats/CrewRequired"; With = 2}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2946411143/thrustersMRT/thruster_rocket_nozzle/thruster_rocket_nozzle.rules>/Part/Components"; BaseToAdd = &<thruster_rocket_nozzle.rules>}
+
+	//dpmm_missile_launcher.rules
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/2946411143/missile_launcher/ff/2/dpmm_missile_launcher.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/2946411143/missile_launcher/ff/2/dpmm_missile_launcher.rules>/Part/Stats/CrewRequired"; With = 2}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2946411143/missile_launcher/ff/2/dpmm_missile_launcher.rules>/Part/Components"; BaseToAdd = &<dpmm_missile_launcher.rules>}
+
+	//dpmm_missile_launcher.rules
+	{IgnoreIfNotExisting = true; Action = Remove; Remove = "<../../../workshop/content/799600/2946411143/missile_launcher/ff/4/dpmm_missile_launcher.rules>/Part/Components/PartCrew"}
+	{IgnoreIfNotExisting = true; Action = Replace; Replace = "<../../../workshop/content/799600/2946411143/missile_launcher/ff/4/dpmm_missile_launcher.rules>/Part/Stats/CrewRequired"; With = 2}
+	{IgnoreIfNotExisting = true; Action = AddBase; AddBaseTo = "<../../../workshop/content/799600/2946411143/missile_launcher/ff/4/dpmm_missile_launcher.rules>/Part/Components"; BaseToAdd = &<dpmm_missile_launcher.rules>}
+
+]
