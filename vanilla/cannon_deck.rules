@@ -5,7 +5,7 @@ PartCrew
 	Mode = Any
 }
 
-NeedsCrewMinusNone
+NeedsPartCrewMinusNone
 {
 	Type = MultiToggle
 	Toggles = [PartCrewMinusOne, PartCrewMinusTwo, PartCrewMinusThree, PartCrewMinusFour]
@@ -18,7 +18,7 @@ PartCrewMinusNone
 	Type = PartCrew
 	Crew = 4
 	DefaultPriority = &/PRIORITIES/Weapon_Crew
-	PrerequisitesBeforeCrewing = [PowerToggle, ScorchedToggle, NeedsCrewMinusNone]
+	PrerequisitesBeforeCrewing = [PowerToggle, ScorchedToggle, NeedsPartCrewMinusNone]
 	HighPriorityPrerequisites = [AmmoPrereq]
 	CrewDestinations
 	[
@@ -34,9 +34,10 @@ PartCrewMinusNone
 		CrewLocation3
 		CrewLocation4
 	]
+	
 }
 
-NeedsCrewMinusOne
+NeedsPartCrewMinusOne
 {
 	Type = BuffToggle
 	BuffType = AephixAITerminal
@@ -48,7 +49,7 @@ PartCrewMinusOne
 	Type = PartCrew
 	Crew = 3
 	DefaultPriority = &/PRIORITIES/Weapon_Crew
-	PrerequisitesBeforeCrewing = [PowerToggle, ScorchedToggle, NeedsCrewMinusOne]
+	PrerequisitesBeforeCrewing = [PowerToggle, ScorchedToggle, NeedsPartCrewMinusOne]
     HighPriorityPrerequisites = [AmmoPrereq]
 	OverridePriorityKey = PartCrewMinusNone
 	CrewDestinations
@@ -67,7 +68,7 @@ PartCrewMinusOne
 	]
 }
 
-NeedsCrewMinusTwo
+NeedsPartCrewMinusTwo
 {
 	Type = BuffToggle
 	BuffType = AephixAITerminal
@@ -79,7 +80,7 @@ PartCrewMinusTwo
 	Type = PartCrew
 	Crew = 2
 	DefaultPriority = &/PRIORITIES/Weapon_Crew
-	PrerequisitesBeforeCrewing = [PowerToggle, ScorchedToggle, NeedsCrewMinusTwo]
+	PrerequisitesBeforeCrewing = [PowerToggle, ScorchedToggle, NeedsPartCrewMinusTwo]
     HighPriorityPrerequisites = [AmmoPrereq]
 	OverridePriorityKey = PartCrewMinusNone
 	CrewDestinations
@@ -98,7 +99,7 @@ PartCrewMinusTwo
 	]
 }
 
-NeedsCrewMinusThree
+NeedsPartCrewMinusThree
 {
 	Type = BuffToggle
 	BuffType = AephixAITerminal
@@ -110,7 +111,7 @@ PartCrewMinusThree
 	Type = PartCrew
 	Crew = 1
 	DefaultPriority = &/PRIORITIES/Weapon_Crew
-	PrerequisitesBeforeCrewing = [PowerToggle, ScorchedToggle, NeedsCrewMinusThree]
+	PrerequisitesBeforeCrewing = [PowerToggle, ScorchedToggle, NeedsPartCrewMinusThree]
     HighPriorityPrerequisites = [AmmoPrereq]
 	OverridePriorityKey = PartCrewMinusNone
 	CrewDestinations

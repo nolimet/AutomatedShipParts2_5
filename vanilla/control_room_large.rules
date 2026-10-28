@@ -5,7 +5,7 @@ PartCrew
 	Mode = Any
 }
 
-NeedsCrewMinusNone
+NeedsPartCrewMinusNone
 {
 	Type = MultiToggle
 	Toggles = [PartCrewMinusOne, PartCrewMinusTwo, PartCrewMinusThree, PartCrewMinusFour, PartCrewMinusFive, PartCrewMinusSix, PartCrewMinusSeven]
@@ -18,7 +18,7 @@ PartCrewMinusNone
 	Type = PartCrew
 	Crew = 7
 	DefaultPriority = &/PRIORITIES/ControlRoom_Crew
-	PrerequisitesBeforeCrewing = [PowerToggle, ScorchedToggle, NeedsCrewMinusNone]
+	PrerequisitesBeforeCrewing = [PowerToggle, ScorchedToggle, NeedsPartCrewMinusNone]
 	HighPriorityPrerequisites = [BatteryStorage]
 	CrewDestinations
 	[
@@ -40,9 +40,10 @@ PartCrewMinusNone
 		CrewLocation6
 		CrewLocation7
 	]
+	
 }
 
-NeedsCrewMinusOne
+NeedsPartCrewMinusOne
 {
 	Type = BuffToggle
 	BuffType = AephixAITerminal
@@ -54,7 +55,7 @@ PartCrewMinusOne
 	Type = PartCrew
 	Crew = 6
 	DefaultPriority = &/PRIORITIES/ControlRoom_Crew
-	PrerequisitesBeforeCrewing = [PowerToggle, ScorchedToggle, NeedsCrewMinusOne]
+	PrerequisitesBeforeCrewing = [PowerToggle, ScorchedToggle, NeedsPartCrewMinusOne]
     HighPriorityPrerequisites = [BatteryStorage]
 	OverridePriorityKey = PartCrewMinusNone
 	CrewDestinations
@@ -79,7 +80,7 @@ PartCrewMinusOne
 	]
 }
 
-NeedsCrewMinusTwo
+NeedsPartCrewMinusTwo
 {
 	Type = BuffToggle
 	BuffType = AephixAITerminal
@@ -91,7 +92,7 @@ PartCrewMinusTwo
 	Type = PartCrew
 	Crew = 5
 	DefaultPriority = &/PRIORITIES/ControlRoom_Crew
-	PrerequisitesBeforeCrewing = [PowerToggle, ScorchedToggle, NeedsCrewMinusTwo]
+	PrerequisitesBeforeCrewing = [PowerToggle, ScorchedToggle, NeedsPartCrewMinusTwo]
     HighPriorityPrerequisites = [BatteryStorage]
 	OverridePriorityKey = PartCrewMinusNone
 	CrewDestinations
@@ -116,7 +117,7 @@ PartCrewMinusTwo
 	]
 }
 
-NeedsCrewMinusThree
+NeedsPartCrewMinusThree
 {
 	Type = BuffToggle
 	BuffType = AephixAITerminal
@@ -128,7 +129,7 @@ PartCrewMinusThree
 	Type = PartCrew
 	Crew = 4
 	DefaultPriority = &/PRIORITIES/ControlRoom_Crew
-	PrerequisitesBeforeCrewing = [PowerToggle, ScorchedToggle, NeedsCrewMinusThree]
+	PrerequisitesBeforeCrewing = [PowerToggle, ScorchedToggle, NeedsPartCrewMinusThree]
     HighPriorityPrerequisites = [BatteryStorage]
 	OverridePriorityKey = PartCrewMinusNone
 	CrewDestinations
@@ -153,7 +154,7 @@ PartCrewMinusThree
 	]
 }
 
-NeedsCrewMinusFour
+NeedsPartCrewMinusFour
 {
 	Type = BuffToggle
 	BuffType = AephixAITerminal
@@ -165,7 +166,7 @@ PartCrewMinusFour
 	Type = PartCrew
 	Crew = 3
 	DefaultPriority = &/PRIORITIES/ControlRoom_Crew
-	PrerequisitesBeforeCrewing = [PowerToggle, ScorchedToggle, NeedsCrewMinusFour]
+	PrerequisitesBeforeCrewing = [PowerToggle, ScorchedToggle, NeedsPartCrewMinusFour]
     HighPriorityPrerequisites = [BatteryStorage]
 	OverridePriorityKey = PartCrewMinusNone
 	CrewDestinations
@@ -190,7 +191,7 @@ PartCrewMinusFour
 	]
 }
 
-NeedsCrewMinusFive
+NeedsPartCrewMinusFive
 {
 	Type = BuffToggle
 	BuffType = AephixAITerminal
@@ -202,7 +203,7 @@ PartCrewMinusFive
 	Type = PartCrew
 	Crew = 2
 	DefaultPriority = &/PRIORITIES/ControlRoom_Crew
-	PrerequisitesBeforeCrewing = [PowerToggle, ScorchedToggle, NeedsCrewMinusFive]
+	PrerequisitesBeforeCrewing = [PowerToggle, ScorchedToggle, NeedsPartCrewMinusFive]
     HighPriorityPrerequisites = [BatteryStorage]
 	OverridePriorityKey = PartCrewMinusNone
 	CrewDestinations
@@ -227,7 +228,7 @@ PartCrewMinusFive
 	]
 }
 
-NeedsCrewMinusSix
+NeedsPartCrewMinusSix
 {
 	Type = BuffToggle
 	BuffType = AephixAITerminal
@@ -239,7 +240,7 @@ PartCrewMinusSix
 	Type = PartCrew
 	Crew = 1
 	DefaultPriority = &/PRIORITIES/ControlRoom_Crew
-	PrerequisitesBeforeCrewing = [PowerToggle, ScorchedToggle, NeedsCrewMinusSix]
+	PrerequisitesBeforeCrewing = [PowerToggle, ScorchedToggle, NeedsPartCrewMinusSix]
     HighPriorityPrerequisites = [BatteryStorage]
 	OverridePriorityKey = PartCrewMinusNone
 	CrewDestinations

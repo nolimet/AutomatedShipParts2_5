@@ -5,7 +5,7 @@ PartCrew
 	Mode = Any
 }
 
-NeedsCrewMinusNone
+NeedsPartCrewMinusNone
 {
 	Type = MultiToggle
 	Toggles = [PartCrewMinusOne]
@@ -18,7 +18,7 @@ PartCrewMinusNone
 	Type = PartCrew
 	Crew = 1
 	DefaultPriority = &/PRIORITIES/Weapon_Crew
-	PrerequisitesBeforeCrewing = [PowerToggle, ScorchedToggle, NeedsCrewMinusNone]
+	PrerequisitesBeforeCrewing = [PowerToggle, ScorchedToggle, NeedsPartCrewMinusNone]
 	HighPriorityPrerequisites = [BatteryStorage]
 	CrewDestinations
 	[
@@ -28,6 +28,7 @@ PartCrewMinusNone
 	[
 		CrewLocation
 	]
+	
 }
 
 PartCrewMinusOne

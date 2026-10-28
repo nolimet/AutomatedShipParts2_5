@@ -5,7 +5,7 @@ PartCrew
 	Mode = Any
 }
 
-NeedsCrewMinusNone
+NeedsPartCrewMinusNone
 {
 	Type = MultiToggle
 	Toggles = [PartCrewMinusOne, PartCrewMinusTwo]
@@ -18,7 +18,7 @@ PartCrewMinusNone
 	Type = PartCrew
 	Crew = 2
 	DefaultPriority = &/PRIORITIES/Weapon_Crew
-	PrerequisitesBeforeCrewing = [CommandConsumptionToggle, NeedsCrewMinusNone]
+	PrerequisitesBeforeCrewing = [CommandConsumptionToggle, NeedsPartCrewMinusNone]
 	HighPriorityPrerequisites = [AmmoPrereq]
 	CrewDestinations
 	[
@@ -30,9 +30,10 @@ PartCrewMinusNone
 		CrewLocation1
 		CrewLocation2
 	]
+	
 }
 
-NeedsCrewMinusOne
+NeedsPartCrewMinusOne
 {
 	Type = BuffToggle
 	BuffType = AephixAITerminal
@@ -44,7 +45,7 @@ PartCrewMinusOne
 	Type = PartCrew
 	Crew = 1
 	DefaultPriority = &/PRIORITIES/Weapon_Crew
-	PrerequisitesBeforeCrewing = [CommandConsumptionToggle, NeedsCrewMinusOne]
+	PrerequisitesBeforeCrewing = [CommandConsumptionToggle, NeedsPartCrewMinusOne]
     HighPriorityPrerequisites = [AmmoPrereq]
 	OverridePriorityKey = PartCrewMinusNone
 	CrewDestinations

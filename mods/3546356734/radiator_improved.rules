@@ -18,7 +18,7 @@ PartCrewMinusNone
 	Type = PartCrew
 	Crew = 1
 	DefaultPriority = &/PRIORITIES/ControlRoom_Crew
-	PrerequisitesBeforeCrewing = [ OverclockModeToggle , NeedsCrewMinusNone]
+	PrerequisitesBeforeCrewing = [IsOperationalOverclocked, NeedsCrewMinusNone]
 	HighPriorityPrerequisites = []
 	CrewDestinations
 	[

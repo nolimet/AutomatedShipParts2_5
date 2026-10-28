@@ -1,0 +1,156 @@
+PartCrew1
+{
+	Type = MultiToggle
+	Toggles = [PartCrew1MinusNone, PartCrew1MinusOne]
+	Mode = Any
+}
+
+NeedsPartCrew1MinusNone
+{
+	Type = MultiToggle
+	Toggles = [PartCrew1MinusOne]
+	Mode = Any
+	Invert = True
+}
+
+PartCrew1MinusNone
+{
+	Type = PartCrew
+	Crew = 1
+	DefaultPriority = &/PRIORITIES/PriorityUtility_Crew
+	PrerequisitesBeforeCrewing = [PowerToggle, ScorchedToggle, PartCrew1Prereq, NeedsPartCrew1MinusNone]
+	HighPriorityPrerequisites = [BatteryStorage]
+	CrewDestinations
+	[
+		[41/64, 41/64]
+	]
+	CrewLocations
+	[
+		CrewLocation1
+	]
+	
+}
+
+PartCrew1MinusOne
+{
+	Type = BuffToggle
+	BuffType = AephixAITerminal
+	MinBuffValue = 1
+}
+PartCrew2
+{
+	Type = MultiToggle
+	Toggles = [PartCrew2MinusNone, PartCrew2MinusOne]
+	Mode = Any
+}
+
+NeedsPartCrew2MinusNone
+{
+	Type = MultiToggle
+	Toggles = [PartCrew2MinusOne]
+	Mode = Any
+	Invert = True
+}
+
+PartCrew2MinusNone
+{
+	Type = PartCrew
+	Crew = 1
+	DefaultPriority = &/PRIORITIES/PriorityUtility_Crew
+	PrerequisitesBeforeCrewing = [PowerToggle, ScorchedToggle, PartCrew2Prereq, NeedsPartCrew2MinusNone]
+	HighPriorityPrerequisites = [BatteryStorage]
+	CrewDestinations
+	[
+		[87/64, 41/64]
+	]
+	CrewLocations
+	[
+		CrewLocation2
+	]
+	OverridePriorityKey = PartCrew1MinusNone
+}
+
+PartCrew2MinusOne
+{
+	Type = BuffToggle
+	BuffType = AephixAITerminal
+	MinBuffValue = 2
+}
+PartCrew3
+{
+	Type = MultiToggle
+	Toggles = [PartCrew3MinusNone, PartCrew3MinusOne]
+	Mode = Any
+}
+
+NeedsPartCrew3MinusNone
+{
+	Type = MultiToggle
+	Toggles = [PartCrew3MinusOne]
+	Mode = Any
+	Invert = True
+}
+
+PartCrew3MinusNone
+{
+	Type = PartCrew
+	Crew = 1
+	DefaultPriority = &/PRIORITIES/PriorityUtility_Crew
+	PrerequisitesBeforeCrewing = [PowerToggle, ScorchedToggle, PartCrew3Prereq, NeedsPartCrew3MinusNone]
+	HighPriorityPrerequisites = [BatteryStorage]
+	CrewDestinations
+	[
+		[41/64, 87/64]
+	]
+	CrewLocations
+	[
+		CrewLocation3
+	]
+	OverridePriorityKey = PartCrew1MinusNone
+}
+
+PartCrew3MinusOne
+{
+	Type = BuffToggle
+	BuffType = AephixAITerminal
+	MinBuffValue = 3
+}
+PartCrew4
+{
+	Type = MultiToggle
+	Toggles = [PartCrew4MinusNone, PartCrew4MinusOne]
+	Mode = Any
+}
+
+NeedsPartCrew4MinusNone
+{
+	Type = MultiToggle
+	Toggles = [PartCrew4MinusOne]
+	Mode = Any
+	Invert = True
+}
+
+PartCrew4MinusNone
+{
+	Type = PartCrew
+	Crew = 1
+	DefaultPriority = &/PRIORITIES/PriorityUtility_Crew
+	PrerequisitesBeforeCrewing = [PowerToggle, ScorchedToggle, PartCrew4Prereq, NeedsPartCrew4MinusNone]
+	HighPriorityPrerequisites = [BatteryStorage]
+	CrewDestinations
+	[
+		[87/64, 87/64]
+	]
+	CrewLocations
+	[
+		CrewLocation4
+	]
+	OverridePriorityKey = PartCrew1MinusNone
+}
+
+PartCrew4MinusOne
+{
+	Type = BuffToggle
+	BuffType = AephixAITerminal
+	MinBuffValue = 4
+}
